@@ -1,0 +1,16 @@
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\bin\Debug\net5.0\PassedOrFailed.exe
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\bin\Debug\net5.0\PassedOrFailed.deps.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\bin\Debug\net5.0\PassedOrFailed.runtimeconfig.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\bin\Debug\net5.0\PassedOrFailed.runtimeconfig.dev.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\bin\Debug\net5.0\PassedOrFailed.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\bin\Debug\net5.0\ref\PassedOrFailed.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\bin\Debug\net5.0\PassedOrFailed.pdb
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\obj\Debug\net5.0\PassedOrFailed.csproj.AssemblyReference.cache
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\obj\Debug\net5.0\PassedOrFailed.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\obj\Debug\net5.0\PassedOrFailed.AssemblyInfoInputs.cache
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\obj\Debug\net5.0\PassedOrFailed.AssemblyInfo.cs
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\obj\Debug\net5.0\PassedOrFailed.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\obj\Debug\net5.0\PassedOrFailed.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\obj\Debug\net5.0\ref\PassedOrFailed.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\obj\Debug\net5.0\PassedOrFailed.pdb
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Lab\PassedOrFailed\obj\Debug\net5.0\PassedOrFailed.genruntimeconfig.cache

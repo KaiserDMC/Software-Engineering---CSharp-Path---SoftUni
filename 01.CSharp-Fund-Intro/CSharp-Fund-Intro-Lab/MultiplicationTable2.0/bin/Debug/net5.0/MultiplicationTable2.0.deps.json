@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MultiplicationTable2.0/1.0.0": {
+        "runtime": {
+          "MultiplicationTable2.0.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MultiplicationTable2.0/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
