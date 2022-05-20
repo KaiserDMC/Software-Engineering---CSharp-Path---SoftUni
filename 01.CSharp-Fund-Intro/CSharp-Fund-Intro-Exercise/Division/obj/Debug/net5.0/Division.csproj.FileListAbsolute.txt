@@ -1,0 +1,15 @@
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\bin\Debug\net5.0\Division.exe
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\bin\Debug\net5.0\Division.deps.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\bin\Debug\net5.0\Division.runtimeconfig.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\bin\Debug\net5.0\Division.runtimeconfig.dev.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\bin\Debug\net5.0\Division.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\bin\Debug\net5.0\ref\Division.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\bin\Debug\net5.0\Division.pdb
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\obj\Debug\net5.0\Division.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\obj\Debug\net5.0\Division.AssemblyInfoInputs.cache
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\obj\Debug\net5.0\Division.AssemblyInfo.cs
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\obj\Debug\net5.0\Division.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\obj\Debug\net5.0\Division.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\obj\Debug\net5.0\ref\Division.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\obj\Debug\net5.0\Division.pdb
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Division\obj\Debug\net5.0\Division.genruntimeconfig.cache

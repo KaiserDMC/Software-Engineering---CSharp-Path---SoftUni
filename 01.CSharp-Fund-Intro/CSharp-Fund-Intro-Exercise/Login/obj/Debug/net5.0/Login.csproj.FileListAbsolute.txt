@@ -1,0 +1,15 @@
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\bin\Debug\net5.0\Login.exe
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\bin\Debug\net5.0\Login.deps.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\bin\Debug\net5.0\Login.runtimeconfig.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\bin\Debug\net5.0\Login.runtimeconfig.dev.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\bin\Debug\net5.0\Login.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\bin\Debug\net5.0\ref\Login.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\bin\Debug\net5.0\Login.pdb
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\obj\Debug\net5.0\Login.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\obj\Debug\net5.0\Login.AssemblyInfoInputs.cache
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\obj\Debug\net5.0\Login.AssemblyInfo.cs
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\obj\Debug\net5.0\Login.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\obj\Debug\net5.0\Login.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\obj\Debug\net5.0\ref\Login.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\obj\Debug\net5.0\Login.pdb
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\Login\obj\Debug\net5.0\Login.genruntimeconfig.cache

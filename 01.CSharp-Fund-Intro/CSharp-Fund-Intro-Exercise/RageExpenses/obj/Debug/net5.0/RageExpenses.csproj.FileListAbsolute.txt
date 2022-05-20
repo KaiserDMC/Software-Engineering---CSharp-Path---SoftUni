@@ -1,0 +1,15 @@
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\bin\Debug\net5.0\RageExpenses.exe
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\bin\Debug\net5.0\RageExpenses.deps.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\bin\Debug\net5.0\RageExpenses.runtimeconfig.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\bin\Debug\net5.0\RageExpenses.runtimeconfig.dev.json
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\bin\Debug\net5.0\RageExpenses.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\bin\Debug\net5.0\ref\RageExpenses.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\bin\Debug\net5.0\RageExpenses.pdb
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\obj\Debug\net5.0\RageExpenses.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\obj\Debug\net5.0\RageExpenses.AssemblyInfoInputs.cache
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\obj\Debug\net5.0\RageExpenses.AssemblyInfo.cs
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\obj\Debug\net5.0\RageExpenses.csproj.CoreCompileInputs.cache
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\obj\Debug\net5.0\RageExpenses.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\obj\Debug\net5.0\ref\RageExpenses.dll
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\obj\Debug\net5.0\RageExpenses.pdb
+D:\Programming\SoftUni - OneDrive\2. Fundamentals C#\All-in-one Code\01.CSharp-Fund-Intro\CSharp-Fund-Intro-Exercise\RageExpenses\obj\Debug\net5.0\RageExpenses.genruntimeconfig.cache
