@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CSharp-Basics",
+    "\\CSharp-Basics\\01.FirstStepsInProgramming",
+    "\\CSharp-Basics\\01.FirstStepsInProgramming\\FirstStepsInProgramming---Exercise",
+    "\\CSharp-Basics\\01.FirstStepsInProgramming\\FirstStepsInProgramming---Lab"
   ],
-  "SelectedNode": "\\CSharp-Fund-Intro-Lab.sln",
+  "SelectedNode": "\\CSharp-Basics\\01.FirstStepsInProgramming\\FirstStepsInProgramming---Exercise\\FirstStepsInProgramming - Exercise.sln",
   "PreviewInSolutionExplorer": false
 }
