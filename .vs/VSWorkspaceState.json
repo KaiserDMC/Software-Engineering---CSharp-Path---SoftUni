@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CSharp-Basics",
-    "\\CSharp-Basics\\01.FirstStepsInProgramming",
-    "\\CSharp-Basics\\01.FirstStepsInProgramming\\FirstStepsInProgramming---Exercise",
-    "\\CSharp-Basics\\01.FirstStepsInProgramming\\FirstStepsInProgramming---Lab"
+    "\\CSharp-Fundamentals",
+    "\\CSharp-Fundamentals\\01.CSharp-Fund-Intro",
+    "\\CSharp-Fundamentals\\02.DataTypes-and-Vars"
   ],
-  "SelectedNode": "\\CSharp-Basics\\01.FirstStepsInProgramming\\FirstStepsInProgramming---Lab\\FirstStepsInProgramming - Lab.sln",
+  "SelectedNode": "\\CSharp-Fundamentals\\02.DataTypes-and-Vars",
   "PreviewInSolutionExplorer": false
 }
