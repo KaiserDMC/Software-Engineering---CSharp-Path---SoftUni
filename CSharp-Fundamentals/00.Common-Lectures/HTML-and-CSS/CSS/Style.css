@@ -1,0 +1,16 @@
+﻿h1 {
+    text-align: center;
+    color: black;
+}
+
+p{
+    padding-bottom: 15px;
+}
+
+ul li{
+    font-style: italic;
+}
+
+ol li{
+    font-weight: 700; 
+}

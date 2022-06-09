@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HTML-and-CSS", "http://localhost:64433", "{0D040BCE-B6BB-4C42-9EB1-AB7E1851F3ED}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64433"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Users\Souta\Documents\My Web Sites\HTML-and-CSS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64433\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64433"
+		Release.AspNetCompiler.PhysicalPath = "C:\Users\Souta\Documents\My Web Sites\HTML-and-CSS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64433\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\Users\Souta\Documents\My Web Sites\HTML-and-CSS\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D040BCE-B6BB-4C42-9EB1-AB7E1851F3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D040BCE-B6BB-4C42-9EB1-AB7E1851F3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B80B441-B789-47B8-8701-A94DBF226DF0}
+	EndGlobalSection
+EndGlobal
