@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptSortAndPrintArray", "EncryptSortAndPrintArray\EncryptSortAndPrintArray.csproj", "{ECB482CB-AFF9-4769-AC36-51E8065F5843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptSortAndPrintArray", "EncryptSortAndPrintArray\EncryptSortAndPrintArray.csproj", "{ECB482CB-AFF9-4769-AC36-51E8065F5843}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{EBDB9DB2-E9BD-44D8-AA84-71CE5BE2C1B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{EBDB9DB2-E9BD-44D8-AA84-71CE5BE2C1B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFibonacci", "RecursiveFibonacci\RecursiveFibonacci.csproj", "{623D2C0D-52D7-4F8C-8D39-A690E5845254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFibonacci", "RecursiveFibonacci\RecursiveFibonacci.csproj", "{623D2C0D-52D7-4F8C-8D39-A690E5845254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoldAndSum", "FoldAndSum\FoldAndSum.csproj", "{F26BBB0F-111A-4EFD-A627-4DDA58CF8BE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoldAndSum", "FoldAndSum\FoldAndSum.csproj", "{F26BBB0F-111A-4EFD-A627-4DDA58CF8BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSubsequence", "LongestIncreasingSubsequence\LongestIncreasingSubsequence.csproj", "{AF38CB17-3A04-4FFC-B7B1-E3CCB81C284F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F26BBB0F-111A-4EFD-A627-4DDA58CF8BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F26BBB0F-111A-4EFD-A627-4DDA58CF8BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F26BBB0F-111A-4EFD-A627-4DDA58CF8BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF38CB17-3A04-4FFC-B7B1-E3CCB81C284F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF38CB17-3A04-4FFC-B7B1-E3CCB81C284F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF38CB17-3A04-4FFC-B7B1-E3CCB81C284F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF38CB17-3A04-4FFC-B7B1-E3CCB81C284F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
