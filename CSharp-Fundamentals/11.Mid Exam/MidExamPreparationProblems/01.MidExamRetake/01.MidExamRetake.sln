@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLift", "TheLift\TheLift.csproj", "{FE30C40D-F61D-4964-AD39-9FB090D90213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheLift", "TheLift\TheLift.csproj", "{FE30C40D-F61D-4964-AD39-9FB090D90213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerStore", "ComputerStore\ComputerStore.csproj", "{D6FBB28C-6F8B-48F8-81CB-3F87F8B1E2A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryGame", "MemoryGame\MemoryGame.csproj", "{90126F1F-8EB2-4E40-93C2-D150CB53B1EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FE30C40D-F61D-4964-AD39-9FB090D90213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE30C40D-F61D-4964-AD39-9FB090D90213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE30C40D-F61D-4964-AD39-9FB090D90213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FBB28C-6F8B-48F8-81CB-3F87F8B1E2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FBB28C-6F8B-48F8-81CB-3F87F8B1E2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FBB28C-6F8B-48F8-81CB-3F87F8B1E2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FBB28C-6F8B-48F8-81CB-3F87F8B1E2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90126F1F-8EB2-4E40-93C2-D150CB53B1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90126F1F-8EB2-4E40-93C2-D150CB53B1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90126F1F-8EB2-4E40-93C2-D150CB53B1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90126F1F-8EB2-4E40-93C2-D150CB53B1EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

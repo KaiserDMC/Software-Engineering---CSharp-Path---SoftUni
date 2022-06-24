@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuineaPig", "GuineaPig\GuineaPig.csproj", "{941B4FEA-5A01-4936-AE6A-E585D1611C0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuineaPig", "GuineaPig\GuineaPig.csproj", "{941B4FEA-5A01-4936-AE6A-E585D1611C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingList", "ShoppingList\ShoppingList.csproj", "{D7BFC902-3AB4-4596-9DC9-4602028E4343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeartDelivery", "HeartDelivery\HeartDelivery.csproj", "{C1E84682-4036-4BB9-8C9E-4C27EA44011B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{941B4FEA-5A01-4936-AE6A-E585D1611C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{941B4FEA-5A01-4936-AE6A-E585D1611C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{941B4FEA-5A01-4936-AE6A-E585D1611C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7BFC902-3AB4-4596-9DC9-4602028E4343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7BFC902-3AB4-4596-9DC9-4602028E4343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7BFC902-3AB4-4596-9DC9-4602028E4343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7BFC902-3AB4-4596-9DC9-4602028E4343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E84682-4036-4BB9-8C9E-4C27EA44011B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E84682-4036-4BB9-8C9E-4C27EA44011B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E84682-4036-4BB9-8C9E-4C27EA44011B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E84682-4036-4BB9-8C9E-4C27EA44011B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
