@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackFlag", "BlackFlag\BlackFlag.csproj", "{B7F67C09-1F70-43DC-96CC-AC577143E656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureHunt", "TreasureHunt\TreasureHunt.csproj", "{36C3A1B7-5F46-4E68-94D7-6059B3BFC8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManOWar", "ManOWar\ManOWar.csproj", "{82F6E677-AC18-4D73-9905-4D71431A9EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7F67C09-1F70-43DC-96CC-AC577143E656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F67C09-1F70-43DC-96CC-AC577143E656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F67C09-1F70-43DC-96CC-AC577143E656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F67C09-1F70-43DC-96CC-AC577143E656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C3A1B7-5F46-4E68-94D7-6059B3BFC8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C3A1B7-5F46-4E68-94D7-6059B3BFC8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C3A1B7-5F46-4E68-94D7-6059B3BFC8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C3A1B7-5F46-4E68-94D7-6059B3BFC8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F6E677-AC18-4D73-9905-4D71431A9EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F6E677-AC18-4D73-9905-4D71431A9EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F6E677-AC18-4D73-9905-4D71431A9EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F6E677-AC18-4D73-9905-4D71431A9EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {592202B7-C25C-4846-AC15-726076ED2860}
+	EndGlobalSection
+EndGlobal
