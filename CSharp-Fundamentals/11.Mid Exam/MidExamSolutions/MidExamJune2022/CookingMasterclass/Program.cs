@@ -6,6 +6,7 @@ namespace CookingMasterclass
     {
         static void Main(string[] args)
         {
+            //Github Upload
             double budget = double.Parse(Console.ReadLine());
             int numberOfStudents = int.Parse(Console.ReadLine());
             double priceFlour = double.Parse(Console.ReadLine());
