@@ -75,7 +75,7 @@ namespace TeamworkProjects
                 Console.WriteLine($"{team.TeamName}");
                 Console.WriteLine($"- {team.Creator}");
 
-                foreach (string user in team.Users)
+                foreach (string user in team.Users.OrderBy(x => x))
                 {
                     Console.WriteLine($"-- {user}");
                 }
