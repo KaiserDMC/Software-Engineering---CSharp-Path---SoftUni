@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace NetherRealms
 {
@@ -15,86 +16,86 @@ namespace NetherRealms
             string regexInput = @"[,\s]+";
             string[] demonNames = Regex.Split(demonName, regexInput);
 
-            //string[] demonName = Console.ReadLine().Split(new string[] { " ", ", " }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+            string health = @"[^\d\+\-\*\/\.]";
+            string dmg = @"([-+]?\d+(\.\d+)?)";
+            string multiplier = @"[\/*]";
 
-            SortedDictionary<string, Dictionary<int, double>> demonsByHealthAndDmg =
-                new SortedDictionary<string, Dictionary<int, double>>();
-
-            string regexPatternHealthDmg = @"(?<demonHealth>[A-Za-z]{1,})(?<demonDmg>[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?)?";
+            List<string> demonList = new List<string>();
 
             for (int i = 0; i < demonNames.Length; i++)
             {
-                MatchCollection healthAndDmg = Regex.Matches(demonNames[i], regexPatternHealthDmg);
-
-                string lettersInName = string.Empty;
-                string separateDmgDigits = String.Empty;
-
-                foreach (Match letterOrDigit in healthAndDmg)
-                {
-                    foreach (char letter in letterOrDigit.Groups["demonHealth"].Value)
-                    {
-                        lettersInName += letter;
-                    }
-
-                    foreach (char digit in letterOrDigit.Groups["demonDmg"].Value)
-                    {
-                        separateDmgDigits += digit;
-
-                    }
-                    separateDmgDigits += '+';
-                }
-
-                int demonHealth = 0;
-
-                for (int j = 0; j < lettersInName.Length; j++)
-                {
-                    demonHealth += (int)lettersInName[j];
-                }
-
-                separateDmgDigits = separateDmgDigits.TrimEnd('+');
-                object dmg = null;
-
-                double d = Convert.ToDouble(string.IsNullOrEmpty(separateDmgDigits) ? 0.0 : dmg = new DataTable().Compute(separateDmgDigits, null));
-
-                double damage = d;
-
-                if (damage != 0)
-                {
-                    string regexForSymbols = @"(?<multiplier>[*]*)(?<divider>[\/]*)";
-
-                    MatchCollection dmgChanges = Regex.Matches(demonNames[i], regexForSymbols);
-
-                    foreach (Match multOrDiv in dmgChanges)
-                    {
-                        foreach (char sign in multOrDiv.Groups["multiplier"].Value)
-                        {
-                            if (sign == '*')
-                            {
-                                damage *= 2;
-                            }
-                        }
-
-                        foreach (char sign in multOrDiv.Groups["divider"].Value)
-                        {
-                            if (sign == '/')
-                            {
-                                damage /= 2;
-                            }
-                        }
-                    }
-                }
-
-                demonsByHealthAndDmg.Add(demonNames[i], new Dictionary<int, double>());
-                demonsByHealthAndDmg[demonNames[i]].Add(demonHealth, damage);
+                demonList.Add(demonNames[i]);
             }
 
-            foreach (var demon in demonsByHealthAndDmg)
+            demonList = demonList.OrderBy(x => x).ToList();
+
+            DemonCollection demonCollection = new DemonCollection();
+
+            for (int i = 0; i < demonList.Count; i++)
+            {
+                int h = 0;
+                double d = 0;
+
+                MatchCollection demonHealth = Regex.Matches(demonList[i], health);
+                MatchCollection demonDmg = Regex.Matches(demonList[i], dmg);
+                MatchCollection multiplierDmg = Regex.Matches(demonList[i], multiplier);
+
+                foreach (Match item in demonHealth)
+                {
+                    h += (int)item.Value[0];
+                }
+
+                foreach (Match item in demonDmg)
+                {
+                    double a = double.Parse(item.Value);
+                    d += a;
+                }
+
+                foreach (Match multOrDiv in multiplierDmg)
+                {
+                    if (multOrDiv.ToString().Equals("*"))
+                    {
+                        d *= 2;
+
+                    }
+                    else if (multOrDiv.ToString().Equals("/"))
+                    {
+                        d /= 2;
+                    }
+                }
+
+                Demon demon = new Demon
+                {
+                    Health = h,
+                    Damage = d
+                };
+
+                demonCollection.Demons.Add(demonList[i], demon);
+            }
+
+            foreach (var demon in demonCollection.Demons)
             {
                 Console.Write($"{demon.Key} - ");
-                Console.Write(string.Join("", demon.Value.Select(d => $"{d.Key} health, {d.Value:f2} damage")));
+                Console.Write($"{demon.Value.Health} health, {demon.Value.Damage:f2} damage");
 
                 Console.WriteLine();
             }
         }
+    }
+
+    class Demon
+    {
+        public int Health { get; set; }
+        public double Damage { get; set; }
+    }
+
+    class DemonCollection
+    {
+        public DemonCollection()
+        {
+            Demons = new Dictionary<string, Demon>();
+        }
+
+        public Dictionary<string, Demon> Demons { get; set; }
     }
 }
