@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringGame", "StringGame\StringGame.csproj", "{C31C9619-A41A-47F2-BF8F-AAE6ECFA0D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BossRush", "BossRush\BossRush.csproj", "{3E0906C3-E1D4-49D1-AEE9-BE1BD4F91E9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildZoo", "WildZoo\WildZoo.csproj", "{CEABADAD-3016-4E71-9AD5-C9FA4FE26D90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C31C9619-A41A-47F2-BF8F-AAE6ECFA0D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31C9619-A41A-47F2-BF8F-AAE6ECFA0D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31C9619-A41A-47F2-BF8F-AAE6ECFA0D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31C9619-A41A-47F2-BF8F-AAE6ECFA0D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0906C3-E1D4-49D1-AEE9-BE1BD4F91E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0906C3-E1D4-49D1-AEE9-BE1BD4F91E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0906C3-E1D4-49D1-AEE9-BE1BD4F91E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0906C3-E1D4-49D1-AEE9-BE1BD4F91E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEABADAD-3016-4E71-9AD5-C9FA4FE26D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEABADAD-3016-4E71-9AD5-C9FA4FE26D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEABADAD-3016-4E71-9AD5-C9FA4FE26D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEABADAD-3016-4E71-9AD5-C9FA4FE26D90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D0F7E7B-F370-4FDF-A78D-EEC527B1477B}
+	EndGlobalSection
+EndGlobal
