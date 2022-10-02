@@ -18,10 +18,17 @@ namespace RecordUniqueNames
                 uniqueNames.Add(name);
             }
 
+            //Test comment for colour check
+
             foreach (var name in uniqueNames)
             {
                 Console.WriteLine(name);
             }
         }
+    }
+
+    class MyClass
+    {
+        
     }
 }
