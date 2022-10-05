@@ -1,4 +1,8 @@
-﻿namespace LineNumbers
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+namespace LineNumbers
 {
     using System;
     public class LineNumbers
@@ -13,7 +17,23 @@
 
         public static void ProcessLines(string inputFilePath, string outputFilePath)
         {
-            throw new NotImplementedException();
+            string[] separateRows = File.ReadAllLines(inputFilePath);
+
+            int indexRow = 1;
+
+            for (int i = 0; i < separateRows.Length; i++)
+            {
+                string toAddLine = "Line " + indexRow + ": ";
+
+                int countLetters = separateRows[i].Count(l => Char.IsLetter(l));
+                int countPunkt = separateRows[i].Count(p => Char.IsPunctuation(p));
+
+                separateRows[i] = toAddLine + separateRows[i] + $" ({countLetters})({countPunkt})";
+
+                indexRow++;
+            }
+            
+            File.WriteAllLines(outputFilePath, separateRows);
         }
     }
 }

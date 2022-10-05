@@ -1,4 +1,7 @@
-﻿namespace CopyBinaryFile
+﻿using System.IO;
+using System.Linq;
+
+namespace CopyBinaryFile
 {
     using System;
     public class CopyBinaryFile
@@ -13,7 +16,15 @@
 
         public static void CopyFile(string inputFilePath, string outputFilePath)
         {
-            throw new NotImplementedException();
+            using (var pngToCopy = new FileStream(inputFilePath, FileMode.Open))
+            using (var copiedPgn = new FileStream(outputFilePath, FileMode.Create))
+            {
+                byte[] bufferBytes = new byte[pngToCopy.Length];
+
+                pngToCopy.Read(bufferBytes, 0, bufferBytes.Length);
+
+                copiedPgn.Write(bufferBytes.ToArray(), 0, bufferBytes.Length);
+            }
         }
     }
 }
