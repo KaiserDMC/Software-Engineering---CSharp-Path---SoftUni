@@ -1,4 +1,6 @@
-﻿namespace ZipAndExtract
+﻿using System.IO.Compression;
+
+namespace ZipAndExtract
 {
     using System;
     using System.IO;
@@ -18,12 +20,22 @@
 
         public static void ZipFileToArchive(string inputFilePath, string zipArchiveFilePath)
         {
-            throw new NotImplementedException();
+            var fileName = Path.GetFileName(inputFilePath);
+
+            using (ZipArchive zip = ZipFile.Open(zipArchiveFilePath, ZipArchiveMode.Create))
+            {
+                zip.CreateEntryFromFile(inputFilePath, fileName);
+            }
         }
 
         public static void ExtractFileFromArchive(string zipArchiveFilePath, string fileName, string outputFilePath)
         {
-            throw new NotImplementedException();
+
+            using (ZipArchive zip = ZipFile.Open(zipArchiveFilePath, ZipArchiveMode.Read))
+            {
+
+                zip.GetEntry(fileName).ExtractToFile(outputFilePath);
+            }
         }
     }
 }
