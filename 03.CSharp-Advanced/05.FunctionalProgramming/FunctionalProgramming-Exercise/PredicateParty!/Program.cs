@@ -12,7 +12,6 @@ namespace PredicateParty_
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .ToList();
 
-
             while (true)
             {
                 string command = Console.ReadLine();
@@ -109,7 +108,6 @@ namespace PredicateParty_
                     partyPeople.RemoveAt(index);
                     i = -1;
                 }
-
             }
         }
     }
