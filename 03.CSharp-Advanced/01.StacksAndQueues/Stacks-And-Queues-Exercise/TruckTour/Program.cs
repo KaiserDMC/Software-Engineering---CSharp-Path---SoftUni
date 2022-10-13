@@ -8,6 +8,7 @@ namespace TruckTour
     {
         static void Main(string[] args)
         {
+            
             int numberPumps = int.Parse(Console.ReadLine());
 
             Queue<string> pumpQueue = new Queue<string>();
