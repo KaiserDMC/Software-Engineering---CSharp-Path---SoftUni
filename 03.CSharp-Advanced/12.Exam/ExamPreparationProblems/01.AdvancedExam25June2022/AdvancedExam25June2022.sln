@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renovators", "Renovators\Renovators.csproj", "{784DF429-9A05-4563-885C-3487DA0BD6FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TilesMaster", "TilesMaster\TilesMaster.csproj", "{297CD213-5AB2-411C-B1E6-31D87E0440AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallDestroyer", "WallDestroyer\WallDestroyer.csproj", "{380CE425-3412-4C11-A95E-120BA862BD97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{784DF429-9A05-4563-885C-3487DA0BD6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784DF429-9A05-4563-885C-3487DA0BD6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784DF429-9A05-4563-885C-3487DA0BD6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784DF429-9A05-4563-885C-3487DA0BD6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297CD213-5AB2-411C-B1E6-31D87E0440AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297CD213-5AB2-411C-B1E6-31D87E0440AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297CD213-5AB2-411C-B1E6-31D87E0440AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297CD213-5AB2-411C-B1E6-31D87E0440AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380CE425-3412-4C11-A95E-120BA862BD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380CE425-3412-4C11-A95E-120BA862BD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380CE425-3412-4C11-A95E-120BA862BD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380CE425-3412-4C11-A95E-120BA862BD97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
