@@ -61,7 +61,7 @@ namespace Renovators
             text.AppendLine($"--Specialty: {this.Type}");
             text.Append($"--Rate per day: {this.Rate} BGN");
 
-            return text.ToString();
+            return text.ToString().Trim();
         }
     }
 }

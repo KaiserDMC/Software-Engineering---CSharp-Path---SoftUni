@@ -141,7 +141,7 @@ namespace Renovators
                 text.AppendLine(renovatorNotHired.ToString());
             }
 
-            return text.ToString();
+            return text.ToString().Trim();
         }
     }
 }
