@@ -95,16 +95,15 @@ namespace Basketball
 
             if (this.Players.Any(p => p.Position == position))
             {
-                for (int i = 0; i < Count; i++)
+                foreach (var currentPlayer in Players)
                 {
-                    Player currentPlayer = Players[i];
-
                     if (currentPlayer.Position == position)
                     {
-                        this.Players.Remove(currentPlayer);
                         counter++;
                     }
                 }
+
+                this.Players.RemoveAll(p => p.Position == position);
             }
 
             this.OpenPositions += counter;

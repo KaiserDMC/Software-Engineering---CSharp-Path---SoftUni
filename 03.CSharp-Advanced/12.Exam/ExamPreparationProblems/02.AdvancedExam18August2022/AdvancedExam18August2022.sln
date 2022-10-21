@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball", "Basketball\Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaContest", "BaristaContest\BaristaContest.csproj", "{52964C6D-EE72-4A65-90CC-5E956D5745D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Help-A-Mole", "Help-A-Mole\Help-A-Mole.csproj", "{7381AF88-012D-4FD4-9B11-39745E08AB73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{52964C6D-EE72-4A65-90CC-5E956D5745D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52964C6D-EE72-4A65-90CC-5E956D5745D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52964C6D-EE72-4A65-90CC-5E956D5745D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7381AF88-012D-4FD4-9B11-39745E08AB73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7381AF88-012D-4FD4-9B11-39745E08AB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7381AF88-012D-4FD4-9B11-39745E08AB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7381AF88-012D-4FD4-9B11-39745E08AB73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
