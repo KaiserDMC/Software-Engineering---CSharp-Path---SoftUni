@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyDrinks", "EnergyDrinks\EnergyDrinks.csproj", "{488272E1-C7D6-4C4C-91F1-320C65DCD838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerArchitecture", "ComputerArchitecture\ComputerArchitecture.csproj", "{FEC320EA-EF75-4355-81C5-C8DF23EA5CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RallyRacing", "RallyRacing\RallyRacing.csproj", "{06E35A11-25C1-4E08-9F7C-94EB66F9F0A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{488272E1-C7D6-4C4C-91F1-320C65DCD838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488272E1-C7D6-4C4C-91F1-320C65DCD838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488272E1-C7D6-4C4C-91F1-320C65DCD838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488272E1-C7D6-4C4C-91F1-320C65DCD838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC320EA-EF75-4355-81C5-C8DF23EA5CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC320EA-EF75-4355-81C5-C8DF23EA5CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC320EA-EF75-4355-81C5-C8DF23EA5CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC320EA-EF75-4355-81C5-C8DF23EA5CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E35A11-25C1-4E08-9F7C-94EB66F9F0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E35A11-25C1-4E08-9F7C-94EB66F9F0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E35A11-25C1-4E08-9F7C-94EB66F9F0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E35A11-25C1-4E08-9F7C-94EB66F9F0A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
