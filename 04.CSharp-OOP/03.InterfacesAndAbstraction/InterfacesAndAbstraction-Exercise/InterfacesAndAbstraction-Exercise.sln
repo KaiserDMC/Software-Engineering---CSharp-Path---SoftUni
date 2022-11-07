@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefineAnInterfaceIPerson", "DefineAnInterfaceIPerson\DefineAnInterfaceIPerson.csproj", "{011C0074-C022-4AE7-8FC3-161BC41B6360}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefineAnInterfaceIPerson", "DefineAnInterfaceIPerson\DefineAnInterfaceIPerson.csproj", "{011C0074-C022-4AE7-8FC3-161BC41B6360}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleImplementation", "MultipleImplementation\MultipleImplementation.csproj", "{FF24898E-E62E-4A26-8863-D88287EE4857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleImplementation", "MultipleImplementation\MultipleImplementation.csproj", "{FF24898E-E62E-4A26-8863-D88287EE4857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephony", "Telephony\Telephony.csproj", "{495AC8DC-75D1-46A3-AA27-8CCE01C2E072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderControl", "BorderControl\BorderControl.csproj", "{DD5A09FF-B227-4247-AC2A-0392FB5320FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{FF24898E-E62E-4A26-8863-D88287EE4857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF24898E-E62E-4A26-8863-D88287EE4857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF24898E-E62E-4A26-8863-D88287EE4857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495AC8DC-75D1-46A3-AA27-8CCE01C2E072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495AC8DC-75D1-46A3-AA27-8CCE01C2E072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495AC8DC-75D1-46A3-AA27-8CCE01C2E072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495AC8DC-75D1-46A3-AA27-8CCE01C2E072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5A09FF-B227-4247-AC2A-0392FB5320FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5A09FF-B227-4247-AC2A-0392FB5320FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5A09FF-B227-4247-AC2A-0392FB5320FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5A09FF-B227-4247-AC2A-0392FB5320FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
