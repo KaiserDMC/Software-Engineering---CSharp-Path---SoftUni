@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Skeleton\Database\Database.csproj", "{002B256E-7D92-4177-B8F0-AB5B86FB810C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database.Tests", "Skeleton\Database.Tests\Database.Tests.csproj", "{A2275E03-802D-4DC9-A052-FF0DBF2EDD4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{002B256E-7D92-4177-B8F0-AB5B86FB810C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002B256E-7D92-4177-B8F0-AB5B86FB810C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002B256E-7D92-4177-B8F0-AB5B86FB810C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002B256E-7D92-4177-B8F0-AB5B86FB810C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2275E03-802D-4DC9-A052-FF0DBF2EDD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2275E03-802D-4DC9-A052-FF0DBF2EDD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2275E03-802D-4DC9-A052-FF0DBF2EDD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2275E03-802D-4DC9-A052-FF0DBF2EDD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
