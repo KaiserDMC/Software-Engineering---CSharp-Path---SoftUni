@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetWars", "PlanetWars\PlanetWars.csproj", "{F069CBD6-6289-47B0-AC7A-AE9A01625995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetWars", "PlanetWars-UT\PlanetWars\PlanetWars.csproj", "{823C47B8-D615-4389-A13B-1AE8AEDFFA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetWars.Tests", "PlanetWars-UT\PlanetWars.Tests\PlanetWars.Tests.csproj", "{8620ABE3-AA0E-435F-A9F5-3A5DAFE5C898}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F069CBD6-6289-47B0-AC7A-AE9A01625995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F069CBD6-6289-47B0-AC7A-AE9A01625995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F069CBD6-6289-47B0-AC7A-AE9A01625995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F069CBD6-6289-47B0-AC7A-AE9A01625995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823C47B8-D615-4389-A13B-1AE8AEDFFA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823C47B8-D615-4389-A13B-1AE8AEDFFA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823C47B8-D615-4389-A13B-1AE8AEDFFA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823C47B8-D615-4389-A13B-1AE8AEDFFA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8620ABE3-AA0E-435F-A9F5-3A5DAFE5C898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8620ABE3-AA0E-435F-A9F5-3A5DAFE5C898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8620ABE3-AA0E-435F-A9F5-3A5DAFE5C898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8620ABE3-AA0E-435F-A9F5-3A5DAFE5C898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
