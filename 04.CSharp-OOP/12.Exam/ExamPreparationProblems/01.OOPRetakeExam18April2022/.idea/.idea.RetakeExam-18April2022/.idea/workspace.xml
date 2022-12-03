@@ -4,9 +4,7 @@
     <projectFile>RepairShop/RepairShop/RepairShop.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73eaa23f-735b-4e99-b85a-24977f9287f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../07.SOLID/NoTasksForJudgeWereGiven.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="73eaa23f-735b-4e99-b85a-24977f9287f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670060805018</updated>
       <workItem from="1670060811667" duration="2115000" />
-      <workItem from="1670071472547" duration="131000" />
+      <workItem from="1670071472547" duration="515000" />
     </task>
     <servers />
   </component>
