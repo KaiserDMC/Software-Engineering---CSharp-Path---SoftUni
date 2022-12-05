@@ -2,6 +2,7 @@
 using PlanetWars.IO;
 using PlanetWars.IO.Contracts;
 using System;
+using PlanetWars.Models;
 
 namespace PlanetWars.Core
 {
@@ -16,7 +17,7 @@ namespace PlanetWars.Core
             this.writer = new Writer();
             this.reader = new Reader();
 
-            //this.controller = new Controller();
+            this.controller = new Controller();
         }
         public void Run()
         {
