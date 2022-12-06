@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heroes", "Heroes\Heroes.csproj", "{66BC2FA6-ECF7-4B74-964C-D553447975B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairShop", "RepairShop\RepairShop\RepairShop.csproj", "{69C91734-3DED-4F9E-A656-A9256A9CDFD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairShop.Tests", "RepairShop\RepairShop.Tests\RepairShop.Tests.csproj", "{228DD15B-A80F-4962-BBB7-B34DE95DCA21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66BC2FA6-ECF7-4B74-964C-D553447975B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BC2FA6-ECF7-4B74-964C-D553447975B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BC2FA6-ECF7-4B74-964C-D553447975B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BC2FA6-ECF7-4B74-964C-D553447975B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C91734-3DED-4F9E-A656-A9256A9CDFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C91734-3DED-4F9E-A656-A9256A9CDFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C91734-3DED-4F9E-A656-A9256A9CDFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C91734-3DED-4F9E-A656-A9256A9CDFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228DD15B-A80F-4962-BBB7-B34DE95DCA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228DD15B-A80F-4962-BBB7-B34DE95DCA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228DD15B-A80F-4962-BBB7-B34DE95DCA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228DD15B-A80F-4962-BBB7-B34DE95DCA21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
