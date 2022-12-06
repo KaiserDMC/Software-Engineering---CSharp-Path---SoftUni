@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp", "BookingApp\BookingApp.csproj", "{6ED9FE23-8FF4-4289-8C9F-2933F678F28D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontDeskApp", "FrontDeskApp\FrontDeskApp\FrontDeskApp.csproj", "{BB163FD2-F4CE-42F0-8BF4-B9E40B7FDAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookigApp.Tests", "FrontDeskApp\BookigApp.Tests\BookigApp.Tests.csproj", "{4624DB84-168B-40D5-9535-7E89DAA8EEF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ED9FE23-8FF4-4289-8C9F-2933F678F28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED9FE23-8FF4-4289-8C9F-2933F678F28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED9FE23-8FF4-4289-8C9F-2933F678F28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED9FE23-8FF4-4289-8C9F-2933F678F28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB163FD2-F4CE-42F0-8BF4-B9E40B7FDAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB163FD2-F4CE-42F0-8BF4-B9E40B7FDAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB163FD2-F4CE-42F0-8BF4-B9E40B7FDAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB163FD2-F4CE-42F0-8BF4-B9E40B7FDAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4624DB84-168B-40D5-9535-7E89DAA8EEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4624DB84-168B-40D5-9535-7E89DAA8EEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4624DB84-168B-40D5-9535-7E89DAA8EEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4624DB84-168B-40D5-9535-7E89DAA8EEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
