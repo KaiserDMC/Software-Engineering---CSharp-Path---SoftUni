@@ -23,7 +23,7 @@ namespace Formula1.Models.Pilots
             {
                 if (string.IsNullOrWhiteSpace(value) || value.Length < 5)
                 {
-                    throw new ArgumentException(ExceptionMessages.InvalidPilot, value);
+                    throw new ArgumentException(String.Format(ExceptionMessages.InvalidPilot, value));
                 }
 
                 fullName = value;
@@ -37,7 +37,7 @@ namespace Formula1.Models.Pilots
             {
                 if (value == null)
                 {
-                    throw new NullReferenceException(ExceptionMessages.InvalidCarForPilot);
+                    throw new NullReferenceException(String.Format(ExceptionMessages.InvalidCarForPilot));
                 }
 
                 car = value;
@@ -47,7 +47,7 @@ namespace Formula1.Models.Pilots
         public int NumberOfWins
         {
             get { return numberOfWins; }
-            set { numberOfWins = value; }
+            private set { numberOfWins = value; }
         }
 
         public bool CanRace { get; private set; }

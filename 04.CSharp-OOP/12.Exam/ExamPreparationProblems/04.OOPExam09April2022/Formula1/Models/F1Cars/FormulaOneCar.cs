@@ -24,7 +24,7 @@ namespace Formula1.Models.F1Cars
             {
                 if (string.IsNullOrWhiteSpace(value) || value.Length < 3)
                 {
-                    throw new ArgumentException(ExceptionMessages.InvalidF1CarModel, value);
+                    throw new ArgumentException(String.Format(ExceptionMessages.InvalidF1CarModel, value));
                 }
 
                 model = value;
@@ -38,7 +38,7 @@ namespace Formula1.Models.F1Cars
             {
                 if (value < 900 || value > 1050)
                 {
-                    throw new ArgumentException(ExceptionMessages.InvalidF1HorsePower, value.ToString());
+                    throw new ArgumentException(String.Format(ExceptionMessages.InvalidF1HorsePower, value));
                 }
 
                 horsepower = value;
@@ -52,7 +52,7 @@ namespace Formula1.Models.F1Cars
             {
                 if (value < 1.6 || value > 2.0)
                 {
-                    throw new ArgumentException(ExceptionMessages.InvalidF1EngineDisplacement, value.ToString());
+                    throw new ArgumentException(String.Format(ExceptionMessages.InvalidF1EngineDisplacement, value));
                 }
 
                 engineDisplacement = value;

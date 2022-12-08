@@ -17,6 +17,7 @@ namespace Formula1.Models.Races
             this.RaceName = raceName;
             this.NumberOfLaps = numberOfLaps;
             this.TookPlace = false;
+            pilots = new List<IPilot>();
         }
 
 
@@ -27,7 +28,7 @@ namespace Formula1.Models.Races
             {
                 if (string.IsNullOrWhiteSpace(value) || value.Length < 5)
                 {
-                    throw new ArgumentException(ExceptionMessages.InvalidRaceName, value);
+                    throw new ArgumentException(String.Format(ExceptionMessages.InvalidRaceName, value));
                 }
 
                 raceName = value;
@@ -41,7 +42,7 @@ namespace Formula1.Models.Races
             {
                 if (value < 1)
                 {
-                    throw new ArgumentException(ExceptionMessages.InvalidLapNumbers, value.ToString());
+                    throw new ArgumentException(String.Format(ExceptionMessages.InvalidLapNumbers, value));
                 }
 
                 numberOfLaps = value;
