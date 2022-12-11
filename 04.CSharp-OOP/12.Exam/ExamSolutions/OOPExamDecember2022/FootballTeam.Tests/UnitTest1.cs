@@ -143,9 +143,9 @@ namespace FootballTeam.Tests
         public void Test_Method_PlayerScore_ShouldWork()
         {
             _team.AddNewPlayer(_footballPlayer);
-            _team.PlayerScore(13);
+            _team.PlayerScore(_playerNumber);
 
-            Assert.That(_team.PlayerScore(13),
+            Assert.That(_team.PlayerScore(_playerNumber),
                 Is.EqualTo(
                     $"{_footballPlayer.Name} scored and now has {_footballPlayer.ScoredGoals} for this season!"));
 
@@ -159,7 +159,7 @@ namespace FootballTeam.Tests
             _team.AddNewPlayer(_footballPlayer);
             _team.AddNewPlayer(_footballPlayer);
 
-            Assert.That(_team.PickPlayer("Park"), Is.EqualTo(expectedPlayer));
+            Assert.That(_team.PickPlayer(_footballPlayer.Name), Is.EqualTo(expectedPlayer));
         }
 
         [Test]

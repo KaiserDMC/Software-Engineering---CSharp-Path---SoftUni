@@ -57,7 +57,7 @@ namespace ChristmasPastryShop.Core
 
             IBooth currentBooth = booths.Models.First(b => b.BoothId == boothId);
 
-            if (currentBooth.DelicacyMenu.Models.Any(d => d.GetType() == typeof(Delicacy)))
+            if (currentBooth.DelicacyMenu.Models.Any(d => d.Name == delicacyName))
             {
                 return string.Format(OutputMessages.DelicacyAlreadyAdded, delicacyName);
             }
@@ -152,7 +152,7 @@ namespace ChristmasPastryShop.Core
             {
                 if (!currentBooth.CocktailMenu.Models.Any(b => b.Name == itemName))
                 {
-                    return string.Format(OutputMessages.CocktailStillNotAdded, itemTypeName, itemName);
+                    return string.Format(OutputMessages.NotRecognizedItemName, itemTypeName, itemName);
                 }
 
                 cocktail = currentBooth.CocktailMenu.Models.FirstOrDefault(c =>
@@ -171,7 +171,7 @@ namespace ChristmasPastryShop.Core
             {
                 if (!currentBooth.DelicacyMenu.Models.Any(b => b.Name == itemName))
                 {
-                    return string.Format(OutputMessages.DelicacyStillNotAdded, itemTypeName, itemName);
+                    return string.Format(OutputMessages.NotRecognizedItemName, itemTypeName, itemName);
                 }
 
                 delicacy = currentBooth.DelicacyMenu.Models.FirstOrDefault(d =>
