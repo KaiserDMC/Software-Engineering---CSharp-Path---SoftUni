@@ -92,7 +92,7 @@ FROM [Employees]
 -- 18. Distinct Job Titles
 
 SELECT DISTINCT [JobTitle]
-FROM [Employees]
+FROM dbo.[Employees]
 
 -- 19. Find First 10 Started Projects
 
