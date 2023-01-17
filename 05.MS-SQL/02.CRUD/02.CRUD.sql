@@ -1,6 +1,6 @@
 -- Part I - Queries for SoftUni Database
 
--- 01. Examine the Databeses
+-- 01. Examine the Databases
 
 -- 02. Find All the Information About Departments
 
@@ -145,7 +145,7 @@ SELECT [CountryName], [CountryCode],
 
 -- Part III - Queries for Diablo Database
 
--- 25. All Diable Characters
+-- 25. All Diablo Characters
 
 USE [Diablo]
 
