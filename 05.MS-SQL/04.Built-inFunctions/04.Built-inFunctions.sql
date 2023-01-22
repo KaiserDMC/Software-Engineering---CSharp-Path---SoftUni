@@ -190,8 +190,3 @@ SELECT [Name],
 FROM People
 
 --SELECT DATEADD(MINUTE , 8286787, '2000-12-07')
-
-
-
-
-
