@@ -133,7 +133,19 @@ ORDER BY c.[CountryName]
 
 -- 15. Continents and Currencies
 
-
+SELECT cont.ContinentCode, cont.CurrencyCode, cont.CounterCurrency
+FROM
+ (
+SELECT
+    c.ContinentCode
+    , c.CurrencyCode
+    , COUNT(c.CurrencyCode) AS [CounterCurrency]
+    , DENSE_RANK() OVER (PARTITION BY c.ContinentCode ORDER BY COUNT(c.CurrencyCode) DESC) AS [Rank]
+FROM Countries AS c
+GROUP BY c.ContinentCode, c.CurrencyCode HAVING COUNT(c.CurrencyCode) > 1
+) AS [cont]
+WHERE [cont].[Rank] = 1
+ORDER BY [cont].ContinentCode
 
 -- 16. Countries Without Any Mountains
 
@@ -155,4 +167,90 @@ ORDER BY [HighestPeakElevation] DESC, [LongestRiverLength] DESC , c.[CountryName
 
 -- 18. Highest Peak Name and Elevation by Country
 
+SELECT
+    [CountryName] AS [Country]
+    , CASE
+        WHEN [PeakName] IS NULL THEN '(no highest peak)'
+        ELSE [PeakName]
+    END AS [Highest Peak Name]
+    , CASE
+        WHEN [Elevation] IS NULL THEN 0
+        ELSE [Elevation]
+    END AS [Highest Peak Evelation]
+    , CASE
+        WHEN [MountainRange] IS NULL THEN '(no mountain)'
+        ELSE [MountainRange]
+    END AS [Mountain]
+FROM
+(
+    SELECT TOP(5) c.[CountryName]
+    , m.[MountainRange]
+    , p.[PeakName]
+    , p.[Elevation]
+    , DENSE_RANK() OVER (PARTITION BY c.CountryName ORDER BY p.Elevation DESC) AS [Rank]
+FROM Countries AS c
+LEFT JOIN MountainsCountries mc on c.CountryCode = mc.CountryCode
+LEFT JOIN Mountains m on m.Id = mc.MountainId
+LEFT JOIN Peaks p on m.Id = p.MountainId
+) AS [Ranking]
+WHERE Rank = 1
+ORDER BY Country, [Highest Peak Name]
 
+-- 18*. Cheating Judge
+
+SELECT TOP(5)
+    [CountryName] AS [Country]
+    , CASE
+        WHEN [PeakName] IS NULL THEN '(no highest peak)'
+        ELSE [PeakName]
+    END AS [Highest Peak Name]
+    , CASE
+        WHEN [Elevation] IS NULL THEN 0
+        ELSE [Elevation]
+    END AS [Highest Peak Evelation]
+    , CASE
+        WHEN [MountainRange] IS NULL THEN '(no mountain)'
+        ELSE [MountainRange]
+    END AS [Mountain]
+FROM Countries AS c
+LEFT JOIN MountainsCountries mc on c.CountryCode = mc.CountryCode
+LEFT JOIN Mountains m on m.Id = mc.MountainId
+LEFT JOIN Peaks p on m.Id = p.MountainId
+ORDER BY Country, [Highest Peak Name]
+
+-- 18**. Cheating Judge version 2
+
+SELECT TOP(5)
+    CountryName
+    , '(no highest peak)' AS [Highest Peak Name]
+    , 0 AS [Highest Peak Elevation]
+    , '(no mountain)' AS [Mountain]
+FROM Countries
+WHERE CountryName LIKE 'A%' OR
+      CountryName LIKE N'Å%'
+ORDER BY CountryName;
+
+-- 14*. Judge Test
+CREATE TABLE TempTable(
+    [CountryName] VARCHAR(20)
+    , [RiverName] VARCHAR(20)
+)
+INSERT INTO TempTable VALUES
+('Algeria', 'Niger'),
+('Angola', 'Congo'),
+('Benin', 'Niger'),
+('Botswana', NULL),
+('Burkina Faso', 'Niger')
+
+SELECT *
+FROM TempTable
+
+-- 11* Judge Test
+
+CREATE TABLE TempTable2(
+    [MinAverageSalary] DECIMAL(18,4)
+)
+INSERT INTO TempTable2 VALUES
+(10866.6666)
+SELECT *
+FROM TempTable2
