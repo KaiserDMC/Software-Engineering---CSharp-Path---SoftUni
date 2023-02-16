@@ -11,6 +11,7 @@
 *.sln.docstates
 *.zip
 *.7z
+*.docx
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
