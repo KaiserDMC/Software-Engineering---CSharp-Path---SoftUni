@@ -10,7 +10,7 @@ namespace ChangeTownNamesCasing
             string countryName = Console.ReadLine();
             List<string> updatedTowns = new List<string>();
 
-            SqlConnection connectionDb = new SqlConnection(ConfigClass.ConfigString.ConnectionString);
+            SqlConnection connectionDb = new SqlConnection(ConfigClass.ConfigString.ConnectionStringDocker);
 
             connectionDb.Open();
 

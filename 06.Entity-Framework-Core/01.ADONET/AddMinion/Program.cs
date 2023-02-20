@@ -17,7 +17,7 @@ namespace AddMinion
             int minionId = 0;
             int townId = 0;
 
-            SqlConnection connect = new SqlConnection(ConfigClass.ConfigString.ConnectionString);
+            SqlConnection connect = new SqlConnection(ConfigClass.ConfigString.ConnectionStringDocker);
 
             connect.Open();
 
@@ -52,7 +52,7 @@ namespace AddMinion
                 }
             }
 
-            SqlConnection connection = new SqlConnection(ConfigClass.ConfigString.ConnectionString);
+            SqlConnection connection = new SqlConnection(ConfigClass.ConfigString.ConnectionStringDocker);
 
             connection.Open();
 
@@ -87,7 +87,7 @@ namespace AddMinion
                 }
             }
 
-            SqlConnection connectionDb = new SqlConnection(ConfigClass.ConfigString.ConnectionString);
+            SqlConnection connectionDb = new SqlConnection(ConfigClass.ConfigString.ConnectionStringDocker);
 
             connectionDb.Open();
 
@@ -122,7 +122,7 @@ namespace AddMinion
                 }
             }
 
-            SqlConnection con = new SqlConnection(ConfigClass.ConfigString.ConnectionString);
+            SqlConnection con = new SqlConnection(ConfigClass.ConfigString.ConnectionStringDocker);
 
             con.Open();
 

@@ -6,7 +6,7 @@ namespace VillainNames
     {
         static void Main(string[] args)
         {
-            SqlConnection connectionDb = new SqlConnection(ConfigClass.ConfigString.ConnectionString);
+            SqlConnection connectionDb = new SqlConnection(ConfigClass.ConfigString.ConnectionStringDocker);
 
             connectionDb.Open();
 

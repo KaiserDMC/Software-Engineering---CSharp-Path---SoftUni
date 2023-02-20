@@ -6,7 +6,7 @@ namespace MinionNames
     {
         static void Main(string[] args)
         {
-            SqlConnection connectionDb = new SqlConnection(ConfigClass.ConfigString.ConnectionString);
+            SqlConnection connectionDb = new SqlConnection(ConfigClass.ConfigString.ConnectionStringDocker);
 
             connectionDb.Open();
 
@@ -37,7 +37,7 @@ namespace MinionNames
                 }
             }
 
-            SqlConnection connection = new SqlConnection(ConfigClass.ConfigString.ConnectionString);
+            SqlConnection connection = new SqlConnection(ConfigClass.ConfigString.ConnectionStringDocker);
 
             connection.Open();
 
