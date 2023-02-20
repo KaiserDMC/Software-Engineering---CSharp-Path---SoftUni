@@ -39,14 +39,15 @@ GROUP BY v.Id, v.Name
 ORDER BY COUNT(mv.VillainId)
 
 --Problem 03
-SELECT Name FROM Villains WHERE Id = @Id
+SELECT Name FROM Villains WHERE Id = 6
 
 SELECT ROW_NUMBER() OVER (ORDER BY m.Name) AS RowNum,
                                          m.Name, 
-                                         m.Age
+                                         m.Age,
+                                         mv.VillainId
                                     FROM MinionsVillains AS mv
                                     JOIN Minions As m ON mv.MinionId = m.Id
-                                   WHERE mv.VillainId = @Id
+                                   WHERE mv.VillainId = 5
                                 ORDER BY m.Name
 
 --Problem 04
