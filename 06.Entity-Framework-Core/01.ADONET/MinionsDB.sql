@@ -1,3 +1,7 @@
+-- Exercises: ADO.NET
+
+-- I. Initial Setup
+
 --01. 
 CREATE DATABASE MinionsDB
 
@@ -29,6 +33,8 @@ INSERT INTO EvilnessFactors (Name) VALUES ('Super good'),('Good'),('Bad'), ('Evi
 INSERT INTO Villains (Name, EvilnessFactorId) VALUES ('Gru',2),('Victor',1),('Jilly',3),('Miro',4),('Rosen',5),('Dimityr',1),('Dobromir',2)
 
 INSERT INTO MinionsVillains (MinionId, VillainId) VALUES (4,2),(1,1),(5,7),(3,5),(2,7),(11,5),(8,4),(9,7),(7,1),(1,3),(7,3),(5,3),(4,3),(1,2),(2,1)
+
+-- II. Problem Queries
 
 --Problem 02
   SELECT v.Name, COUNT(mv.VillainId) AS MinionsCount  
