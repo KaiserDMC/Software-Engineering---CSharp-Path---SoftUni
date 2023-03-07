@@ -24,6 +24,7 @@ namespace MusicHub
             Console.WriteLine(ExportSongsAboveDuration(context, 4));
         }
 
+        //02. Albums Info
         public static string ExportAlbumsInfo(MusicHubDbContext context, int producerId)
         {
             var albums = context
@@ -85,20 +86,20 @@ namespace MusicHub
             return stringBuilder.ToString().TrimEnd();
         }
 
+        //03. Songs Above Duration
         public static string ExportSongsAboveDuration(MusicHubDbContext context, int duration)
         {
-            var songs = context.Songs
+            var songs = context.Songs.ToList()
                 .Where(s => s.Duration.TotalSeconds > duration)
                 .Select(s => new
                 {
                     SongName = s.Name,
                     SongPerformer = s.SongPerformers
-                        .Where(sp => sp.SongId == s.Id)
                         .Select(p => new
                         {
                             FullName = $"{p.Performer.FirstName} {p.Performer.LastName}"
                         })
-                        .OrderBy(n => n.FullName)
+                        .OrderBy(n => n.FullName.ToString())
                         .ToArray(),
                     SongWriter = s.Writer.Name,
                     AlbumProducer = s.Album.Producer.Name,
