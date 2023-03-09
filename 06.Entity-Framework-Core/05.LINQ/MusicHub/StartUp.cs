@@ -18,13 +18,15 @@ namespace MusicHub
             DbInitializer.ResetDatabase(context);
 
             //Test your solutions here
+			
+			//02.
+            //Console.WriteLine(ExportAlbumsInfo(context, 9));
 
-            // Console.WriteLine(ExportAlbumsInfo(context, 9));
-
-            Console.WriteLine(ExportSongsAboveDuration(context, 4));
+			//03.
+			//Console.WriteLine(ExportSongsAboveDuration(context, 4));
         }
 
-        //02. Albums Info
+        // 02. Albums Info
         public static string ExportAlbumsInfo(MusicHubDbContext context, int producerId)
         {
             var albums = context
@@ -86,7 +88,7 @@ namespace MusicHub
             return stringBuilder.ToString().TrimEnd();
         }
 
-        //03. Songs Above Duration
+        // 03. Songs Above Duration
         public static string ExportSongsAboveDuration(MusicHubDbContext context, int duration)
         {
             var songs = context.Songs.ToList()
