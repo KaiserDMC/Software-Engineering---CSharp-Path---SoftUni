@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CarDealer.Migrations
 {
-    public partial class initialdb : Migration
+    public partial class initialmig : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

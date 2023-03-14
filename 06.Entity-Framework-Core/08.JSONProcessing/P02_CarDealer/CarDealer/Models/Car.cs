@@ -8,7 +8,7 @@ public class Car
 
     public string Model { get; set; } = null!;
 
-    public long TravelledDistance { get; set; }
+    public long TraveledDistance { get; set; }
 
     public ICollection<Sale> Sales { get; set; } = new List<Sale>();
 
