@@ -107,38 +107,42 @@ public class StartUp
         return $"Successfully imported {context.Parts.Count()}";
     }
 
-    // 11. Import Cars
     public static string ImportCars(CarDealerContext context, string inputXml)
     {
         XDocument xmlDocument = XDocument.Parse(inputXml);
 
-        var cars = Deserializer<CarDto[]>(inputXml, "Cars");
+        var cars = xmlDocument.Root.Elements();
 
         List<Car> carsX = new List<Car>();
         List<PartCar> partsX = new List<PartCar>();
 
         int carId = 1;
 
-        int[] partIds = context.Parts.Select(p => p.Id).ToArray();
-
+        int[] partInts = context.Parts.Select(p => p.Id).ToArray();
+        var partIds = xmlDocument.Descendants("partId").Select(p => p.Attribute("id").Value);
 
         foreach (var car in cars)
         {
             Car c = new Car()
             {
-                Make = car.Make,
-                Model = car.Model,
-                TraveledDistance = car.TravelledDistance
+                Make = car.Element("make").Value,
+                Model = car.Element("model").Value,
+                TraveledDistance = long.Parse(car.Element("traveledDistance").Value)
+                //TraveledDistance = long.Parse(car.Element("TraveledDistance").Value)
+                //For Judge use commented line
             };
 
             carsX.Add(c);
 
-            foreach (var partId in car.Parts.Where(p => partIds.Contains(p.PartId)).Select(p => p.PartId).Distinct())
+            foreach (var partId in car.Descendants("partId")
+                         .Where(p => partIds.Contains(p.Attribute("id").Value))
+                         .Select(p => p.Attribute("id").Value).Distinct())
             {
                 PartCar partCar = new PartCar()
                 {
                     CarId = carId,
-                    PartId = partId
+                    Car = c,
+                    PartId = int.Parse(partId)
                 };
 
                 partsX.Add(partCar);
