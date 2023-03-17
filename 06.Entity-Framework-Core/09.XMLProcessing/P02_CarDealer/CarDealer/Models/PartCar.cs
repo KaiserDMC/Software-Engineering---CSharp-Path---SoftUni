@@ -1,11 +1,10 @@
-﻿namespace CarDealer.Models
-{
-    public class PartCar
-    {
-        public int PartId { get; set; }
-        public Part Part { get; set; } = null!; 
+﻿namespace CarDealer.Models;
 
-        public int CarId { get; set; }
-        public Car Car { get; set; } = null!; 
-    }
+public class PartCar
+{
+    public int PartId { get; set; }
+    public Part Part { get; set; } = null!;
+
+    public int CarId { get; set; }
+    public Car Car { get; set; } = null!;
 }

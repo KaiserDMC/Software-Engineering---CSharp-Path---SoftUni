@@ -1,12 +1,11 @@
-﻿using AutoMapper;
+﻿namespace CarDealer;
 
-namespace CarDealer
+using AutoMapper;
+
+public class CarDealerProfile : Profile
 {
-    public class CarDealerProfile : Profile
+    public CarDealerProfile()
     {
-        public CarDealerProfile()
-        {
 
-        }
     }
 }

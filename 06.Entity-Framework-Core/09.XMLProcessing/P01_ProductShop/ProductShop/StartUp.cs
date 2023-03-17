@@ -1,4 +1,6 @@
-﻿namespace ProductShop;
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace ProductShop;
 
 using System.Text;
 using System.Xml.Linq;
@@ -40,9 +42,17 @@ public class StartUp
         string xmlProductsInRange = GetProductsInRange(context);
         File.WriteAllText(@"../../../Results/products-in-range.xml", xmlProductsInRange);
 
-        //06.
+        //Q06.
         string xmlSoldProducts = GetSoldProducts(context);
         File.WriteAllText(@"../../../Results/users-sold-products.xml", xmlSoldProducts);
+
+        //Q07.
+        string xmlCategoriesByProductsCount = GetCategoriesByProductsCount(context);
+        File.WriteAllText(@"../../../Results/categories-by-products.xml", xmlCategoriesByProductsCount);
+
+        //Q08.
+        string xmlUsersWithProducts = GetUsersWithProducts(context);
+        File.WriteAllText(@"../../../Results/users-and-products.xml", xmlUsersWithProducts);
 
     }
 
@@ -198,6 +208,62 @@ public class StartUp
             .ToArray();
 
         return Serializer<ExportSoldProductsDto[]>(products, "Users");
+    }
+
+    // 07. Export Categories By Products Count
+    public static string GetCategoriesByProductsCount(ProductShopContext context)
+    {
+        var categories = context.Categories
+            .Select(c => new ExportCategoriesByProductsCountDto()
+            {
+                Name = c.Name,
+                Count = c.CategoryProducts.Count,
+                AveragePrice = c.CategoryProducts.Average(p => p.Product.Price),
+                TotalRevenue = c.CategoryProducts.Sum(p => p.Product.Price)
+            })
+            .OrderByDescending(p => p.Count)
+            .ThenBy(p => p.TotalRevenue)
+            .ToArray();
+
+        return Serializer<ExportCategoriesByProductsCountDto[]>(categories, "Categories");
+    }
+
+    // 08. Export Users and Products
+    [SuppressMessage("ReSharper.DPA", "DPA0000: DPA issues")]
+    public static string GetUsersWithProducts(ProductShopContext context)
+    {
+        var users = context.Users
+            .Where(u => u.ProductsSold.Any(p => p.BuyerId != null))
+            .OrderByDescending(u => u.ProductsSold.Count(p => p.BuyerId != null))
+            .Select(u => new UserInfo()
+            {
+                FirstName = u.FirstName,
+                LastName = u.LastName,
+                Age = u.Age,
+                SoldProducts = new SoldProducts()
+                {
+                    Count = u.ProductsSold.Count(p => p.BuyerId != null),
+                    Products = u.ProductsSold
+                        .Where(p => p.BuyerId != null)
+                        .Select(p => new ProductX()
+                        {
+                            Name = p.Name,
+                            Price = p.Price
+                        })
+                        .OrderByDescending(p => p.Price)
+                        .ToArray()
+                }
+            })
+            .Take(10)
+            .ToArray();
+
+        ExportUsersAndProductsDto info = new ExportUsersAndProductsDto()
+        {
+            Count = context.Users.Count(u => u.ProductsSold.Any(p => p.BuyerId != null)),
+            Users = users
+        };
+
+        return Serializer<ExportUsersAndProductsDto>(info, "Users");
     }
 
 }

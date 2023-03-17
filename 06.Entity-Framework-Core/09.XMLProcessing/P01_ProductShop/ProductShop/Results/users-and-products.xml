@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Users>
+  <count>54</count>
+  <users>
+    <User>
+      <firstName>Dale</firstName>
+      <lastName>Galbreath</lastName>
+      <age>31</age>
+      <SoldProducts>
+        <count>9</count>
+        <products>
+          <Product>
+            <name>Fair Foundation SPF 15</name>
+            <price>1394.24</price>
+          </Product>
+          <Product>
+            <name>Finasteride</name>
+            <price>1374.01</price>
+          </Product>
+          <Product>
+            <name>EMEND</name>
+            <price>1365.51</price>
+          </Product>
+          <Product>
+            <name>IOPE RETIGEN MOISTURE TWIN CAKE NO.21</name>
+            <price>1257.71</price>
+          </Product>
+          <Product>
+            <name>ESIKA</name>
+            <price>879.37</price>
+          </Product>
+          <Product>
+            <name>GOONG SECRET CALMING BATH</name>
+            <price>742.47</price>
+          </Product>
+          <Product>
+            <name>allergy eye</name>
+            <price>426.91</price>
+          </Product>
+          <Product>
+            <name>Allergena</name>
+            <price>109.32</price>
+          </Product>
+          <Product>
+            <name>Glyburide</name>
+            <price>95.10</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+    <User>
+      <firstName>Crista</firstName>
+      <lastName>Byrde</lastName>
+      <age>37</age>
+      <SoldProducts>
+        <count>7</count>
+        <products>
+          <Product>
+            <name>Glycopyrrolate</name>
+            <price>1471.43</price>
+          </Product>
+          <Product>
+            <name>Amitriptyline Hydrochloride</name>
+            <price>1453.96</price>
+          </Product>
+          <Product>
+            <name>Topical 60 Sec Sodium Fluoride</name>
+            <price>1228.84</price>
+          </Product>
+          <Product>
+            <name>Baza Antifungal</name>
+            <price>1162.34</price>
+          </Product>
+          <Product>
+            <name>GProducting Pains</name>
+            <price>1077.37</price>
+          </Product>
+          <Product>
+            <name>TYLENOL COLD MULTI-SYMPTOM DAYTIME</name>
+            <price>1010.81</price>
+          </Product>
+          <Product>
+            <name>Foaming Hand Sanitizer</name>
+            <price>624.72</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+    <User>
+      <firstName>Freddy</firstName>
+      <lastName>Duckit</lastName>
+      <age>34</age>
+      <SoldProducts>
+        <count>6</count>
+        <products>
+          <Product>
+            <name>cough and sore throat</name>
+            <price>1482.68</price>
+          </Product>
+          <Product>
+            <name>Pollens - Trees, Birch Mix</name>
+            <price>1153.54</price>
+          </Product>
+          <Product>
+            <name>PREMIER VALUE ALLERGY</name>
+            <price>1127.61</price>
+          </Product>
+          <Product>
+            <name>smart sense nighttime cold and flu relief</name>
+            <price>1101.77</price>
+          </Product>
+          <Product>
+            <name>Prostate</name>
+            <price>716.05</price>
+          </Product>
+          <Product>
+            <name>PRIMAXIN</name>
+            <price>686.66</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+    <User>
+      <firstName>Pier</firstName>
+      <lastName>Prosser</lastName>
+      <age>48</age>
+      <SoldProducts>
+        <count>6</count>
+        <products>
+          <Product>
+            <name>Flumazenil</name>
+            <price>1151.37</price>
+          </Product>
+          <Product>
+            <name>Ringers</name>
+            <price>1054.37</price>
+          </Product>
+          <Product>
+            <name>pain relief</name>
+            <price>938.23</price>
+          </Product>
+          <Product>
+            <name>Ketorolac Tromethamine</name>
+            <price>608.18</price>
+          </Product>
+          <Product>
+            <name>Agaricus Equisetum Special Order</name>
+            <price>585.93</price>
+          </Product>
+          <Product>
+            <name>Yellow Jacket hymenoptera venom Venomil Diagnostic</name>
+            <price>23.58</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+    <User>
+      <firstName>Evaleen</firstName>
+      <lastName>Cund</lastName>
+      <age>41</age>
+      <SoldProducts>
+        <count>6</count>
+        <products>
+          <Product>
+            <name>Nevirapine</name>
+            <price>1374.72</price>
+          </Product>
+          <Product>
+            <name>NEO-POLY-BAC HYDRO</name>
+            <price>967.32</price>
+          </Product>
+          <Product>
+            <name>Homeopathic Rheumatism</name>
+            <price>967.08</price>
+          </Product>
+          <Product>
+            <name>ziprasidone hydrochloride</name>
+            <price>628.66</price>
+          </Product>
+          <Product>
+            <name>Labetalol hydrochloride</name>
+            <price>436.38</price>
+          </Product>
+          <Product>
+            <name>kirkland signature minoxidil</name>
+            <price>49.17</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+    <User>
+      <firstName>Elysia</firstName>
+      <lastName>Fusedale</lastName>
+      <age>35</age>
+      <SoldProducts>
+        <count>5</count>
+        <products>
+          <Product>
+            <name>Etodolac</name>
+            <price>1443.13</price>
+          </Product>
+          <Product>
+            <name>Wintergreen Isopropyl Alcohol</name>
+            <price>1397.57</price>
+          </Product>
+          <Product>
+            <name>VITALUMIERE AQUA</name>
+            <price>1293.09</price>
+          </Product>
+          <Product>
+            <name>Ondansetron</name>
+            <price>1249.76</price>
+          </Product>
+          <Product>
+            <name>Aspen</name>
+            <price>1046.46</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+    <User>
+      <firstName>Art</firstName>
+      <lastName>Bensusan</lastName>
+      <age>22</age>
+      <SoldProducts>
+        <count>5</count>
+        <products>
+          <Product>
+            <name>DIPYRIDAMOLE</name>
+            <price>1150.67</price>
+          </Product>
+          <Product>
+            <name>Warfarin Sodium</name>
+            <price>770.05</price>
+          </Product>
+          <Product>
+            <name>AVANDAMET</name>
+            <price>632.08</price>
+          </Product>
+          <Product>
+            <name>Phenylephrine HCl</name>
+            <price>459.89</price>
+          </Product>
+          <Product>
+            <name>SNORING HP</name>
+            <price>53.59</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+    <User>
+      <firstName>Corabella</firstName>
+      <lastName>Farryann</lastName>
+      <age>45</age>
+      <SoldProducts>
+        <count>5</count>
+        <products>
+          <Product>
+            <name>Acid Reducer</name>
+            <price>1443.51</price>
+          </Product>
+          <Product>
+            <name>SUMATRIPTAN SUCCINATE</name>
+            <price>1265.94</price>
+          </Product>
+          <Product>
+            <name>Care One Hemorrhoidal</name>
+            <price>932.18</price>
+          </Product>
+          <Product>
+            <name>Isosorbide Mononitrate</name>
+            <price>789.91</price>
+          </Product>
+          <Product>
+            <name>PANTOPRAZOLE SODIUM</name>
+            <price>293.89</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+    <User>
+      <firstName>Les</firstName>
+      <lastName>Saph</lastName>
+      <age>30</age>
+      <SoldProducts>
+        <count>5</count>
+        <products>
+          <Product>
+            <name>Laser Block 100</name>
+            <price>1135.43</price>
+          </Product>
+          <Product>
+            <name>Metformin Hydrochloride</name>
+            <price>953.99</price>
+          </Product>
+          <Product>
+            <name>ENBREL</name>
+            <price>673.97</price>
+          </Product>
+          <Product>
+            <name>Buprenorphine hydrochloride</name>
+            <price>391.05</price>
+          </Product>
+          <Product>
+            <name>ropinirole hydrochloride</name>
+            <price>103.58</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+    <User>
+      <firstName>Joan</firstName>
+      <lastName>Nendick</lastName>
+      <age>31</age>
+      <SoldProducts>
+        <count>5</count>
+        <products>
+          <Product>
+            <name>Alcohol Free Antiseptic</name>
+            <price>1486.07</price>
+          </Product>
+          <Product>
+            <name>Warfarin Sodium</name>
+            <price>1379.79</price>
+          </Product>
+          <Product>
+            <name>CLARINS Ever Matte SPF 15 - 105 Nude</name>
+            <price>696.06</price>
+          </Product>
+          <Product>
+            <name>Topiramate</name>
+            <price>578.77</price>
+          </Product>
+          <Product>
+            <name>Lamotrigine Extended Release</name>
+            <price>245.63</price>
+          </Product>
+        </products>
+      </SoldProducts>
+    </User>
+  </users>
+</Users>
