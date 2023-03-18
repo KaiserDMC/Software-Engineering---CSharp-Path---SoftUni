@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<cars>
+  <car id="26" model="1M Coupe" traveled-distance="39826890" />
+  <car id="28" model="E67" traveled-distance="476830509" />
+  <car id="24" model="E88" traveled-distance="27453411" />
+  <car id="32" model="F04" traveled-distance="443756363" />
+  <car id="23" model="F04" traveled-distance="418839575" />
+  <car id="31" model="F20" traveled-distance="487897422" />
+  <car id="20" model="F20" traveled-distance="401291910" />
+  <car id="35" model="F20" traveled-distance="284809463" />
+  <car id="21" model="F25" traveled-distance="476132712" />
+  <car id="25" model="M Roadster E85" traveled-distance="475685374" />
+  <car id="33" model="M5 F10" traveled-distance="435603343" />
+  <car id="22" model="M5 F10" traveled-distance="140799461" />
+  <car id="30" model="M6 E63" traveled-distance="69863204" />
+  <car id="29" model="M6 E63" traveled-distance="57189891" />
+  <car id="27" model="X6 M" traveled-distance="322292247" />
+  <car id="34" model="X6 M" traveled-distance="227443571" />
+  <car id="36" model="X6 M" traveled-distance="183346013" />
+</cars>
