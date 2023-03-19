@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Despatchers>
+  <Despatcher TrucksCount="6">
+    <DespatcherName>Vladimir Hristov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT2462BX</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT2699CK</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5203MM</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5204MM</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5205MM</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5206MM</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="5">
+    <DespatcherName>Hristo Ivanov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CB6230XT</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CB7630XT</RegistrationNumber>
+        <Make>Man</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT1230BB</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT1293HH</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT6631TT</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="4">
+    <DespatcherName>Asen Hristov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT5627PB</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5629PB</RegistrationNumber>
+        <Make>Man</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5630PB</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5633PB</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="4">
+    <DespatcherName>Atanas Petrov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT0102MP</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT2411BX</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT4983HT</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT8991BP</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="4">
+    <DespatcherName>Dobromir Plamenov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT4453MP</RegistrationNumber>
+        <Make>Man</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5208MM</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5209MM</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5210MM</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="4">
+    <DespatcherName>Ivan Hristov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT1231BB</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT1437BB</RegistrationNumber>
+        <Make>Man</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT1439BB</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT3124BB</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="3">
+    <DespatcherName>Ekaterina Hristova</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT5647PB</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5648PB</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5650PB</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="3">
+    <DespatcherName>Georgi Atanasov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT1143HH</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT1145HH</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT1159HH</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="3">
+    <DespatcherName>Grigor Petrov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT3094CB</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT4963PM</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT6571CT</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="3">
+    <DespatcherName>Hristina Petrova</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT5617PB</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5621PB</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5622PB</RegistrationNumber>
+        <Make>Man</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="3">
+    <DespatcherName>Polina Kostadinova</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT1151HH</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT1160HH</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT9049HM</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="3">
+    <DespatcherName>Todor Petrov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT5637PB</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5639PB</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT5643PB</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="2">
+    <DespatcherName>Boris Todorov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT4850CC</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT7548TK</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="2">
+    <DespatcherName>Borislav Petrov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT2440BH</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT3093BB</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="2">
+    <DespatcherName>Ivan Borislavov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT8984BP</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT8985BP</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="2">
+    <DespatcherName>Kosta Slavov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CB9655TX</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT2706TT</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="2">
+    <DespatcherName>Miahela Eneva</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT9054HM</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CT9057HM</RegistrationNumber>
+        <Make>Man</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="2">
+    <DespatcherName>Stela Stefanova</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CB0441XT</RegistrationNumber>
+        <Make>Mercedes</Make>
+      </Truck>
+      <Truck>
+        <RegistrationNumber>CB2071XT</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="1">
+    <DespatcherName>Ana Ivanova</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CB2117XT</RegistrationNumber>
+        <Make>Daf</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="1">
+    <DespatcherName>Apostol Dobromirov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT5625PB</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="1">
+    <DespatcherName>Genadi Petrov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CB0796TP</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="1">
+    <DespatcherName>Georgi Stefanov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT7122KM</RegistrationNumber>
+        <Make>Volvo</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="1">
+    <DespatcherName>Petko Todorov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT5645PB</RegistrationNumber>
+        <Make>Man</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="1">
+    <DespatcherName>Simeon Ivanov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT4968PM</RegistrationNumber>
+        <Make>Man</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="1">
+    <DespatcherName>Stefan Dragomirov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CB8300XC</RegistrationNumber>
+        <Make>Scania</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+  <Despatcher TrucksCount="1">
+    <DespatcherName>Vladislav Dobromirov</DespatcherName>
+    <Trucks>
+      <Truck>
+        <RegistrationNumber>CT1157HH</RegistrationNumber>
+        <Make>Man</Make>
+      </Truck>
+    </Trucks>
+  </Despatcher>
+</Despatchers>

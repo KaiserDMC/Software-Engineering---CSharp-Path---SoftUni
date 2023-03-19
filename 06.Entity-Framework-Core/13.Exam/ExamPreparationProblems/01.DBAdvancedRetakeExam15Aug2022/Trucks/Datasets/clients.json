@@ -1,0 +1,515 @@
+[
+  {
+    "Name": "Kuenehne + Nagel (AG & Co.) KGKuenehne + Nagel (AG & Co.) KGKuenehne + Nagel (AG & Co.) KG",
+    "Nationality": "The Netherlands",
+    "Type": "golden",
+    "Trucks": [
+      1,
+      68,
+      73,
+      17,
+      98,
+      98
+    ]
+  },
+  {
+    "Name": "DHL SERVICES LIMITED",
+    "Nationality": "The United Kingdom",
+    "Type": "golden",
+    "Trucks": [
+      4,
+      17,
+      17,
+      98
+    ]
+  },
+  {
+    "Name": "GLOU AVTO GmbH",
+    "Nationality": "Germany",
+    "Type": "usual",
+    "Trucks": [
+      25,
+      43,
+      78,
+      158,
+      47,
+      3
+    ]
+  },
+  {
+    "Name": "SCHENKER SP ZOO",
+    "Nationality": "France",
+    "Type": "platinum",
+    "Trucks": [
+      53,
+      51,
+      56,
+      4,
+      98,
+      78
+    ]
+  },
+  {
+    "Name": "Buchen UmweltService GmbH",
+    "Nationality": "Belgium",
+    "Type": "platinum",
+    "Trucks": [
+      64,
+      26,
+      49,
+      54,
+      31
+    ]
+  },
+  {
+    "Name": "SPETSENERGOTRANS AO",
+    "Nationality": "Denmark",
+    "Type": "platinum",
+    "Trucks": [
+      68,
+      76,
+      9
+    ]
+  },
+  {
+    "Name": "TOPPROM AO",
+    "Nationality": "Italy",
+    "Type": "usual",
+    "Trucks": [
+      89,
+      81,
+      63,
+      37
+    ]
+  },
+  {
+    "Name": "MCBURNEY HOLDINGS LIMITED",
+    "Nationality": "Poland",
+    "Type": "golden",
+    "Trucks": [
+      1,
+      65,
+      25,
+      10,
+      25
+    ]
+  },
+  {
+    "Name": "ZMK AO",
+    "Nationality": "The Netherlands",
+    "Type": "platinum",
+    "Trucks": [
+      58,
+      90,
+      32,
+      51,
+      1,
+      24
+    ]
+  },
+  {
+    "Name": "Meopta – optika s.r.o.",
+    "Nationality": "The United Kingdom",
+    "Type": "platinum",
+    "Trucks": [
+      83,
+      4,
+      48,
+      60,
+      35,
+      53,
+      45
+    ]
+  },
+  {
+    "Name": "Srg Holding AS",
+    "Nationality": "Germany",
+    "Type": "platinum",
+    "Trucks": [
+      63,
+      71,
+      65
+    ]
+  },
+  {
+    "Name": "GEKSA-NETKANYE MATERIALY GmbH",
+    "Nationality": "France",
+    "Type": "silver",
+    "Trucks": [
+      68,
+      16,
+      36,
+      80
+    ]
+  },
+  {
+    "Name": "GROUPE DUPESSEY",
+    "Nationality": "Belgium",
+    "Type": "usual",
+    "Trucks": [
+      44,
+      56,
+      87,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "Name": "SKA GmbH",
+    "Nationality": "Denmark",
+    "Type": "golden",
+    "Trucks": [
+      10,
+      11,
+      95,
+      73,
+      158,
+      124,
+      101
+    ]
+  },
+  {
+    "Name": "PERGUILHEM SAS",
+    "Nationality": "Italy",
+    "Type": "usual",
+    "Trucks": [
+      44,
+      39,
+      59,
+      70,
+      94
+    ]
+  },
+  {
+    "Name": "ZAKŁAD USLUGOWO HANDLOWY MIXPOL PAWEL MICHULEC",
+    "Nationality": "Poland",
+    "Type": "usual",
+    "Trucks": [
+      89,
+      69,
+      40,
+      23,
+      89,
+      86
+    ]
+  },
+  {
+    "Name": "SAFPLAST GmbH",
+    "Nationality": "The Netherlands",
+    "Type": "golden",
+    "Trucks": [
+      93,
+      59,
+      97,
+      27,
+      69,
+      18,
+      53
+    ]
+  },
+  {
+    "Name": "PFEIFER & LANGEN ROMANIA S.R.L.",
+    "Nationality": "The United Kingdom",
+    "Type": "platinum",
+    "Trucks": [
+      5,
+      19,
+      28
+    ]
+  },
+  {
+    "Name": "KOMPANIYA BIO GmbH",
+    "Nationality": "Germany",
+    "Type": "silver",
+    "Trucks": [
+      89,
+      31,
+      17,
+      20
+    ]
+  },
+  {
+    "Name": "ELEKTON AO",
+    "Nationality": "France",
+    "Type": "golden",
+    "Trucks": [
+      19,
+      65,
+      41,
+      79,
+      3
+    ]
+  },
+  {
+    "Name": "TK AGROGRUPP GmbH",
+    "Nationality": "Belgium",
+    "Type": "silver",
+    "Trucks": [
+      4,
+      23,
+      54,
+      90,
+      88,
+      21
+    ]
+  },
+  {
+    "Name": "ABC-Logistik GmbH",
+    "Nationality": "Denmark",
+    "Type": "platinum",
+    "Trucks": [
+      95,
+      28,
+      42,
+      5,
+      98,
+      41,
+      97
+    ]
+  },
+  {
+    "Name": "Schmidt Gastransporte GmbH & Co KG",
+    "Nationality": "Italy",
+    "Type": "golden",
+    "Trucks": [
+      89,
+      64,
+      15,
+      14,
+      13
+    ]
+  },
+  {
+    "Name": "FIKS GRUPP GmbH",
+    "Nationality": "Poland",
+    "Type": "usual",
+    "Trucks": [
+      30,
+      39,
+      64,
+      39
+    ]
+  },
+  {
+    "Name": "BILLY BOWIE SPECIAL PROJECTS LIMITED",
+    "Nationality": "The Netherlands",
+    "Type": "silver",
+    "Trucks": [
+      17,
+      95,
+      44,
+      27,
+      92
+    ]
+  },
+  {
+    "Name": "B.T. TRASPORTI SRL",
+    "Nationality": "The United Kingdom",
+    "Type": "golden",
+    "Trucks": [
+      79,
+      81,
+      54,
+      61,
+      80,
+      57
+    ]
+  },
+  {
+    "Name": "Gebr. Mayer GmbH & Co. KG",
+    "Nationality": "Germany",
+    "Type": "golden",
+    "Trucks": [
+      33,
+      34,
+      97,
+      41,
+      35,
+      51,
+      79,
+      4
+    ]
+  },
+  {
+    "Name": "DELTA GmbH",
+    "Nationality": "France",
+    "Type": "golden",
+    "Trucks": [
+      12,
+      74,
+      87
+    ]
+  },
+  {
+    "Name": "Tekro spol. s r.o.",
+    "Nationality": "Belgium",
+    "Type": "platinum",
+    "Trucks": [
+      34,
+      33,
+      88,
+      77,
+      46
+    ]
+  },
+  {
+    "Name": "VYMPEL PLYUS GmbH",
+    "Nationality": "Denmark",
+    "Type": "silver",
+    "Trucks": [
+      30,
+      60,
+      24,
+      53,
+      85
+    ]
+  },
+  {
+    "Name": "KARAVAI GmbH",
+    "Nationality": "Italy",
+    "Type": "usual",
+    "Trucks": [
+      15,
+      41,
+      97,
+      35,
+      82,
+      48
+    ]
+  },
+  {
+    "Name": "KRIPTON GmbH",
+    "Nationality": "Poland",
+    "Type": "golden",
+    "Trucks": [
+      59,
+      86,
+      24,
+      83,
+      65,
+      57,
+      55
+    ]
+  },
+  {
+    "Name": "NAZAROVOAGROSNAB AO",
+    "Nationality": "The Netherlands",
+    "Type": "platinum",
+    "Trucks": [
+      20,
+      72,
+      45
+    ]
+  },
+  {
+    "Name": "Felbermayr Deutschland GmbH",
+    "Nationality": "The United Kingdom",
+    "Type": "golden",
+    "Trucks": [
+      82,
+      53,
+      41,
+      70
+    ]
+  },
+  {
+    "Name": "ECCO RAIL SP Z O O",
+    "Nationality": "Germany",
+    "Type": "golden",
+    "Trucks": [
+      59,
+      40,
+      45,
+      52,
+      91
+    ]
+  },
+  {
+    "Name": "PEK GROUP a.s.",
+    "Nationality": "France",
+    "Type": "silver",
+    "Trucks": [
+      78,
+      4,
+      22,
+      59,
+      78,
+      71
+    ]
+  },
+  {
+    "Name": "North Sea Express",
+    "Nationality": "Belgium",
+    "Type": "platinum",
+    "Trucks": [
+      91,
+      47,
+      71,
+      49,
+      48,
+      31,
+      63
+    ]
+  },
+  {
+    "Name": "PTS Packing Transport Services & Logistics GmbH",
+    "Nationality": "Denmark",
+    "Type": "golden",
+    "Trucks": [
+      77,
+      26,
+      72
+    ]
+  },
+  {
+    "Name": "OLIVOMUNDO – SOCIEDADE AGRICOLA LDA",
+    "Nationality": "Italy",
+    "Type": "silver",
+    "Trucks": [
+      6,
+      7,
+      12,
+      8,
+      8
+    ]
+  },
+  {
+    "Name": "HODLMAYR LOGISTICS BULGARIA EOOD",
+    "Nationality": "Poland",
+    "Type": "usual",
+    "Trucks": [
+      59,
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "Name": "Heinemann GmbH",
+    "Nationality": "The Netherlands",
+    "Type": "platinum",
+    "Trucks": [
+      22,
+      29,
+      29,
+      31,
+      38,
+      78,
+      108
+    ]
+  },
+  {
+    "Name": "LOGISTICA AMBIENTALE SRL",
+    "Nationality": "The United Kingdom",
+    "Type": "silver",
+    "Trucks": [
+      1,
+      46,
+      50,
+      51,
+      52,
+      102
+    ]
+  }
+]

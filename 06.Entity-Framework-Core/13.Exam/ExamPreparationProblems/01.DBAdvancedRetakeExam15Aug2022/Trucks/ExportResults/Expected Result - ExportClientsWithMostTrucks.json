@@ -1,0 +1,372 @@
+[
+  {
+    "Name": "Gebr. Mayer GmbH & Co. KG",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CT5206MM",
+        "VinNumber": "WDB96341311261287",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Flatbed",
+        "MakeType": "Daf"
+      },
+      {
+        "TruckRegistrationNumber": "CT4453MP",
+        "VinNumber": "WDB96341311269859",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Jumbo",
+        "MakeType": "Man"
+      },
+      {
+        "TruckRegistrationNumber": "CT6631TT",
+        "VinNumber": "XLRTE47MS1G141929",
+        "TankCapacity": 1200,
+        "CargoCapacity": 27303,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Scania"
+      },
+      {
+        "TruckRegistrationNumber": "CT5204MM",
+        "VinNumber": "WDB96341311261293",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Jumbo",
+        "MakeType": "Volvo"
+      },
+      {
+        "TruckRegistrationNumber": "CT2706TT",
+        "VinNumber": "YS2R4X211D5333237",
+        "TankCapacity": 1400,
+        "CargoCapacity": 27000,
+        "CategoryType": "Flatbed",
+        "MakeType": "Volvo"
+      }
+    ]
+  },
+  {
+    "Name": "North Sea Express",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CT3124BB",
+        "VinNumber": "XLRTE47MS1G146169",
+        "TankCapacity": 1200,
+        "CargoCapacity": 28295,
+        "CategoryType": "Jumbo",
+        "MakeType": "Daf"
+      },
+      {
+        "TruckRegistrationNumber": "CT1439BB",
+        "VinNumber": "XLRTE47MS1G146275",
+        "TankCapacity": 1200,
+        "CargoCapacity": 28295,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Mercedes"
+      },
+      {
+        "TruckRegistrationNumber": "CT5208MM",
+        "VinNumber": "WDB96341311261288",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Jumbo",
+        "MakeType": "Mercedes"
+      },
+      {
+        "TruckRegistrationNumber": "CT5203MM",
+        "VinNumber": "WDB96341311261291",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Semi",
+        "MakeType": "Mercedes"
+      },
+      {
+        "TruckRegistrationNumber": "CT1231BB",
+        "VinNumber": "XLRTE47MS1G146652",
+        "TankCapacity": 1290,
+        "CargoCapacity": 28307,
+        "CategoryType": "Semi",
+        "MakeType": "Scania"
+      }
+    ]
+  },
+  {
+    "Name": "Buchen UmweltService GmbH",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CT3124BB",
+        "VinNumber": "XLRTE47MS1G146169",
+        "TankCapacity": 1200,
+        "CargoCapacity": 28295,
+        "CategoryType": "Jumbo",
+        "MakeType": "Daf"
+      },
+      {
+        "TruckRegistrationNumber": "CT5621PB",
+        "VinNumber": "WDB96341311389279",
+        "TankCapacity": 1420,
+        "CargoCapacity": 8306,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Daf"
+      },
+      {
+        "TruckRegistrationNumber": "CT5208MM",
+        "VinNumber": "WDB96341311261288",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Jumbo",
+        "MakeType": "Mercedes"
+      },
+      {
+        "TruckRegistrationNumber": "CT5205MM",
+        "VinNumber": "WDB96341311261296",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Scania"
+      }
+    ]
+  },
+  {
+    "Name": "ELEKTON AO",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CT4968PM",
+        "VinNumber": "W1T96341311427813",
+        "TankCapacity": 1420,
+        "CargoCapacity": 9196,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Man"
+      },
+      {
+        "TruckRegistrationNumber": "CT5639PB",
+        "VinNumber": "WDB96341311389271",
+        "TankCapacity": 1420,
+        "CargoCapacity": 11073,
+        "CategoryType": "Jumbo",
+        "MakeType": "Mercedes"
+      },
+      {
+        "TruckRegistrationNumber": "CT5210MM",
+        "VinNumber": "WDB96341311261289",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Flatbed",
+        "MakeType": "Scania"
+      },
+      {
+        "TruckRegistrationNumber": "CT6631TT",
+        "VinNumber": "XLRTE47MS1G141929",
+        "TankCapacity": 1200,
+        "CargoCapacity": 27303,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Scania"
+      }
+    ]
+  },
+  {
+    "Name": "Heinemann GmbH",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CT3094CB",
+        "VinNumber": "W1T96341311428767",
+        "TankCapacity": 1420,
+        "CargoCapacity": 12817,
+        "CategoryType": "Semi",
+        "MakeType": "Daf"
+      },
+      {
+        "TruckRegistrationNumber": "CT5208MM",
+        "VinNumber": "WDB96341311261288",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Jumbo",
+        "MakeType": "Mercedes"
+      },
+      {
+        "TruckRegistrationNumber": "CB0441XT",
+        "VinNumber": "XLRTE47MS1G141844",
+        "TankCapacity": 1290,
+        "CargoCapacity": 27317,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Mercedes"
+      },
+      {
+        "TruckRegistrationNumber": "CT5647PB",
+        "VinNumber": "WDB96341311389272",
+        "TankCapacity": 1420,
+        "CargoCapacity": 8614,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Mercedes"
+      }
+    ]
+  },
+  {
+    "Name": "MCBURNEY HOLDINGS LIMITED",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CT1157HH",
+        "VinNumber": "WDB96341311356127",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28097,
+        "CategoryType": "Jumbo",
+        "MakeType": "Man"
+      },
+      {
+        "TruckRegistrationNumber": "CT4968PM",
+        "VinNumber": "W1T96341311427813",
+        "TankCapacity": 1420,
+        "CargoCapacity": 9196,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Man"
+      },
+      {
+        "TruckRegistrationNumber": "CB0796TP",
+        "VinNumber": "YS2R4X211D5318181",
+        "TankCapacity": 1000,
+        "CargoCapacity": 23999,
+        "CategoryType": "Flatbed",
+        "MakeType": "Scania"
+      },
+      {
+        "TruckRegistrationNumber": "CT5617PB",
+        "VinNumber": "WDB96341311389277",
+        "TankCapacity": 1420,
+        "CargoCapacity": 6421,
+        "CategoryType": "Semi",
+        "MakeType": "Volvo"
+      }
+    ]
+  },
+  {
+    "Name": "Meopta – optika s.r.o.",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CT1230BB",
+        "VinNumber": "XLRTE47MS1G146164",
+        "TankCapacity": 1290,
+        "CargoCapacity": 28295,
+        "CategoryType": "Semi",
+        "MakeType": "Daf"
+      },
+      {
+        "TruckRegistrationNumber": "CT4453MP",
+        "VinNumber": "WDB96341311269859",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Jumbo",
+        "MakeType": "Man"
+      },
+      {
+        "TruckRegistrationNumber": "CT1231BB",
+        "VinNumber": "XLRTE47MS1G146652",
+        "TankCapacity": 1290,
+        "CargoCapacity": 28307,
+        "CategoryType": "Semi",
+        "MakeType": "Scania"
+      },
+      {
+        "TruckRegistrationNumber": "CT2706TT",
+        "VinNumber": "YS2R4X211D5333237",
+        "TankCapacity": 1400,
+        "CargoCapacity": 27000,
+        "CategoryType": "Flatbed",
+        "MakeType": "Volvo"
+      }
+    ]
+  },
+  {
+    "Name": "Schmidt Gastransporte GmbH & Co KG",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CT5627PB",
+        "VinNumber": "WDB96341311389285",
+        "TankCapacity": 1420,
+        "CargoCapacity": 19156,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Daf"
+      },
+      {
+        "TruckRegistrationNumber": "CT5629PB",
+        "VinNumber": "WDB96341311388385",
+        "TankCapacity": 1420,
+        "CargoCapacity": 8752,
+        "CategoryType": "Flatbed",
+        "MakeType": "Man"
+      },
+      {
+        "TruckRegistrationNumber": "CT5205MM",
+        "VinNumber": "WDB96341311261296",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28058,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Scania"
+      },
+      {
+        "TruckRegistrationNumber": "CT1145HH",
+        "VinNumber": "WDB96341311356138",
+        "TankCapacity": 1420,
+        "CargoCapacity": 28097,
+        "CategoryType": "Semi",
+        "MakeType": "Volvo"
+      }
+    ]
+  },
+  {
+    "Name": "ABC-Logistik GmbH",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CB6230XT",
+        "VinNumber": "XLRTE47MS1G142311",
+        "TankCapacity": 1290,
+        "CargoCapacity": 28315,
+        "CategoryType": "Flatbed",
+        "MakeType": "Daf"
+      },
+      {
+        "TruckRegistrationNumber": "CT6631TT",
+        "VinNumber": "XLRTE47MS1G141929",
+        "TankCapacity": 1200,
+        "CargoCapacity": 27303,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Scania"
+      },
+      {
+        "TruckRegistrationNumber": "CT5625PB",
+        "VinNumber": "WDB96341311389283",
+        "TankCapacity": 1420,
+        "CargoCapacity": 5358,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Scania"
+      }
+    ]
+  },
+  {
+    "Name": "BILLY BOWIE SPECIAL PROJECTS LIMITED",
+    "Trucks": [
+      {
+        "TruckRegistrationNumber": "CT5622PB",
+        "VinNumber": "WDB96341311389281",
+        "TankCapacity": 1420,
+        "CargoCapacity": 14970,
+        "CategoryType": "Flatbed",
+        "MakeType": "Man"
+      },
+      {
+        "TruckRegistrationNumber": "CT1293HH",
+        "VinNumber": "XLRTE47MS1G141111",
+        "TankCapacity": 1290,
+        "CargoCapacity": 27317,
+        "CategoryType": "Refrigerated",
+        "MakeType": "Volvo"
+      },
+      {
+        "TruckRegistrationNumber": "CT5633PB",
+        "VinNumber": "WDB96341311388387",
+        "TankCapacity": 1420,
+        "CargoCapacity": 15837,
+        "CategoryType": "Jumbo",
+        "MakeType": "Volvo"
+      }
+    ]
+  }
+]
