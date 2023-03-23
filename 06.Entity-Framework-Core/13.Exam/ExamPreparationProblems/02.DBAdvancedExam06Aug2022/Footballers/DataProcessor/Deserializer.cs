@@ -3,6 +3,7 @@
 using System.Text;
 using Newtonsoft.Json;
 using System.Globalization;
+using System.Diagnostics.CodeAnalysis;
 using System.ComponentModel.DataAnnotations;
 using System.Xml.Serialization;
 
@@ -86,6 +87,7 @@ public class Deserializer
         return stringBuilder.ToString().TrimEnd();
     }
 
+    [SuppressMessage("ReSharper.DPA", "DPA0000: DPA issues")]
     public static string ImportTeams(FootballersContext context, string jsonString)
     {
         ImportTeamsDto[] teams = JsonConvert.DeserializeObject<ImportTeamsDto[]>(jsonString);
