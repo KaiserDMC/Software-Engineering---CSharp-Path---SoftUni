@@ -1,0 +1,152 @@
+[
+  {
+    "Name": "eSupplements",
+    "Website": "www.esupplements.com",
+    "Boardgames": [
+      {
+        "Name": "Capital Lux",
+        "Rating": 7.58,
+        "Mechanics": "Grid Movement, Tile Placement",
+        "Category": "Abstract"
+      },
+      {
+        "Name": "Kings Road",
+        "Rating": 7.48,
+        "Mechanics": "Card Drafting, End Game Bonuses, Memory, Set Collection, Simultaneous Action Selection",
+        "Category": "Strategy"
+      },
+      {
+        "Name": "Imperial Struggle",
+        "Rating": 7.19,
+        "Mechanics": "Card Drafting, Dice Rolling, Drafting, Set Collection, Simultaneous Action Selection",
+        "Category": "Family"
+      },
+      {
+        "Name": "Kingdomino",
+        "Rating": 7.06,
+        "Mechanics": "Connections, Tile Placement",
+        "Category": "Abstract"
+      },
+      {
+        "Name": "Matryoshka",
+        "Rating": 6.78,
+        "Mechanics": "Pattern Recognition",
+        "Category": "Family"
+      },
+      {
+        "Name": "Frogriders",
+        "Rating": 6.71,
+        "Mechanics": "Modular Board, Pattern Building, Tile Placement",
+        "Category": "Strategy"
+      }
+    ]
+  },
+  {
+    "Name": "Bedsure",
+    "Website": "www.bedsure.com",
+    "Boardgames": [
+      {
+        "Name": "Capital Lux",
+        "Rating": 7.58,
+        "Mechanics": "Grid Movement, Tile Placement",
+        "Category": "Abstract"
+      },
+      {
+        "Name": "Kings Road",
+        "Rating": 7.48,
+        "Mechanics": "Card Drafting, End Game Bonuses, Memory, Set Collection, Simultaneous Action Selection",
+        "Category": "Strategy"
+      },
+      {
+        "Name": "Imperial Struggle",
+        "Rating": 7.19,
+        "Mechanics": "Card Drafting, Dice Rolling, Drafting, Set Collection, Simultaneous Action Selection",
+        "Category": "Family"
+      },
+      {
+        "Name": "Nerdy Inventions",
+        "Rating": 7.1,
+        "Mechanics": "Hand Management, Pattern Building",
+        "Category": "Abstract"
+      },
+      {
+        "Name": "Star Wars: Rebellion",
+        "Rating": 6.19,
+        "Mechanics": "Action Queue, Modular Board",
+        "Category": "Abstract"
+      }
+    ]
+  },
+  {
+    "Name": "Hey Dude Official",
+    "Website": "www.heydudeofficial.com",
+    "Boardgames": [
+      {
+        "Name": "Conejos en el Huerto",
+        "Rating": 7.8,
+        "Mechanics": "Card Drafting, Hand Management, Race, Take That, Turn Order: Pass Order, Variable Player Powers",
+        "Category": "Strategy"
+      },
+      {
+        "Name": "Mini Rails",
+        "Rating": 7.68,
+        "Mechanics": "Drafting, End Game Bonuses, Hand Management, Tile Placement, Worker Placement",
+        "Category": "Strategy"
+      },
+      {
+        "Name": "Pędzące Ślimaki",
+        "Rating": 7.42,
+        "Mechanics": "Drafting, End Game Bonuses, Modular Board, Pattern Building, Set Collection, Tile Placement, Turn Order: Claim Action",
+        "Category": "Family"
+      },
+      {
+        "Name": "Pioneer Days",
+        "Rating": 7.31,
+        "Mechanics": "Area Movement, Hand Management, Interrupts, Kill Steal, Secret Unit Deployment, Variable Player Powers",
+        "Category": "Strategy"
+      },
+      {
+        "Name": "Costa Rica",
+        "Rating": 7.08,
+        "Mechanics": "Tile Placement",
+        "Category": "Family"
+      }
+    ]
+  },
+  {
+    "Name": "Asurion, LLC",
+    "Website": "www.asurion-llc.com",
+    "Boardgames": [
+      {
+        "Name": "Capital Lux",
+        "Rating": 7.58,
+        "Mechanics": "Grid Movement, Tile Placement",
+        "Category": "Abstract"
+      },
+      {
+        "Name": "Imperial Struggle",
+        "Rating": 7.19,
+        "Mechanics": "Card Drafting, Dice Rolling, Drafting, Set Collection, Simultaneous Action Selection",
+        "Category": "Family"
+      }
+    ]
+  },
+  {
+    "Name": "JE Products US",
+    "Website": "www.jeproductsus.com",
+    "Boardgames": [
+      {
+        "Name": "Fight for Olympus",
+        "Rating": 7.22,
+        "Mechanics": "Hand Management, Modular Board, Race, Set Collection",
+        "Category": "Family"
+      },
+      {
+        "Name": "Bohemian Villages",
+        "Rating": 6.76,
+        "Mechanics": "Drafting, Tile Placement, Turn Order: Progressive",
+        "Category": "Family"
+      }
+    ]
+  }
+]

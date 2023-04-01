@@ -1,0 +1,2524 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Creators>
+	<Creator>
+		<FirstName>Debra</FirstName>
+		<LastName>Edwards</LastName>
+		<Boardgames>
+			<Boardgame>
+				<Name>4 Gods</Name>
+				<Rating>7.28</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Hand Management, Set Collection, Simultaneous Action Selection, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>7 Steps</Name>
+				<Rating>7.01</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Queue, Hand Management, Push Your Luck, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Axis Empires: Dai Senso!</Name>
+				<Rating>6.82</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Cubeo</Name>
+				<Rating>7.22</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Retrieval, Contracts, Grid Movement, Modular Board, Pick-up and Deliver, Set Collection, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>DIG</Name>
+				<Rating>7.2</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Farrapos</Name>
+				<Rating>7.66</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Deck Bag and Pool Building, Hand Management, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Keyper</Name>
+				<Rating>6.63</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Kingdom Defenders</Name>
+				<Rating>7.52</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Deduction, Hexagon Grid, Modular Board, Pattern Recognition</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Kingdomino</Name>
+				<Rating>7.06</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Connections, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Kings Road</Name>
+				<Rating>7.48</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, End Game Bonuses, Memory, Set Collection, Simultaneous Action Selection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mini Rails</Name>
+				<Rating>7.68</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Drafting, End Game Bonuses, Hand Management, Tile Placement, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Roll for the Galaxy</Name>
+				<Rating>5.9</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Card Drafting, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Valletta</Name>
+				<Rating>8.36</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Enclosure, Modular Board, Tile Placement, Variable Player Powers</Mechanics>
+			</Boardgame>		
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Basil</FirstName>
+		<LastName>Johnston</LastName>
+		<Boardgames>
+			<Boardgame>
+				<Name>Campy Creatures</Name>
+				<Rating>7.79</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Area Movement, Deck Bag and Pool Building, Hand Management, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Cartagena</Name>
+				<Rating>7.27</Rating>
+				<YearPublished>2</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Modular Board, Set Collection, Team-Based Game, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Constantinopolis</Name>
+				<Rating>7.07</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Hand Management, Memory</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dale of Merchants 2</Name>
+				<Rating>7.09</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Points, Cooperative Game, Memory, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Imaginarium</Name>
+				<Rating>7.37</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Jäger und Späher</Name>
+				<Rating>7.85</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Drafting, Contracts, Dice Rolling, End Game Bonuses, Hand Management, Once-Per-Game Abilities, Set Collection, Variable Player Powers, Variable Set-up</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Kerosene</Name>
+				<Rating>8.49</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Auction/Bidding, Auction: Once Around, Closed Economy Auction</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Nightfall: Martial Law</Name>
+				<Rating>6.68</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Stock Holding, Trick-taking</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Odins Ravens (Second Edition)</Name>
+				<Rating>7.82</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Catch the Leader, Deck Bag and Pool Building, Dice Rolling, Push Your Luck, Variable Set-up</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Flow of History</Name>
+				<Rating>7.09</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Bias, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Grunwald Swords</Name>
+				<Rating>7.32</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Stacking and Balancing</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Venetia</Name>
+				<Rating>6.67</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement, Hand Management, Memory, Pattern Building, Simultaneous Action Selection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Vikings Gone Wild</Name>
+				<Rating>7.73</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Hand Management, Set Collection</Mechanics>
+			</Boardgame>	
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Vance</FirstName>
+		<LastName>Welch</LastName>
+		<Boardgames>
+			<Boardgame>
+				<Name>Burgoo</Name>
+				<Rating>8.05</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Capital Lux</Name>
+				<Rating>7.58</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Catan: Ancient Egypt</Name>
+				<Rating>7.87</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Deck Bag and Pool Building, Hand Management, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Core Worlds</Name>
+				<Rating>6.95</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Delve</Name>
+				<Rating>7.16</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Dice Rolling, Push Your Luck, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Far East War 1592</Name>
+				<Rating>7.61</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Queue, Card Drafting, Hand Management, Loans</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Guildhall</Name>
+				<Rating>7.25</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Chaining, Push Your Luck, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Halloween</Name>
+				<Rating>7.38</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Network and Route Building, Pick-up and Deliver, Stock Holding</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Ilôs</Name>
+				<Rating>7.3</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Matryoshka</Name>
+				<Rating>6.78</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Pattern Recognition</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pędzące Ślimaki</Name>
+				<Rating>7.42</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Drafting, End Game Bonuses, Modular Board, Pattern Building, Set Collection, Tile Placement, Turn Order: Claim Action</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Tak</Name>
+				<Rating>7.88</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Dice Rolling, Hexagon Grid, Map Addition, Modular Board, Variable Phase Order</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Yangtze</Name>
+				<Rating>7.32</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Deck Bag and Pool Building, Dice Rolling, Hand Management, Set Collection</Mechanics>
+			</Boardgame>		
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Tatum</FirstName>
+		<LastName>Hobbs</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>Byzantio</Name>
+        <Rating>5.63</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dark Empire: Revolution</Name>
+				<Rating>7.19</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Cooperative Game, Deduction, Dice Rolling, Die Icon Resolution, Grid Movement, Memory, Pattern Recognition, Square Grid, Team-Based Game</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Deus</Name>
+				<Rating>7.13</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Grid Movement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Escape Room: The Game</Name>
+				<Rating>7.68</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement, Slide/Push, Square Grid</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Frogriders</Name>
+				<Rating>6.71</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Modular Board, Pattern Building, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Imperial Struggle</Name>
+				<Rating>7.19</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Dice Rolling, Drafting, Set Collection, Simultaneous Action Selection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Nerdy Inventions</Name>
+				<Rating>7.1</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Hand Management, Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Oceanos</Name>
+				<Rating>6.06</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Push Your Luck, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Sentient</Name>
+				<Rating>7.14</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Deck Bag and Pool Building, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Fog of War</Name>
+				<Rating>9.65</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Grid Movement, Hand Management, Rock-Paper-Scissors, Time Track, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Viral</Name>
+				<Rating>9.69</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Dice Rolling, Player Elimination</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Warlords of Europe</Name>
+				<Rating>4.58</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Dice Rolling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Whistle Stop</Name>
+				<Rating>7.01</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Memory</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Craig</FirstName>
+		<LastName>Clayton</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>Bloodborne: The Card Game</Name>
+				<Rating>6.48</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Callisto</Name>
+				<Rating>7.42</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Set Collection, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Guilds of Cadwallon</Name>
+				<Rating>6.52</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Dice Rolling, Trading</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Hexemonia</Name>
+				<Rating>7.67</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>High Frontier</Name>
+				<Rating>6.47</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Cooperative Game, Pattern Recognition</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Honshū</Name>
+				<Rating>7.36</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Bingo, End Game Bonuses, Grid Coverage, Paper-and-Pencil, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pandemic: Reign of Cthulhu</Name>
+				<Rating>6.91</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Communication Limits, Cooperative Game</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>South China Sea</Name>
+				<Rating>8.19</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Drafting, Events, Point to Point Movement, Tech Trees / Tech Tracks, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Star Wars: Rebellion</Name>
+				<Rating>6.19</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Action Queue, Modular Board</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Test of Fire: Bull Run 1861</Name>
+				<Rating>7.32</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Card Drafting, Deck Bag and Pool Building, Grid Movement, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Arrival</Name>
+				<Rating>8.54</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Communication Limits, Cooperative Game, Grid Movement, Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Ticket to Ride: Rails and Sails</Name>
+				<Rating>7.61</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Drafting, Card Drafting, Follow, Increase Value of Unchosen Resources, Race, Turn Order: Claim Action, Variable Phase Order, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Tiki</Name>
+				<Rating>8.33</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Grid Movement, Once-Per-Game Abilities, Variable Player Powers</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Cole</FirstName>
+		<LastName>Soto</LastName>
+		<Boardgames>
+			<Boardgame>
+				<Name>1914: Serbien Muss Sterbien</Name>
+				<Rating>6.33</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Player Elimination</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Battle of Britain</Name>
+				<Rating>6.97</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>City of the Big Shoulders</Name>
+				<Rating>7.25</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Dice Rolling, Grid Movement, Hand Management, Modular Board, Network and Route Building, Sudden Death Ending, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Hamsterbacke</Name>
+				<Rating>6.56</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Hanabi</Name>
+				<Rating>6.57</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Memory</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Nonaga</Name>
+				<Rating>13.15</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Otys</Name>
+				<Rating>8.38</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Campaign / Battle Card Driven, Card Drafting, Point to Point Movement, Secret Unit Deployment, Simulation</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pandemic: Iberia</Name>
+				<Rating>8.1</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Queue, Action Retrieval, Area Majority / Influence, Area Movement, Dice Rolling, Hand Management, Point to Point Movement, Race, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Runewars Miniatures Game</Name>
+				<Rating>7.07</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Betting and Bluffing, Card Drafting, I Cut You Choose</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name></Name>
+				<Rating>7.08</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Hand Management, Map Addition, Melding and Splaying</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Mysterious Forest</Name>
+				<Rating>6.96</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Topito</Name>
+				<Rating>7.31</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Area Movement, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Topoum</Name>
+				<Rating>9.96</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Hexagon Grid</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Lenore</FirstName>
+		<LastName>Gamble</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>Adrenaline</Name>
+				<Rating>7.63</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Points, Area Majority / Influence, Hexagon Grid, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Batman: Gotham City Chronicles</Name>
+				<Rating>8.24</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Area Movement, Grid Movement, Hand Management, Team-Based Game, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Century: Spice Road</Name>
+				<Rating>7.63</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Flicking, Variable Player Powers, Voting</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dice Forge</Name>
+				<Rating>9.65</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Tile Placement, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name></Name>
+				<Rating>7.34</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Drafting, Square Grid, Tile Placement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Gettysburg</Name>
+				<Rating>7.08</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Communication Limits, Cooperative Game, Hand Management, Memory, Roles with Asymmetric Information, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Kero</Name>
+				<Rating>7.09</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Monkeyland</Name>
+				<Rating>6.69</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Dice Rolling, Roll / Spin and Move</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>RONE</Name>
+				<Rating>6.52</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Super Motherload</Name>
+				<Rating>6.7</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Cooperative Game, Hand Management, Memory</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Thunderstone: Starter Set</Name>
+				<Rating>7.15</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Card Drafting, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Tokyo Highway</Name>
+				<Rating>7.75</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Drafting, Commodity Speculation, Contracts, Market, Network and Route Building, Tile Placement, Turn Order: Claim Action</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name></Name>
+				<Rating>7.71</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Card Drafting, Hand Management, Set Collection</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Madaline</FirstName>
+		<LastName>Ward</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>Battle Scenes</Name>
+				<Rating>6.75</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Pattern Building, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>City of Iron: Second Edition</Name>
+				<Rating>7.14</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Enclosure, Hand Management, Push Your Luck, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Commands and Colors: Medieval</Name>
+				<Rating>7.34</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Queue, Communication Limits, Cooperative Game, Programmed Movement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Coney Island</Name>
+				<Rating>6.63</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Random Production</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Covert</Name>
+				<Rating>7.68</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Action Points, Grid Movement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Fairy Tile</Name>
+				<Rating>7.2</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Grid Movement, Hexagon Grid, Movement Points, Set Collection, Turn Order: Stat-Based</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Hunt for the Ring</Name>
+				<Rating>7.71</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Hand Management, Network and Route Building, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Inferno sugli Altipiani, 1916</Name>
+				<Rating>7.39</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Grid Coverage, Hexagon Grid, Modular Board, Set Collection, Tile Placement, Variable Set-up</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name></Name>
+				<Rating>5.7</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Memory</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Moscow 41</Name>
+				<Rating>7.18</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Modular Board, Set Collection, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Museum</Name>
+				<Rating>7.39</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement, Hand Management, Pattern Building, Player Elimination, Square Grid, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Napoleon Saga: Waterloo</Name>
+				<Rating>7.26</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Dice Rolling, Modular Board, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Temporum</Name>
+				<Rating>6.67</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Memory, Set Collection</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Ciara</FirstName>
+		<LastName>Mcintosh</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name></Name>
+				<Rating>6.35</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management, Set Collection, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Brass: Birmingham</Name>
+				<Rating>8.47</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Movement, Hand Management, Line of Sight, Take That, Team-Based Game, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Haven</Name>
+				<Rating>7.83</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Drafting, Pattern Building, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Imperial Stars II</Name>
+				<Rating>5.87</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Cooperative Game, Dice Rolling, Memory</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Kohle and Kolonie</Name>
+				<Rating>6.79</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Points, Area Majority / Influence, Card Drafting, Dice Rolling, Set Collection, Worker Placement, Worker Placement with Dice Workers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Leo</Name>
+				<Rating>6.37</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Storytelling, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Masques</Name>
+				<Rating>6.88</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Simulation</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Monster Slaughter</Name>
+				<Rating>7.95</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Constrained Bidding, Set Collection, Simultaneous Action Selection, Turn Order: Auction, Victory Points as a Resource</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Path of Light and Shadow</Name>
+				<Rating>8</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action/Event, Connections, Hand Management, Tug of War</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pax Renaissance</Name>
+				<Rating>7.71</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Hand Management, Hexagon Grid, Player Elimination, Team-Based Game, Tile Placement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pyramids</Name>
+				<Rating>7.64</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Hidden Victory Points, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Rise of Tribes</Name>
+				<Rating>6.71</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Sea of Clouds</Name>
+				<Rating>7.95</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Deck Bag and Pool Building, Grid Movement, Hand Management, Team-Based Game, Variable Player Powers</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Eaton</FirstName>
+		<LastName>Mcintyre</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>5-Minute Dungeon</Name>
+				<Rating>8.46</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Dice Rolling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Age of Industry</Name>
+				<Rating>5.89</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Set Collection, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Checkpoint Charlie</Name>
+				<Rating>7.54</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Action Drafting, Area Majority / Influence, Drafting, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>City of Spies: Estoril 1942</Name>
+				<Rating>6.77</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Network and Route Building, Stacking and Balancing</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Cosmogenesis</Name>
+				<Rating>8.52</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement, Memory</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Evolution: The Beginning</Name>
+				<Rating>7.05</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Grid Movement, Set Collection, Variable Phase Order</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Paperback</Name>
+				<Rating>7.28</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Communication Limits, Cooperative Game, Memory, Storytelling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Stalag 17</Name>
+				<Rating>5.61</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Expanse Board Game</Name>
+				<Rating>7.54</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Chaining, Set Collection, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Quest for El Dorado</Name>
+				<Rating>7.39</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Modular Board, Variable Player Powers, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>This War Without an Enemy</Name>
+				<Rating>7.18</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Dice Rolling, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Ulm</Name>
+				<Rating>7.59</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Dice Rolling, Random Production</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Victorian Masterminds</Name>
+				<Rating>7.08</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Card Drafting, Enclosure, Hand Management, Layering, Tile Placement</Mechanics>
+			</Boardgame>		
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Hope</FirstName>
+		<LastName>Horton</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>A Study in Emerald</Name>
+				<Rating>5.46</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Dice Rolling, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Bärenpark</Name>
+				<Rating>6.9</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Point to Point Movement, Team-Based Game, Time Track, Variable Player Powers, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Conejos en el Huerto</Name>
+				<Rating>7.8</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Hand Management, Race, Take That, Turn Order: Pass Order, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dokmus</Name>
+				<Rating>7.86</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Hand Management, Hexagon Grid, Hidden Victory Points, Highest-Lowest Scoring, Set Collection, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Evo (Second Edition)</Name>
+				<Rating>6.76</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Hannibal and Hamilcar</Name>
+				<Rating>8.28</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Alliances, Area Majority / Influence, Simulation, Take That, Trading, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Harry Potter: Hogwarts Battle</Name>
+				<Rating>7.5</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Movement, Pattern Building, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Imhotep</Name>
+				<Rating>7.12</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Cooperative Game, Pick-up and Deliver, Simultaneous Action Selection, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mystery Express</Name>
+				<Rating>6.42</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Dice Rolling, Hand Management, Simultaneous Action Selection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Ostroleka 26 maja 1831</Name>
+				<Rating>7.22</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Chaining, Connections, End Game Bonuses, Hexagon Grid, Network and Route Building, Score-and-Reset Game, Set Collection, Variable Set-up</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Star Wars: Destiny</Name>
+				<Rating>6.34</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Dice Rolling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Thunder in the East</Name>
+				<Rating>7.73</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hexagon Grid, Trading</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Vault Wars</Name>
+				<Rating>6</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Memory, Push Your Luck, Variable Player Powers</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Shaine</FirstName>
+		<LastName>Greer</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>Bloody Monday</Name>
+				<Rating>9.66</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Trick-taking</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Compounded</Name>
+				<Rating>6.71</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Auction/Bidding, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Cry Havoc</Name>
+				<Rating>6.58</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Points, Cooperative Game, Modular Board, Tile Placement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>DOOM: The Board Game</Name>
+				<Rating>6.76</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Roll / Spin and Move, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Fields of Green</Name>
+				<Rating>7.6</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Card Play Conflict Resolution, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Kanagawa</Name>
+				<Rating>7.69</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Dice Rolling, End Game Bonuses, Set Collection, Variable Set-up, Worker Placement with Dice Workers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Photosynthesis</Name>
+				<Rating>7.63</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Ownership, Turn Order: Claim Action, Turn Order: Pass Order, Variable Set-up, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Riverboat</Name>
+				<Rating>7.2</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Alliances, Area Majority / Influence, Area Movement, Auction: Sealed Bid, Card Play Conflict Resolution, Hexagon Grid, Kill Steal, Line Drawing, Player Elimination, Race, Tech Trees / Tech Tracks, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Sail to India</Name>
+				<Rating>5.88</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Hand Management, Simultaneous Action Selection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Sapiens</Name>
+				<Rating>7.46</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Commodity Speculation, Modular Board</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>TOP Kitchen</Name>
+				<Rating>7.1</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Legacy Game</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Trenchzone</Name>
+				<Rating>6.85</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Auction/Bidding, Memory, Point to Point Movement, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Yeti</Name>
+				<Rating>9.8</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement, Tile Placement</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Tiger</FirstName>
+		<LastName>Stafford</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>7 Wonders Duel</Name>
+				<Rating>6.53</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Auction/Bidding, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Calimala</Name>
+				<Rating>7.44</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Points, Set Collection, Tile Placement, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Lucky Numbers</Name>
+				<Rating>6.36</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Grid Movement, Roll / Spin and Move</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mountains of Madness</Name>
+				<Rating>7.49</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Points, Hand Management, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Near and Far</Name>
+				<Rating>6.93</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>No Retreat! The Russian Front</Name>
+				<Rating>6.91</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Tile Placement, Time Track, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Quilt Show</Name>
+				<Rating>7.01</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Queue, Dice Rolling, Player Elimination, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Railroad Revolution</Name>
+				<Rating>7.48</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Retrieval, Contracts, Increase Value of Unchosen Resources, Set Collection, Tile Placement, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Rajas of the Ganges</Name>
+				<Rating>7.12</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Deck Bag and Pool Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Spy Club</Name>
+				<Rating>8.49</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Points, Area Majority / Influence, Area Movement, Card Drafting, Card Play Conflict Resolution, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Oracle of Delphi</Name>
+				<Rating>6.1</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Enclosure, Modular Board</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Warsaw: City of Ruins</Name>
+				<Rating>8.48</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Retrieval, Area Majority / Influence, Grid Coverage, Square Grid</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Zany Penguins</Name>
+				<Rating>7.26</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Area Movement, Flicking, Take That</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Mia</FirstName>
+		<LastName>Short</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>A Handful of Stars</Name>
+				<Rating>8.66</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Hand Management, Income, Loans, Market, Network and Route Building, Score-and-Reset Game, Tech Trees / Tech Tracks, Turn Order: Stat-Based, Variable Set-up</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Blood Bowl (2016 Edition)</Name>
+				<Rating>6.73</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Points, Betting and Bluffing, Push Your Luck</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Eminent Domain</Name>
+				<Rating>7.72</Rating>
+				<YearPublished>2010</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Hand Management, Programmed Movement, Rock-Paper-Scissors, Simultaneous Action Selection, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Empires of the Void II</Name>
+				<Rating>7.65</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>End Game Bonuses, Income, Loans, Modular Board, Set Collection, Take That, Turn Order: Auction, Worker Placement with Dice Workers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Enchanters</Name>
+				<Rating>8.18</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Deck Bag and Pool Building, Hand Management, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Jórvík</Name>
+				<Rating>7.4</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Auction/Bidding, Auction: Turn Order Until Pass, Commodity Speculation, Market, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Loopin Chewie</Name>
+				<Rating>7.51</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Auction/Bidding, Stock Holding, Variable Player Powers, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Rising Sun</Name>
+				<Rating>7.03</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Deduction, Hidden Roles, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>T.I.M.E Stories</Name>
+				<Rating>7.15</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Card Drafting, Modular Board, Pattern Building, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Fox in the Forest</Name>
+				<Rating>7.7</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Area Movement, Dice Rolling, Increase Value of Unchosen Resources, Variable Player Powers, Victory Points as a Resource</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Urbanization</Name>
+				<Rating>6.96</Rating>
+				<YearPublished>2012</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Area Movement, Dice Rolling, Pick-up and Deliver, Team-Based Game, Trading</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Via Nebula</Name>
+				<Rating>7.1</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Memory, Pick-up and Deliver</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Regina</FirstName>
+		<LastName>Bailey</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>Button Up!</Name>
+				<Rating>7.45</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Catacombs (Third Edition)</Name>
+				<Rating>7.76</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Modular Board, Set Collection, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Flink</Name>
+				<Rating>7.25</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Set Collection, Trading</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Go Go Gelato!</Name>
+				<Rating>7.37</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Auction/Bidding, Modular Board, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Infamy</Name>
+				<Rating>7.52</Rating>
+				<YearPublished>2014</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Follow, Hand Management, Set Collection, Variable Phase Order</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Legendary Inventors</Name>
+				<Rating>7.17</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Hand Management, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Meeple Circus</Name>
+				<Rating>6.38</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mr. Jack Pocket</Name>
+				<Rating>6.94</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Pattern Building, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Neuschwabenland</Name>
+				<Rating>8.34</Rating>
+				<YearPublished>2016</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Deduction, Hand Management, Programmed Movement, Resource to Move, Rock-Paper-Scissors, Simultaneous Action Selection, Take That, Track Movement, Turn Order: Claim Action, Turn Order: Stat-Based, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Round House</Name>
+				<Rating>7.31</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Drafting, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Shipwreck Arcana</Name>
+				<Rating>7.29</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Cooperative Game, Hand Management, Trick-taking</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Tyrants of the Underdark</Name>
+				<Rating>6.9</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Cooperative Game, Grid Movement, Set Collection, Variable Player Powers</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Desirae</FirstName>
+		<LastName>Talley</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>10 to Kill</Name>
+				<Rating>7.83</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Card Drafting, End Game Bonuses, Pattern Building, Set Collection, Tile Placement, Turn Order: Claim Action</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Copper Country</Name>
+				<Rating>6.49</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Enclosure, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Fabled Fruit</Name>
+				<Rating>7.1</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Rondel, Set Collection, Tile Placement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Hypergrid</Name>
+				<Rating>8</Rating>
+				<YearPublished>2024</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Meduris: Der Ruf der Götter</Name>
+				<Rating>7.24</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Hand Management, Network and Route Building, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Outlive</Name>
+				<Rating>6.12</Rating>
+				<YearPublished>2025</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Roll / Spin and Move, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pandemic Legacy: Season 2</Name>
+				<Rating>6.89</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Grid Movement, Modular Board, Role Playing, Storytelling, Team-Based Game, Tile Placement, Traitor Game</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Planet Rush</Name>
+				<Rating>7.19</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Thunderstone Quest</Name>
+				<Rating>6.84</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Hand Management, Modular Board, Tile Placement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Totemo</Name>
+				<Rating>7.15</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Modular Board</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Wiener Walzer</Name>
+				<Rating>8.44</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management, Memory, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Zug um Zug: Deutschland</Name>
+				<Rating>6.35</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Dice Rolling, Pattern Building</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Cade</FirstName>
+		<LastName>O'Neill</LastName>
+		<Boardgames>
+			<Boardgame>
+				<Name>Blücher</Name>
+				<Rating>7.39</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement, Modular Board</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Bohnanza: The Duel</Name>
+				<Rating>7.32</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Pattern Building, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Great Western Trail</Name>
+				<Rating>6.92</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Cooperative Game, Hand Management, Real-Time, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Indulgence</Name>
+				<Rating>7.48</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Betting and Bluffing, Hidden Victory Points, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Kingsburg (Second Edition)</Name>
+				<Rating>7.52</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Deck Bag and Pool Building, Delayed Purchase, Hand Management, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Legacy: Gears of Time</Name>
+				<Rating>6.57</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Enclosure, Grid Movement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Lignum (Second Edition)</Name>
+				<Rating>7.27</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Acting, Elapsed Real Time Ending, Hidden Roles, Pattern Recognition, Role Playing, Storytelling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Risk Europe</Name>
+				<Rating>6.38</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Modular Board, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Soccer City</Name>
+				<Rating>6.68</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Grid Movement, Rock-Paper-Scissors</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Grimm Forest</Name>
+				<Rating>7.55</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Pattern Building, Set Collection, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Toscana</Name>
+				<Rating>5.97</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Memory, Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Whitehall Mystery</Name>
+				<Rating>6.72</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Dice Rolling, Paper-and-Pencil</Mechanics>
+			</Boardgame>		
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Belle</FirstName>
+		<LastName>Morales</LastName>
+		<Boardgames>
+			<Boardgame>
+				<Name>Bastogne: A Desperate Defense</Name>
+				<Rating>5.72</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Memory, Pattern Recognition</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Hellas</Name>
+				<Rating>6.8</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Paper-and-Pencil</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mise: Kolonizace</Name>
+				<Rating>7.52</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Dice Rolling, Follow, Set Collection, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>My First Stone Age</Name>
+				<Rating>7.89</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Cooperative Game, Dice Rolling, Legacy Game, Point to Point Movement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Terra Mystica</Name>
+				<Rating>6.33</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Roll / Spin and Move</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Palace of Mad King Ludwig</Name>
+				<Rating>7.39</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Simultaneous Action Selection, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Witcher Adventure Game</Name>
+				<Rating>6.85</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Area Majority / Influence, Hexagon Grid, Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Thunder and Lightning</Name>
+				<Rating>7.3</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management, Line Drawing, Measurement Movement, Secret Unit Deployment, Storytelling, Team-Based Game, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Warehouse 13: The Board Game</Name>
+				<Rating>7.3</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Waterloo: Enemy Mistakes</Name>
+				<Rating>7.21</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>0</CategoryType>
+				<Mechanics>Card Drafting, Pattern Building, Pattern Recognition, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Whats Up</Name>
+				<Rating>7.31</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Zagor: Odissea Americana</Name>
+				<Rating>6.72</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Contracts, Cooperative Game, Dice Rolling, Re-rolling and Locking, Variable Player Powers</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Erin</FirstName>
+		<LastName>Mckenzie</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>Cubist</Name>
+				<Rating>6.04</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Memory</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dwar7s Fall</Name>
+				<Rating>5.08</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Elements</Name>
+				<Rating>6.64</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Dice Rolling, Network and Route Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Forbidden Stars</Name>
+				<Rating>6.1</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mechs vs. Minions</Name>
+				<Rating>7.57</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Pattern Building, Set Collection, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Neuroshima: Convoy</Name>
+				<Rating>5.98</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Action Queue, Area Movement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Ni-Ju</Name>
+				<Rating>6.63</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Dice Rolling, Set Collection, Worker Placement with Dice Workers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pocket Ops</Name>
+				<Rating>7.14</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Follow, Network and Route Building, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Quartermaster General: 1914</Name>
+				<Rating>7.03</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Pattern Building, Set Collection, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Ticket to Ride: Germany</Name>
+				<Rating>7.4</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Deck Bag and Pool Building, Follow, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Twilight Squabble</Name>
+				<Rating>7.14</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Rock-Paper-Scissors, Set Collection, Simultaneous Action Selection, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Yokohama</Name>
+				<Rating>7.91</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Deck Bag and Pool Building</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Fuller</FirstName>
+		<LastName>Bridges</LastName>
+		<Boardgames>
+			<Boardgame>
+				<Name>Animals on Board</Name>
+				<Rating>7.18</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Dice Rolling, Push Your Luck, Set Collection, Take That, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Arnhem: The Farthest Bridge</Name>
+				<Rating>4.66</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Dice Rolling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Field of Glory: The Card Game</Name>
+				<Rating>6.26</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Cooperative Game, Roll / Spin and Move</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Gold Armada</Name>
+				<Rating>7.61</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Card Drafting, Hand Management, Network and Route Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mottainai</Name>
+				<Rating>6.66</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Physical Removal, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mystic Vale</Name>
+				<Rating>7.07</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Contracts, Pattern Building, Set Collection, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pioneer Days</Name>
+				<Rating>7.31</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Movement, Hand Management, Interrupts, Kill Steal, Secret Unit Deployment, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>POW!</Name>
+				<Rating>7.13</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Rondel, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Rhino Hero: Super Battle</Name>
+				<Rating>7.43</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Hobbit Card Game</Name>
+				<Rating>6.62</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management, Simultaneous Action Selection, Take That, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Topiary</Name>
+				<Rating>7.23</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Pattern Recognition</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Warhammer Quest: Silver Tower</Name>
+				<Rating>8.02</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Card Drafting, Point to Point Movement, Set Collection, Tech Trees / Tech Tracks</Mechanics>
+			</Boardgame>		
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Hop</FirstName>
+		<LastName>Griffin</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>1920 Wall Street</Name>
+				<Rating>7.79</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Auction/Bidding, Auction: Fixed Placement, Constrained Bidding, Income, Network and Route Building, Stock Holding, Turn Order: Claim Action, Turn Order: Progressive, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Bears vs Babies</Name>
+				<Rating>9.67</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Drafting, Grid Movement, Push Your Luck, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Clue Suspect</Name>
+				<Rating>6.52</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Auction/Bidding, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Harvest</Name>
+				<Rating>6.39</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Grid Movement, Hand Management, Hexagon Grid, Modular Board, Team-Based Game, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>HMS Dolores</Name>
+				<Rating>6.83</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management, Memory, Set Collection, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Jump Drive</Name>
+				<Rating>6.6</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Auction/Bidding, Hand Management, Simultaneous Action Selection, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Lorenzo il Magnifico</Name>
+				<Rating>6.84</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Movement, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Napoléon 1806</Name>
+				<Rating>7.26</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Mancala, Worker Placement, Worker Placement, Different Worker Types</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Robot Turtles</Name>
+				<Rating>6.13</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Dice Rolling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Sky Tango</Name>
+				<Rating>8.54</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Card Drafting, Force Commitment, Hand Management, I Cut You Choose</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Star Trek: Ascendancy</Name>
+				<Rating>7.17</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Modular Board, Set Collection, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Trambahn</Name>
+				<Rating>7.3</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>1</CategoryType>
+				<Mechanics>Dice Rolling, Modular Board, Tile Placement</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Carl</FirstName>
+		<LastName>Lowe</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>An Infamous Traffic</Name>
+				<Rating>6.9</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Android: Mainframe</Name>
+				<Rating>6.68</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Memory, Pattern Recognition</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Bullfrog Goldfield</Name>
+				<Rating>6.12</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Carcassonne: Amazonas</Name>
+				<Rating>6.24</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Pattern Building, Pattern Recognition, Set Collection, Tile Placement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dices Zoo</Name>
+				<Rating>6.6</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Betting and Bluffing, Memory, Player Elimination, Push Your Luck</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Hero Realms</Name>
+				<Rating>7.55</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Dice Rolling, Legacy Game, Scenario / Mission / Campaign Game, Worker Placement, Worker Placement with Dice Workers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Lotus</Name>
+				<Rating>8.34</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Modular Board, Set Collection, Tile Placement, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mini WWII</Name>
+				<Rating>7.7</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Hand Management, Hidden Victory Points, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pagoda</Name>
+				<Rating>6.18</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Push Your Luck</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Rival Kings</Name>
+				<Rating>6.77</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Memory, Push Your Luck</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Yamataï</Name>
+				<Rating>9.93</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Variable Player Powers, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Zena 1814</Name>
+				<Rating>7.29</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Tile Placement, Worker Placement</Mechanics>
+			</Boardgame>	
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Naida</FirstName>
+		<LastName>Herrera</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>7 Ronin</Name>
+				<Rating>5.52</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Deck Bag and Pool Building, Dice Rolling</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Alicematic Heroes</Name>
+				<Rating>7.37</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Rondel, Tile Placement, Time Track, Variable Set-up</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Armageddon</Name>
+				<Rating>7.1</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Points, Deck Bag and Pool Building, Drafting, End Game Bonuses, Grid Movement, Layering, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Fight for Olympus</Name>
+				<Rating>7.22</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management, Modular Board, Race, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Illimat</Name>
+				<Rating>9.78</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Deck Bag and Pool Building, Hand Management, Push Your Luck</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mea Culpa</Name>
+				<Rating>6.9</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Queue, Kill Steal, Point to Point Movement, Simultaneous Action Selection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Meeple War</Name>
+				<Rating>6.56</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Push Your Luck, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Myrmes</Name>
+				<Rating>6.27</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Nemesis: Burma 1944</Name>
+				<Rating>7.55</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Points, Area Majority / Influence, Dice Rolling, Follow, Hand Management, Modular Board, Pick-up and Deliver, Point to Point Movement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Nightfall</Name>
+				<Rating>6.73</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Hand Management, Race</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Southern Rails</Name>
+				<Rating>7.06</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Banishing</Name>
+				<Rating>7.7</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Bias, Card Drafting, Worker Placement</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Rowan</FirstName>
+		<LastName>Carney</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>Bohemian Villages</Name>
+				<Rating>6.76</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Drafting, Tile Placement, Turn Order: Progressive</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Cinco Linko</Name>
+				<Rating>7.16</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Drafting</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Costa Rica</Name>
+				<Rating>7.08</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Exceed Fighting System</Name>
+				<Rating>7.6</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Fugitive</Name>
+				<Rating>6.81</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Queue, Area Majority / Influence, Dice Rolling, Modular Board, Roll / Spin and Move, Tile Placement, Trading, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Gardens of Mars</Name>
+				<Rating>6.61</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Card Drafting, Hand Management, Player Elimination, Simultaneous Action Selection, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Gold West</Name>
+				<Rating>9.26</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Push Your Luck, Set Collection, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Incorporated</Name>
+				<Rating>6.52</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Khan of Khans</Name>
+				<Rating>8.02</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Commodity Speculation, Dice Rolling, Grid Movement, Market, Rondel, Set Collection, Tile Placement, Time Track</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Order of the Gilded Compass</Name>
+				<Rating>7.02</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Pick-up and Deliver, Point to Point Movement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Risk: Halo Legendary Edition</Name>
+				<Rating>6.01</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Dice Rolling, Push Your Luck</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Warhammer Age of Sigmar</Name>
+				<Rating>6.78</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Dice Rolling, Push Your Luck, Set Collection</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Yardley</FirstName>
+		<LastName></LastName>
+		<Boardgames>
+			<Boardgame>
+				<Name>Circle the Wagons</Name>
+				<Rating>7.73</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Timer, Cooperative Game, Modular Board, Real-Time, Variable Phase Order, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dead of Winter: The Long Night</Name>
+				<Rating>7.45</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Contracts</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Glüx</Name>
+				<Rating>7.18</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management, Pattern Building</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Godzilla: Stomp!</Name>
+				<Rating>6.43</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Habitats</Name>
+				<Rating>6.85</Rating>
+				<YearPublished>2021</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Movement, Dice Rolling, Team-Based Game</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Helios</Name>
+				<Rating>6.35</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Konflikt 47</Name>
+				<Rating>6.78</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Auction/Bidding, Auction: Turn Order Until Pass, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Paper Tales</Name>
+				<Rating>7.22</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Hand Management, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pinball Showdown</Name>
+				<Rating>7.58</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Card Drafting, Tile Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Siberia: The Card Game</Name>
+				<Rating>6.98</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Secret Unit Deployment, Simultaneous Action Selection, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Steam Time</Name>
+				<Rating>6.54</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Score-and-Reset Game</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Vindication</Name>
+				<Rating>7.87</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Bingo, Catch the Leader, Enclosure, Grid Coverage, Legacy Game, Scenario / Mission / Campaign Game, Tile Placement, Victory Points as a Resource</Mechanics>
+			</Boardgame>		
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName>Hop</FirstName>
+		<LastName>Key</LastName>
+		<Boardgames>	
+			<Boardgame>
+				<Name>Avec Infini Regret II</Name>
+				<Rating>7.24</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Area Majority / Influence, Card Drafting, Dice Rolling, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>BattleCON: War of Indines</Name>
+				<Rating>9.47</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Carcassonne: Star Wars</Name>
+				<Rating>5.52</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Action Points, Hand Management, Player Elimination, Set Collection, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dynasties: Heirate and Herrsche</Name>
+				<Rating>7.12</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management, Ladder Climbing, Single Loser Game, Trick-taking</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>La Isla</Name>
+				<Rating>6.04</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Hand Management, Hot Potato, Player Elimination, Push Your Luck, Set Collection, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Moa</Name>
+				<Rating>7.93</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Commodity Speculation, Ownership, Stock Holding, Tile Placement, Variable Player Powers, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Mole Rats in Space</Name>
+				<Rating>7.51</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Auction/Bidding, Auction: Sealed Bid, End Game Bonuses, Memory, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Oilfield</Name>
+				<Rating>8.14</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Queue, Area Majority / Influence, Card Drafting, Modular Board, Simultaneous Action Selection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Pixie Queen</Name>
+				<Rating>7.97</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Dice Rolling, Grid Movement, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Super Fantasy Brawl</Name>
+				<Rating>7.39</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Action Retrieval, Hand Management, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>The Cousins War</Name>
+				<Rating>7.32</Rating>
+				<YearPublished>2020</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Auction/Bidding, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Welcome Back to the Dungeon</Name>
+				<Rating>8.17</Rating>
+				<YearPublished>2022</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Campaign / Battle Card Driven, Card Drafting, Modular Board, Variable Player Powers</Mechanics>
+			</Boardgame>
+		</Boardgames>
+	</Creator>
+	<Creator>
+		<FirstName></FirstName>
+		<LastName>Bond</LastName>
+		<Boardgames>
+			<Boardgame>
+				<Name>Agamemnon</Name>
+				<Rating>7.01</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Card Drafting, Hand Management, Network and Route Building, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Alcatraz: The Scapegoat</Name>
+				<Rating>7.22</Rating>
+				<YearPublished>2011</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Communication Limits, Deduction, Grid Movement, Hand Management, Memory, Team-Based Game</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dominion (Second Edition)</Name>
+				<Rating>6.19</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Contracts, Dice Rolling, Paper-and-Pencil, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Dream Home</Name>
+				<Rating>7.59</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Grid Movement, Hexagon Grid, Mancala, Rondel, Variable Player Powers</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Element</Name>
+				<Rating>7.58</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Hand Management, Pick-up and Deliver, Worker Placement</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Fire Tower</Name>
+				<Rating>9.54</Rating>
+				<YearPublished>2023</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Area Majority / Influence, Hand Management</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Go Cuckoo!</Name>
+				<Rating>7.14</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>2</CategoryType>
+				<Mechanics>Hand Management, Set Collection</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Province</Name>
+				<Rating>6.22</Rating>
+				<YearPublished>2015</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Hand Management, Player Elimination, Push Your Luck, Set Collection, Take That</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Qwixx</Name>
+				<Rating>6.5</Rating>
+				<YearPublished>2013</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Variable Phase Order</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Tides of Madness</Name>
+				<Rating>7.88</Rating>
+				<YearPublished>2018</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Action Drafting, Alliances, Area Majority / Influence, Area Movement, Auction: Sealed Bid, Betting and Bluffing, Drafting, End Game Bonuses, Follow, Force Commitment, Negotiation, Set Collection, Simultaneous Action Selection, Take That, Variable Phase Order, Variable Player Powers, Variable Set-up</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Tumult Royale</Name>
+				<Rating>6.56</Rating>
+				<YearPublished>2017</YearPublished>
+				<CategoryType>3</CategoryType>
+				<Mechanics>Communication Limits, Cooperative Game, Dice Rolling, Grid Movement, Hand Management, Role Playing</Mechanics>
+			</Boardgame>
+			<Boardgame>
+				<Name>Unearth</Name>
+				<Rating>7.63</Rating>
+				<YearPublished>2019</YearPublished>
+				<CategoryType>4</CategoryType>
+				<Mechanics>Deck Bag and Pool Building, Dice Rolling, Drafting, Worker Placement, Worker Placement with Dice Workers</Mechanics>
+			</Boardgame>		
+		</Boardgames>
+	</Creator>
+</Creators> 

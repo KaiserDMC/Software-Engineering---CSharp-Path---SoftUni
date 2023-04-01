@@ -1,0 +1,481 @@
+[
+ {
+    "Name": "6am",
+    "Address": "The Netherlands",
+    "Country": "Belgium",
+		"Website": "www.6pm.com",
+    "Boardgames": [
+			1,
+			105,
+			1,
+			5,
+			15
+    ]
+  },
+  {
+    "Name": "Asurion, LLC",
+    "Address": "P.O. Box 234,  38-54",
+    "Country": "Belgium",
+		"Website": "www.asurion-llc.com",
+    "Boardgames": [
+			1,
+			85,
+			81,
+			80,
+			5,
+			9
+    ]
+  },
+  {
+    "Name": "Bedsure",
+    "Address": "P.O. Box 601, 685",
+    "Country": "United States",
+		"Website": "www.bedsure.com",
+    "Boardgames": [
+			3,
+			9,
+			15,
+			5,
+			11,
+			10,
+			5,
+			5
+    ]
+  },
+  {
+    "Name": "Book Depository US",
+    "Address": "4722 Enim. Rd., 9745",
+    "Country": "United States",
+		"Website": "www.bookdepositoryus.com",
+    "Boardgames": [
+			100,
+			64,
+			89,
+			95
+    ]
+  },
+  {
+    "Name": "Carlyle",
+    "Address": "",
+    "Country": "United States",
+		"Website": "www.carlyle.com",
+    "Boardgames": [
+			54,
+			59,
+			49,
+			48,
+			59,
+			58,
+			53,
+			53,
+			46,
+			46,
+			54,
+			56,
+			55,
+			54,
+			47
+    ]
+  },
+  {
+    "Name": "",
+    "Address": "1885 Commodo Av.,  14010-00111",
+    "Country": "France",
+		"Website": "www.commoncentsdistributors.com",
+    "Boardgames": [
+			3,
+			20,
+			41,
+			4,
+			79,
+			28,
+			72,
+			89,
+			31,
+			83,
+			8,
+			15,
+			38,
+			83,
+			56,
+			71,
+			95
+    ]
+  },
+  {
+    "Name": "EPFamily Direct",
+    "Address": "6620 Donec St., 12893",
+    "Country": "France",
+	  "Website": "www.epfamily direct.com",
+    "Boardgames": [
+			100,
+			66,
+			78,
+			95,
+			41,
+			98,
+			55,
+			100
+    ]
+  },
+  {
+    "Name": "eSupplements",
+    "Address": "8401 Cras Rd.,  1852-6795",
+    "Country": "United Kingdom",
+	  "Website": "www.esupplements.com",
+    "Boardgames": [
+			1,
+			8,
+			9,
+			2,
+			14,
+			9,
+			3,
+			14,
+			6,
+			14,
+			6,
+			5,
+			2,
+			1
+    ]
+  },
+  {
+    "Name": "Fintie",
+    "Address": "8158 In, 2016",
+    "Country": "",
+	  "Website": "www.fintie.com",
+    "Boardgames": [
+			10,
+			2,
+			7,
+			6,
+			4,
+			4,
+			12,
+			5,
+			11
+    ]
+  },
+  {
+    "Name": "Galactic Shop",
+    "Address": "579-9592 Massa. Av.,  78-12",
+    "Country": "United Kingdom",
+	  "Website": "www.galacticshop.com",
+    "Boardgames": [
+			78,
+			62,
+			72,
+			64,
+			72,
+			80,
+			66,
+			63,
+			63,
+			60,
+			61,
+			76
+    ]
+  },
+  {
+    "Name": "",
+    "Address": "P.O. Box 226, 48856",
+    "Country": "",
+		"Website": "www.glenthebookseller.com",
+    "Boardgames": [
+			39,
+			35,
+			43,
+			38,
+			40,
+			32,
+			35,
+			36,
+			43,
+			40,
+			34,
+			37,
+			31,
+			38,
+			34
+    ]
+  },
+  {
+    "Name": "GORILLA COMMERCE",
+    "Address": "Ap #330-4046 Rutrum St., 15138",
+    "Country": "United States",
+		"Website": "www.gorilla commerce.com",
+    "Boardgames": [
+			96,
+			11,
+			74,
+			73,
+			8,
+			90
+    ]
+  },
+  {
+    "Name": "Hey Dude Official",
+    "Address": "2062 Sit St.,  67-662",
+    "Country": "United States",
+		"Website": "www.heydudeofficial.com",
+    "Boardgames": [
+			75,
+			23,
+			44,
+			56,
+			33,
+			4,
+			96,
+			7
+    ]
+  },
+  {
+    "Name": "HLmedical",
+    "Address": "997-1119 Et Street, 99636",
+    "Country": "United States",
+		"Website": "",
+    "Boardgames": [
+			28,
+			27,
+			27,
+			26,
+			26,
+			19
+    ]
+  },
+  {
+    "Name": "Hour Loop",
+    "Address": "Ap #479-8106 Est St.,  61832-815",
+    "Country": "Ireland",
+		"Website": "www.hour loop.com",
+    "Boardgames": [
+			100,
+			55,
+			42,
+			66,
+			51,
+			70,
+			88,
+			100
+    ]
+  },
+  {
+    "Name": "JE Products US",
+    "Address": "2689 Duis Avenue, 72421",
+    "Country": "the Netherlands",
+		"Website": "www.jeproductsus.com",
+    "Boardgames": [
+			73,
+			60,
+			69,
+			52,
+			46,
+			76
+    ]
+  },
+  {
+    "Name": "LiCB",
+    "Address": "847-7755 Vestibulum St., 21102",
+    "Country": "Norway",
+		"Website": "www.licb.com",
+    "Boardgames": [
+			5,
+			38,
+			18,
+			89,
+			2,
+			31,
+			43,
+			63,
+			2
+    ]
+  },
+  {
+    "Name": "Lume Deodorant LLC",
+    "Address": "",
+    "Country": "Norway",
+		"Website": "www.lume deodorant llc.com",
+    "Boardgames": [
+			77,
+			64,
+			91,
+			39,
+			11,
+			42,
+			55,
+			83,
+			14,
+			34,
+			65
+    ]
+  },
+  {
+    "Name": "LY Berditchev Co.",
+    "Address": "Ap #211-1984 Nulla Av.,  22414-119",
+    "Country": "Norway",
+		"Website": "www.lyberditchevco..com",
+    "Boardgames": [
+			21,
+			20,
+			22,
+			7,
+			32,
+			9,
+			40,
+			45,
+			63,
+			19
+    ]
+  },
+  {
+    "Name": "Mr. Medical",
+    "Address": "Ap #527-9909 Ullamcorper, 30154",
+    "Country": "Norway",
+		"Website": "www.mrmedical.com",
+    "Boardgames": [
+			5,
+			50,
+			75,
+			20,
+			41,
+			12,
+			18,
+			20,
+			83
+    ]
+  },
+  {
+    "Name": "Mr. Pen",
+    "Address": "473-8232 Mattis Avenue, 50545",
+    "Country": "Norway",
+		"Website": "www.mrpen.com",
+    "Boardgames": [
+			6,
+			90,
+			75,
+			85,
+			80
+    ]
+  },
+  {
+    "Name": "MYBATTERYSUPPLIER",
+    "Address": "Ap #624-3901 Non,  67-662",
+    "Country": "United States",
+		"Website": "www.mybatterysupplier.com",
+    "Boardgames": [
+			2,
+			57,
+			84,
+			67,
+			68
+    ]
+  },
+  {
+    "Name": "Orva Stores",
+    "Address": "Ap #496-3968 Nibh. Av., 16671",
+    "Country": "United States",
+		"Website": "www.orva stores.com",
+    "Boardgames": [
+			76,
+			59,
+			66,
+			10,
+			92,
+			73,
+			73,
+			93,
+			98,
+			96
+    ]
+  },
+  {
+    "Name": "OxKom",
+    "Address": "989-4640 Blandit St., 66848",
+    "Country": "",
+		"Website": "www.oxkom.com",
+    "Boardgames": [
+			10,
+			5,
+			5,
+			8,
+			3,
+			4,
+			12,
+			3,
+			10
+    ]
+  },
+  {
+    "Name": "Pattern.",
+    "Address": "Ap #905-2113 Nibh. Rd., 26622",
+    "Country": "Poland",
+		"Website": "www.pattern..com",
+    "Boardgames": [
+			95,
+			94,
+			73,
+			91
+    ]
+  },
+  {
+    "Name": "",
+    "Address": "142-9837 Tortor Av.,  1157-3790",
+    "Country": "Poland",
+		"Website": "www.petco.com",
+    "Boardgames": [
+			18,
+			23,
+			29,
+			16,
+			17,
+			21,
+			30
+    ]
+  },
+  {
+    "Name": "recommerce",
+    "Address": "685 Non Rd.,  53880-04637",
+    "Country": "Poland",
+		"Website": "www.recommerce.com",
+    "Boardgames": [
+			3,
+			38,
+			86,
+			14,
+			52,
+			82,
+			24,
+			25
+    ]
+  },
+  {
+    "Name": "River Colony Trading",
+    "Address": "Ap #344-2877 Dolor. Rd., 27295",
+    "Country": "Germany",
+		"Website": "www.river colony trading.com",
+    "Boardgames": [
+			85,
+			85,
+			82,
+			52,
+			55,
+			91,
+			84
+    ]
+  },
+  {
+    "Name": "Spigen Inc",
+    "Address": "P.O. Box 423, 275214",
+    "Country": "Germany",
+		"Website": "www.spigeninc.com",
+    "Boardgames": [
+			75,
+			94,
+			75,
+			11,
+			13,
+			82
+    ]
+  }
+]
