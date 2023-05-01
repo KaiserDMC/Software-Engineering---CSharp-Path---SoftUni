@@ -34,6 +34,7 @@ Includes repos from the following Open courses (these courses are taken in order
 |   08. | [ASP.NET Fundamentals Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)| [ASP.NET Fundamentals Certificate]()
 |   09. | [ASP.NET Advanced Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)	  | [ASP.NET Advanced Certificate]()
 
+
 | Index | Open Courses Curriculum																				  | Additional Certification (140 credits)
 |------:|:--------------------------------------------------------------------------------------------------------|
 |   12. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)| [WSA Certificate]()
