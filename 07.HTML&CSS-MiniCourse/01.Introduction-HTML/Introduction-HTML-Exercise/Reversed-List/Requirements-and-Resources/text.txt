@@ -1,0 +1,6 @@
+Reversed List
+Grocery List
+Beverages: juice, coffee, soda, water
+Snacks: chips, cookies, popcorn, nuts
+Produce: apples, bananas, melons
+Dairy: milk, eggs, cheese

@@ -12,7 +12,15 @@ Includes repos from the following courses:
   * OOP (October 2022)
 * CSharp - DB
   * MS SQL (January 2023)
-  * Entity Framework Core
+  * Entity Framework Core (February 2023)
+* CSharp - Web
+  * HTML&CSS - Mini Course (April 2023)
+  * ASP.NET - Fundamentals (May 2023)
+  * ASP.NET - Advanced (June 2023)
+  
+Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "Web Developer" certification):  
+* Windows System Administration (April 2023)
+* Linux System Administration (June 2023)
 
 | Index | Course Curriculum                                                                                       | Certificate
 |------:|:--------------------------------------------------------------------------------------------------------| :---
@@ -22,5 +30,9 @@ Includes repos from the following courses:
 |   04. | [C# OOP Curriculum](https://softuni.bg/trainings/3843/csharp-oop-october-2022)                          | [C# OOP Certificate](https://softuni.bg/certificates/details/150719/53829fbc)
 |   05. | [MS SQL Curriculum](https://softuni.bg/trainings/3965/ms-sql-january-2023)                              | [MS SQL Certificate](https://softuni.bg/certificates/details/157832/0c96a1b9)
 |   06. | [EF-Core Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)			  | [EF-Core Certificate](https://softuni.bg/certificates/details/164861/ef7326ac)
-|   07. | [ASP.NET Fundamentals Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)| [ASP.NET Fundamentals Certificate]()
-|   08. | [ASP.NET Advanced Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)	  | [ASP.NET Advanced Certificate]()
+|   07. | [HTML & CSS Mini Course Curriculum](https://softuni.bg/trainings/2286/html-css-mini-course)			  | [Noncertifiable]()
+|   08. | [ASP.NET Fundamentals Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)| [ASP.NET Fundamentals Certificate]()
+|   09. | [ASP.NET Advanced Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)	  | [ASP.NET Advanced Certificate]()
+|       | Open Courses Curriculum																				  | Additional Certification (140 credits)
+|   12. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)| [WSA Certificate]()
+|   13. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)  | [LSA Certificate]()

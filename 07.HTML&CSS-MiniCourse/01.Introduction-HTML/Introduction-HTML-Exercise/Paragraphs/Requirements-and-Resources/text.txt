@@ -1,0 +1,7 @@
+Paragraphs
+Principles For Clean HTML Code
+Beautiful and clean HTML is the foundation of a beautiful website. When I teach people about CSS, I always begin by telling them that good CSS can only exist with equally good HTML markup. A house is only as strong as its foundation, right? The advantages of clean, semantic HTML are many, yet so many websites suffer from poorly written markup.
+Strict DOCTYPE. If we are going to do this, let’s just do it right. No need for a discussion about whether to use HTML 4.01 or XHTML 1.0: both of them offer a strict version that will keep us nice and honest as we write our code.
+Character set & encoding characters. In our <head> section, the very first thing should be the declaration of our character set. We’re using UTF-8 here, which is swell, but it’s listed after our <title>. Let’s go ahead and move it up so that the browser knows what character set it’s dealing with before it starts reading any content at all.
+The next time you write HTML, be it a small chunk in a huge website, or the beginning of a fresh new project, just do what you can to make it right.
+The interwebs will love you!

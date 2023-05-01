@@ -1,0 +1,36 @@
+Table
+Daily Steps
+Name
+Number
+Distance
+Total
+
+Suzie Q.
+134
+0.5 m
+67.0 m
+
+Jim D.
+121
+0.8 m
+96.8 m
+
+John P.
+Absent
+
+Frank L.
+218
+0.6 m
+130.8 m
+
+Sally B.
+243
+0.4 m
+97.2 m
+
+Susan F.
+350
+140.0 m
+
+Group Total:
+671.8 m

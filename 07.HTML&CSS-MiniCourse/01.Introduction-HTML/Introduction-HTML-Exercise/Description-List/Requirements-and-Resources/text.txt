@@ -1,0 +1,8 @@
+Description List
+Languages
+HTML
+Is a markup language
+Java
+Is a programming language and platform
+JavaScript
+Is a scripting language
