@@ -1,0 +1,20 @@
+﻿body {
+    font-family: "Helvetica", 
+                 sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 60%;
+    margin: 80px auto;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+header p {
+    font-style: italic;
+}
