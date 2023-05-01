@@ -17,10 +17,7 @@ Includes repos from the following courses:
   * HTML&CSS - Mini Course (April 2023)
   * ASP.NET - Fundamentals (May 2023)
   * ASP.NET - Advanced (June 2023)
-  
-Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "Web Developer" certification):  
-* Windows System Administration (April 2023)
-* Linux System Administration (June 2023)
+
 
 | Index | Course Curriculum                                                                                       | Certificate
 |------:|:--------------------------------------------------------------------------------------------------------| :---
@@ -35,6 +32,10 @@ Includes repos from the following Open courses (these courses are taken in order
 |   09. | [ASP.NET Advanced Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)	  | [ASP.NET Advanced Certificate]()
 
 ---
+
+Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "Web Developer" certification):  
+* Windows System Administration (April 2023)
+* Linux System Administration (June 2023)
 
 | Index | Open Courses Curriculum																				  | Additional Certification (140 credits)
 |------:|:--------------------------------------------------------------------------------------------------------| :---
