@@ -1,0 +1,22 @@
+﻿body {
+    background: white;
+    font-family: "Helvetica", sans-serif;
+
+}
+
+div {
+    background: #e6e5e5;
+    width: 50%;
+    margin: 15px auto;
+    padding: 30px;
+}
+
+h3 {
+    color: #235f88;
+    text-align: center;
+}
+
+li {
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+}

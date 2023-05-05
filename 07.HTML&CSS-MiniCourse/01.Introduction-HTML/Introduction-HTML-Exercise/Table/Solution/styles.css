@@ -1,0 +1,17 @@
+﻿body {
+    font-family: "Helvetica", sans-serif;
+}
+thead {
+	font-weight: bold;
+	text-align: center;
+}
+
+table, td, th {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+td {
+	text-align: right;
+}
