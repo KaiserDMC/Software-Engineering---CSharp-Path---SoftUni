@@ -86,7 +86,6 @@ section.right input {
 
 section.right div input[type="submit"] {
     color: white;
-    text-transform: capitalize;
     background: rgb(56, 8, 42);
     border-radius: 5px;
     width: 56%;
