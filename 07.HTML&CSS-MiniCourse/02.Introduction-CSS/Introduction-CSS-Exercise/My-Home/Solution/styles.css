@@ -20,16 +20,14 @@ header h2 {
     margin-bottom: 15px;
 }
 
-header article p {
-    color: #6e6e6e;
+header article {
+    width: 30%;
+	border-left: 2px solid #656565;
+    padding-left: 20px;
 }
 
-header article {
-    border-width: 2px;
-    border-style: solid;
-    border-color: #656565;
-    width: 30%;
-    padding-left: 20px;
+header article p {
+    color: #6e6e6e;
 }
 
 main {
@@ -39,17 +37,17 @@ main {
     justify-content: space-between;
 }
 
-main p {
-    margin: 0;
-}
-
 main article {
     width: 30%;
     padding: 0 24px 0 0;
     font-size: 15px;
 }
 
-main article img {
+main p {
+    margin: 0;
+}
+
+img {
     width: 20em;
     height: 13em;
 }

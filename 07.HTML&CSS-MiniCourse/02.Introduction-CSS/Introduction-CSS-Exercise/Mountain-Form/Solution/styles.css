@@ -1,0 +1,105 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 46%;
+    height: 415px;
+    margin: 5rem auto;
+    border-radius: 5px;
+}
+
+section.left {
+    background: linear-gradient(rgba(119, 162, 241, 0.6), rgba(56, 8, 42, 0.6)), url("../Requirements-and-Resources/Images/peak.jpg");
+    background-size: cover;
+    color: white;
+    width: 60%;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+section.left h1 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 1.3rem 0;
+}
+
+section.left p {
+    font-style: italic;
+    padding-top: 17rem;
+}
+
+section.left i {
+    color: #d3d3d3;
+    padding-top: 0.5rem;
+}
+
+section.right {
+    width: 43%;
+    border: 3px solid #38082A;
+    border-radius: 0 10px 10px 0;
+    padding: 5rem 2rem 0 5rem;
+}
+
+section.right label {
+    color: rgb(218, 217, 220);
+    font-size: 13px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+section.right input {
+    color: rgb(118, 115, 115);
+    border: none;
+    border-bottom: 1px solid #767373;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 0.8rem;
+}
+
+#password, #repeat-password {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*section.right div button {
+    color: white;
+    text-transform: capitalize;
+    background: #38082A;
+    border-radius: 5px;
+    width: 56%;
+    font-size: 14px;
+    padding: 0.5rem 0.6rem;
+    margin-top: 1rem;
+}*/
+
+section.right div input[type="submit"] {
+    color: white;
+    text-transform: capitalize;
+    background: rgb(56, 8, 42);
+    border-radius: 5px;
+    width: 56%;
+    font-size: 14px;
+    padding: 0.5rem 0.6rem;
+    margin-top: 1rem;
+}
+
+section.right div p {
+    display: inline;
+}
+
+section.right div p a {
+    color: #38082A;
+    text-decoration: none;
+}
