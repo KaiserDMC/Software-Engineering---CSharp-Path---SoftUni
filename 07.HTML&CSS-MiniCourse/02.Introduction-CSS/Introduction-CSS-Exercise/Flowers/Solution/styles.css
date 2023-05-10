@@ -1,0 +1,154 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    background: rgb(214, 116, 114);
+    margin: 0 auto;
+}
+
+/*Header and navigation*/
+nav {
+    background: white;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:not(last-child) {
+    padding-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(214, 116, 114);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Main section*/
+.backgroundpicture {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../Requirements-and-Resources/Images/header-flower.png");
+    background-size: cover;
+}
+
+main section:nth-child(1) article h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 200px 10px 20px 0;
+}
+
+hr {
+    width: 60px;
+    height: 2px;
+    background: rgb(214, 116, 114);
+    border: none;
+    margin: 0 auto;
+}
+
+section:nth-child(1) article:nth-child(1) p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px 0 200px 0;
+}
+
+section:nth-child(1) article h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+section:nth-child(1) article:nth-child(2) hr {
+    background: white;
+}
+
+section:nth-child(1) article:nth-child(2) p {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 20px 0 30px 0;
+}
+
+button {
+    color: rgb(214, 116, 114);
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin-left: 46%;
+    margin-bottom: 20px; 
+}
+
+section:nth-child(2) article {
+    text-align: center;
+    background: white;
+    padding: 50px 0;
+}
+
+section:nth-child(2) article h1 {
+    color: black;
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+section:nth-child(2) article hr {
+    margin-bottom: 20px;
+}
+
+section:nth-child(2) article li {
+    display: inline-block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+section:nth-child(2) article li:not(:last-child) {
+    padding-right: 45px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.design, .schedule, .enjoy {
+    width: 300px;
+}
+
+.design div h3, .schedule div h3, .enjoy div h3{
+    font-size: 16px;
+    
+}
+
+.design div p, .schedule div p, .enjoy div p {
+    color: #617289;
+    padding: 10px 0 10px 0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+}
