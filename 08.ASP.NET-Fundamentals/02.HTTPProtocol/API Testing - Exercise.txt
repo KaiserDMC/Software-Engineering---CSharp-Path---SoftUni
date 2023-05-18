@@ -1,0 +1,58 @@
+// API Testing - Exercise (Postman)
+
+// Retrieve All Issues from Repo
+GET https://api.github.com/repos/testnakov/test-nakov-repo/issues
+
+//Retrieve All Issues from Repo page 3
+GET https://api.github.com/repos/testnakov/test-nakov-repo/issues?page=3
+
+//Retrieve Issue by Number - Specific Issue
+GET https://api.github.com/repos/testnakov/test-nakov-repo/issues/1
+
+//Create a New Issue
+POST https://api.github.com/repos/testnakov/test-nakov-repo/issues
+BODY
+{
+    "title": "Missing [Submit] button - Postman Test",
+    "body": "I'm having a problem with this. - This is just a test"
+}
+
+//Edit Existing Issue
+PATCH https://api.github.com/repos/testnakov/test-nakov-repo/issues/4353
+BODY
+{
+    "title": "Edited bug - Postman Test"
+}
+
+//Close Existing Issue
+PATCH https://api.github.com/repos/testnakov/test-nakov-repo/issues/4353
+BODY
+{
+    "state": "closed"
+}
+
+//Retrieve All Labels for Issue
+GET https://api.github.com/repos/testnakov/test-nakov-repo/issues/6/labels
+
+//Create a Comment for Issue
+POST https://api.github.com/repos/testnakov/test-nakov-repo/issues/4354/comments
+BODY
+{
+    "body": "Test - adding a new comment"
+}
+
+//Retrieve All Comments for Issue
+GET https://api.github.com/repos/testnakov/test-nakov-repo/issues/4354/comments
+
+//Retrieve Comment by Id
+GET https://api.github.com/repos/testnakov/test-nakov-repo/issues/comments/1552980692
+
+//Edit Existing Comment
+POST https://api.github.com/repos/testnakov/test-nakov-repo/issues/comments/1552980692
+BODY
+{
+    "body": "Editing comment - postman test"
+}
+
+//Delete Existing Comment
+DELETE https://api.github.com/repos/testnakov/test-nakov-repo/issues/comments/1552980692
