@@ -34,10 +34,10 @@ Includes repos from the following courses:
 ---
 
 Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "Web Developer" certification):  
-* Windows System Administration (April 2023)
+* Windows System Administration (March 2023)
 * Linux System Administration (June 2023)
 
 | Index | Open Courses Curriculum																				  | Additional Certification (140 credits)
 |------:|:--------------------------------------------------------------------------------------------------------| :---
-|   12. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)| [WSA Certificate]()
+|   12. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)| [WSA Certificate](https://softuni.bg/certificates/details/171863/406d88db)
 |   13. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)  | [LSA Certificate]()
