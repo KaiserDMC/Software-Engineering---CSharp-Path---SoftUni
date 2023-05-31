@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MVCIntroDemo.Models;
+﻿using ChatApp.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace MVCIntroDemo.Controllers
+namespace ChatApp.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,35 +15,11 @@ namespace MVCIntroDemo.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Message = "Hello World! -> View Bag";
-            ViewData["World"] = "Hello World!  -> ViewData";
-
             return View();
         }
 
         public IActionResult Privacy()
         {
-            return View();
-        }
-
-        public IActionResult Numbers()
-        {
-            return View();
-        }
-
-        [HttpGet]
-        public IActionResult NumbersToN()
-        {
-            ViewBag.Count = -1;
-
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult NumbersToN(int n = -1)
-        {
-            ViewBag.Count = n;
-
             return View();
         }
 

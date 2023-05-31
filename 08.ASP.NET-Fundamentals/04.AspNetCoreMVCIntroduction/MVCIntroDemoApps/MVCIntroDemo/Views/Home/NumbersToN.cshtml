@@ -1,0 +1,37 @@
+﻿@{
+    int n = ViewBag.Count;
+
+    if (n > 0)
+    {
+        ViewBag.Title = "Nums 1 ... " + n;
+    }
+    else
+    {
+        ViewBag.Title = "Nums 1 ... N";
+    }
+}
+
+<h2>@ViewBag.Title</h2>
+
+@if (n > 0)
+{
+    <ul class="list-group">
+        @{
+            for (int i = 1; i <= n; i++)
+            {
+                <li class="list-group-item">@i</li>
+            }
+        }
+    </ul>
+}
+
+<form asp-controller="Home" asp-action="NumbersToN" method="post">
+    <div class="row">
+        <div class="col-2">
+            <input class="form-control" type="number" min="0" step="1" name="n"/>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</form>
