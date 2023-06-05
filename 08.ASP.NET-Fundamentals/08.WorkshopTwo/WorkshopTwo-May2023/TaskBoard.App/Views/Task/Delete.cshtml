@@ -1,0 +1,23 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model TaskBoard.App.Models.Task.TaskViewModel
+
+@{
+    ViewData["Title"] = "Delete Task";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<form asp-action="Delete">
+    <div class="d-flex justify-content-center">
+        <div class="card " style="width: 50rem;">
+            <div class="card-body">
+                <h3 class="card-title text-center">@Model.Title</h3>
+                <p class="card-text"><span class="fw-bold">Description: </span>@Model.Description</p>
+            </div>
+            <div class="mb-3 d-flex justify-content-center">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+            </div>
+        </div>
+    </div>
+</form>
