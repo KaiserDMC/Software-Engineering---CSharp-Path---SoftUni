@@ -63,7 +63,7 @@ namespace TaskBoard.App.Data.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed",  "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "test-user-id-guid", 0, "e3d9e4a4-69a2-418b-b289-8c6f196342bf", "test@softuni.bg", false, false, null, "TEST@SOFTUNI.BG", "AQAAAAEAACcQAAAAEL66De7/uROhek01Z7g26vSzei10XWIiJICX9mvs0UjRkr2bHAZZvUj0Lcah3eoUHw==", null, false, "2f11cc4a-9ac8-46dd-b69c-3b5ee6f84e7f", false, "test@softuni.bg" });
+                values: new object[] { "test-user-id-guid", 0, "3b99da7b-1439-42bf-975a-0809e95935d5", "test@softuni.bg", false, null, null, "TEST@SOFTUNI.BG", "AQAAAAEAACcQAAAAEHmA31CU0EXwa/S8NPuQBh0pTSYGPq7IM4cRPqgu37nXjJH/zbEl8AbVX1jmNgTuog==", null, false, "8f8ffde5-2be3-45c7-b73d-2323cf0c9f7e", false, "test@softuni.bg" });
 
 
             migrationBuilder.InsertData(
