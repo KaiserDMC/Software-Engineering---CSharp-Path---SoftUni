@@ -78,13 +78,13 @@ public class ContactsController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> AddToTeam(int id)
+    public async Task<IActionResult> AddToTeam(int contactId)
     {
         string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
         try
         {
-            await _service.AddContactToTeam(userId, id);
+            await _service.AddContactToTeam(userId, contactId);
         }
         catch
         {
@@ -104,13 +104,13 @@ public class ContactsController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> RemoveFromTeam(int id)
+    public async Task<IActionResult> RemoveFromTeam(int contactId)
     {
         string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
         try
         {
-            await _service.DeleteContactFromTeam(userId, id);
+            await _service.DeleteContactFromTeam(userId, contactId);
         }
         catch
         {

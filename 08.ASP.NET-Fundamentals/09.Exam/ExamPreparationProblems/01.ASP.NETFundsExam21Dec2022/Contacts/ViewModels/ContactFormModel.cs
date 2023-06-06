@@ -5,6 +5,8 @@ using static Data.DataConstants.Contact;
 
 public class ContactFormModel
 {
+    public int Id { get; set; }
+
     [Required]
     [StringLength(FirstNameLengthMax, MinimumLength = FirstNameLengthMin)]
     [Display(Name = "First Name")]

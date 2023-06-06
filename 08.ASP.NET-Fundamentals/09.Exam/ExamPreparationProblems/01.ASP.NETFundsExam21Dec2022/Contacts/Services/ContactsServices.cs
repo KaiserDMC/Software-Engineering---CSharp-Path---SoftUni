@@ -21,6 +21,7 @@ public class ContactsServices : IContractsService
         var contacts = await _data.Contacts
             .Select(c => new ContactViewModel()
             {
+                Id = c.Id,
                 FirstName = c.FirstName,
                 LastName = c.LastName,
                 Email = c.Email,
@@ -80,6 +81,7 @@ public class ContactsServices : IContractsService
         {
             ContactFormModel contactModel = new ContactFormModel()
             {
+                Id = contact.Id,
                 FirstName = contact.FirstName,
                 LastName = contact.LastName,
                 Email = contact.Email,
@@ -112,18 +114,11 @@ public class ContactsServices : IContractsService
         await _data.SaveChangesAsync();
     }
 
-    public async Task AddContactToTeam(string userId, int id)
+    public async Task AddContactToTeam(string userId, int contactId)
     {
-        var contact = await _data.Contacts.FindAsync(id);
-
-        if (contact == null)
-        {
-            return;
-        }
-
         ApplicationUserContact user = new ApplicationUserContact()
         {
-            ContactId = contact.Id,
+            ContactId = contactId,
             ApplicationUserId = userId
         };
 
@@ -139,7 +134,7 @@ public class ContactsServices : IContractsService
     {
         var userContacts = await _data.Users
             .Where(u => u.Id == userId)
-            .Select(u => u.ApplicationUsersContacts)
+            .Include(u => u.ApplicationUsersContacts)
             .FirstOrDefaultAsync();
 
         if (userContacts == null)
@@ -147,7 +142,12 @@ public class ContactsServices : IContractsService
             throw new ArgumentException("No such user exists.");
         }
 
-        var userToRemove = userContacts.FirstOrDefault(c => c.ContactId == contactId);
+        var userToRemove = userContacts.ApplicationUsersContacts.FirstOrDefault(c => c.ContactId == contactId);
+
+        if (userToRemove == null)
+        {
+            throw new ArgumentException("Missing contact from your team!");
+        }
 
         _data.ApplicationUsersContacts.Remove(userToRemove);
 
