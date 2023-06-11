@@ -1,12 +1,11 @@
-﻿using System.Security.Claims;
+﻿namespace Library.Controllers;
 
-namespace Library.Controllers;
-
-using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 using Contracts;
-using Library.Models.FormModels;
+using Models.FormModels;
 
 [Authorize]
 public class BookController : Controller
@@ -126,5 +125,69 @@ public class BookController : Controller
         }
 
         return RedirectToAction("All", "Book");
+    }
+
+    public async Task<IActionResult> SortMineByTitleAscending()
+    {
+
+        string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        var booksByTitleAscending = await _bookService.SortMineBooksByTitleAscending(userId);
+
+        return View(booksByTitleAscending);
+    }
+
+    public async Task<IActionResult> SortMineByTitleDescending()
+    {
+        string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        var booksByTitleDescending = await _bookService.SortMineBooksByTitleDescending(userId);
+
+        return View(booksByTitleDescending);
+    }
+
+    public async Task<IActionResult> SortMineByCategory()
+    {
+        string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        var booksByCategory = await _bookService.SortMineBooksByCategory(userId);
+
+        return View(booksByCategory);
+    }
+
+    public async Task<IActionResult> SortMineByRatingAscending()
+    {
+
+        string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        var booksByRatingAscending = await _bookService.SortMineBooksByRatingAscending(userId);
+
+        return View(booksByRatingAscending);
+    }
+
+    public async Task<IActionResult> SortMineByRatingDescending()
+    {
+
+        string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        var booksByRatingDescending = await _bookService.SortMineBooksByRatingDescending(userId);
+
+        return View(booksByRatingDescending);
+    }
+
+    //Optional Search Functionality
+
+    public async Task<IActionResult> Search(string query)
+    {
+        if (query == null)
+        {
+            var allBooks = await _bookService.GetAllBooksAsync();
+
+            return View(allBooks);
+        }
+
+        var books = await _bookService.QuerySearchForTitle(query);
+
+        return View(books);
     }
 }

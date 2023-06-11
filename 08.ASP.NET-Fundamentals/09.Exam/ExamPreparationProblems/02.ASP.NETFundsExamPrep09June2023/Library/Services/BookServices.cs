@@ -1,6 +1,4 @@
-﻿using Microsoft.CodeAnalysis.Operations;
-
-namespace Library.Services;
+﻿namespace Library.Services;
 
 using Microsoft.EntityFrameworkCore;
 
@@ -9,7 +7,6 @@ using Contracts;
 using Data.Entities;
 using Models.FormModels;
 using Models.ViewModels;
-using static Data.DataConstants;
 
 public class BookServices : IBookService
 {
@@ -172,5 +169,143 @@ public class BookServices : IBookService
         }
 
         await _dataContext.SaveChangesAsync();
+    }
+
+    //Optional Sorting Functions
+
+    public async Task<IEnumerable<BookViewModel>> SortMineBooksByTitleAscending(string userId)
+    {
+        var userBooks = await _dataContext.Books
+            .Include(b => b.UsersBooks)
+            .Include(b => b.Category)
+            .Where(b => b.UsersBooks.Any(u => u.CollectorId == userId))
+            .ToListAsync();
+
+        var models = userBooks.Select(b => new BookViewModel()
+        {
+            Id = b.Id,
+            Title = b.Title,
+            Author = b.Author,
+            Description = b.Description,
+            ImageUrl = b.ImageUrl,
+            Category = b.Category.Name,
+            Rating = b.Rating
+        })
+            .OrderBy(b => b.Title);
+
+        return models;
+    }
+
+    public async Task<IEnumerable<BookViewModel>> SortMineBooksByTitleDescending(string userId)
+    {
+        var userBooks = await _dataContext.Books
+            .Include(b => b.UsersBooks)
+            .Include(b => b.Category)
+            .Where(b => b.UsersBooks.Any(u => u.CollectorId == userId))
+            .ToListAsync();
+
+        var models = userBooks.Select(b => new BookViewModel()
+        {
+            Id = b.Id,
+            Title = b.Title,
+            Author = b.Author,
+            Description = b.Description,
+            ImageUrl = b.ImageUrl,
+            Category = b.Category.Name,
+            Rating = b.Rating
+        })
+            .OrderByDescending(b => b.Title);
+
+        return models;
+    }
+
+    public async Task<IEnumerable<BookViewModel>> SortMineBooksByCategory(string userId)
+    {
+        var userBooks = await _dataContext.Books
+            .Include(b => b.UsersBooks)
+            .Include(b => b.Category)
+            .Where(b => b.UsersBooks.Any(u => u.CollectorId == userId))
+            .ToListAsync();
+
+        var models = userBooks.Select(b => new BookViewModel()
+        {
+            Id = b.Id,
+            Title = b.Title,
+            Author = b.Author,
+            Description = b.Description,
+            ImageUrl = b.ImageUrl,
+            Category = b.Category.Name,
+            Rating = b.Rating
+        })
+            .OrderBy(b => b.Category);
+
+        return models;
+    }
+
+    public async Task<IEnumerable<BookViewModel>> SortMineBooksByRatingAscending(string userId)
+    {
+        var userBooks = await _dataContext.Books
+            .Include(b => b.UsersBooks)
+            .Include(b => b.Category)
+            .Where(b => b.UsersBooks.Any(u => u.CollectorId == userId))
+            .ToListAsync();
+
+        var models = userBooks.Select(b => new BookViewModel()
+        {
+            Id = b.Id,
+            Title = b.Title,
+            Author = b.Author,
+            Description = b.Description,
+            ImageUrl = b.ImageUrl,
+            Category = b.Category.Name,
+            Rating = b.Rating
+        })
+            .OrderBy(b => b.Rating);
+
+        return models;
+    }
+
+    public async Task<IEnumerable<BookViewModel>> SortMineBooksByRatingDescending(string userId)
+    {
+        var userBooks = await _dataContext.Books
+            .Include(b => b.UsersBooks)
+            .Include(b => b.Category)
+            .Where(b => b.UsersBooks.Any(u => u.CollectorId == userId))
+            .ToListAsync();
+
+        var models = userBooks.Select(b => new BookViewModel()
+        {
+            Id = b.Id,
+            Title = b.Title,
+            Author = b.Author,
+            Description = b.Description,
+            ImageUrl = b.ImageUrl,
+            Category = b.Category.Name,
+            Rating = b.Rating
+        })
+            .OrderByDescending(b => b.Rating);
+
+        return models;
+    }
+
+    //Optional Search Functionality
+
+    public async Task<IEnumerable<BookViewModel>> QuerySearchForTitle(string query)
+    {
+        var books = await _dataContext.Books
+            .Where(b => b.Title.Contains(query))
+            .Select(b => new BookViewModel()
+            {
+                Id = b.Id,
+                Title = b.Title,
+                Author = b.Author,
+                Category = b.Category.Name,
+                Description = b.Description,
+                ImageUrl = b.ImageUrl,
+                Rating = b.Rating,
+            })
+            .ToArrayAsync();
+
+        return books;
     }
 }
