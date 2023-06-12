@@ -293,7 +293,7 @@ public class BookServices : IBookService
     public async Task<IEnumerable<BookViewModel>> QuerySearchForTitle(string query)
     {
         var books = await _dataContext.Books
-            .Where(b => b.Title.Contains(query))
+            .Where(b => b.Title.Contains(query) || b.Author.Contains(query))
             .Select(b => new BookViewModel()
             {
                 Id = b.Id,
