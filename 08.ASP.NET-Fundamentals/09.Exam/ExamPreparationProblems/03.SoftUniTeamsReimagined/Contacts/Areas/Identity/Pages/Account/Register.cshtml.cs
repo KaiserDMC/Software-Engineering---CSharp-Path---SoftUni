@@ -53,6 +53,11 @@ public class RegisterModel : PageModel
 
     public async Task OnGetAsync(string returnUrl = null)
     {
+        if (User?.Identity?.IsAuthenticated ?? false)
+        {
+            Response.Redirect("../../Contacts/All");
+        }
+
         ReturnUrl = returnUrl;
     }
 

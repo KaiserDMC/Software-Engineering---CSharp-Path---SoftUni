@@ -95,7 +95,7 @@ namespace Contacts.Areas.Identity.Pages.Account
         {
             if (User?.Identity?.IsAuthenticated ?? false)
             {
-                Response.Redirect("../../Books/All");
+                Response.Redirect("../../Contacts/All");
             }
 
             ReturnUrl = returnUrl;
