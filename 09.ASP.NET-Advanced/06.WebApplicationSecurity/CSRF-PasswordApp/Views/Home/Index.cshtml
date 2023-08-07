@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["message"]
+    </div>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+        This app will demonstrate you what a <b>CSRF attack</b> is!
+        <br />
+        Note: this app should be run on <b>port 5001</b>!
+    </p>
+    <p>
+        Steps:
+        <br />
+        1. Login with "<b>guest</b>" / "<b>guest123</b>" and change your password
+        <br />
+        2. Run the "<b>CSRF-PasswordApp-Attacker</b>" app and visit <a href="http://localhost:52584/index.html">this site</a>
+        <br />
+        3. Your <b>password is changed</b> and you <b>cannot log in the app with your credentials</b>.
+    </p>
+</div>

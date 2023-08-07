@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cross-Site Scripting (XSS) Attacks</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <section id="user-input">
+      <form>
+        <div class="form-control">
+          <label for="image">Your image</label>
+          <input type="text" id="image" name="image" />
+        </div>
+        <button type="submit">Send Image</button>
+      </form>
+      <p>
+          Sample image address: <b>https://onlinejpgtools.com/images/examples-onlinejpgtools/sunflower.jpg</b>
+      </p>
+      <p>
+          XSS script: <b>some-page.com/no-image.jpg" onerror="alert('Hacked!')"</b>
+      </p>
+    </section>
+    <section id="images">
+      <ul>
+      </ul>
+    </section>
+  </body>
+</html>

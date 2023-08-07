@@ -1,0 +1,50 @@
+﻿@model LoginModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (TempData["message"] != null)
+{
+    if (TempData["success"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            @TempData["message"]
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger" role="alert">
+            @TempData["message"]
+        </div>
+    }
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Log in our app!</h1>
+</div>
+
+<form asp-controller="Home" asp-action="Login" method="post">
+    <div class="form-group">
+        <label asp-for="Username"></label>
+        <input asp-for="Username" class="form-control" placeholder="Username...">
+        <span asp-validation-for="Username" class="small text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" placeholder="Password...">
+        <span asp-validation-for="Password" class="small text-danger"></span>
+    </div>
+    <input class="btn btn-primary mt-3 mb-3" type="submit" value="Login" />
+</form>
+
+<div>
+    Steps:
+    <br />
+    1. Try a valid login: Admin / adminpass
+    <br />
+    2. Try invalid login: Peter/ pass
+    <br />
+    3. Try SQL-injected login: Admin / ' OR '1'= '1 or ' OR 1=1--
+</div>

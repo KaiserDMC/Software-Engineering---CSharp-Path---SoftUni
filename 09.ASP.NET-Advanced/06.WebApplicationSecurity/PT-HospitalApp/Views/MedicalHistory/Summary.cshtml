@@ -1,0 +1,31 @@
+﻿@model IEnumerable<MedicalRecord>
+
+@{
+    ViewBag.Title = "All Examinations";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th><label>Doctor</label></th>
+            <th><label>Date</label></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var record in Model)
+        {
+        <tr>
+            <td><label>@record.DoctorName</label></td>
+            <td><label>@record.Date</label></td>
+            <td>
+                <a asp-controller="MedicalHistory" asp-action="Details"
+                   asp-route-examinationId="@record.Id">See Details</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

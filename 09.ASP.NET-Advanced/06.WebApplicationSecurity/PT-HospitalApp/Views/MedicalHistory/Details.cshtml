@@ -1,0 +1,27 @@
+﻿@model ExaminationRecord
+
+@{
+    ViewBag.Title = "Examination Details";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<p>Examined user: <b>@Model.PatientEmail</b></p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th><label>Date</label></th>
+            <th><label>Diagnosis</label></th>
+            <th><label>Date</label></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><label>@Model.Date</label></td>
+            <td><label>@Model.Diagnosis</label></td>
+            <td><label>@Model.DoctorName (@Model.DoctorSpeciality)</label></td>
+        </tr>
+    </tbody>
+</table>

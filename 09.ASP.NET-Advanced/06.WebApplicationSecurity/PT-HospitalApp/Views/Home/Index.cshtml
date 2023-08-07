@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Our Hospital App will demonstrate you what <b>Parameter Tampering</b> is!</p>
+
+    <p>
+        Steps:
+        <br />
+        1. Login with "<b>james@mail.com</b>" / "<b>james123</b>"
+        <br />
+        2. Look at Linda's examinations on 
+            <a asp-controller="MedicalHistory" asp-action="Details" asp-route-examinationId="1"> this link</a>
+            and <a asp-controller="MedicalHistory" asp-action="Details" asp-route-examinationId="2"> this link</a>
+    </p>
+</div>

