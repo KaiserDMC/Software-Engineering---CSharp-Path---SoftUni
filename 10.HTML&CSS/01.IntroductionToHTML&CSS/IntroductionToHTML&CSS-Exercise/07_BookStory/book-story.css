@@ -1,0 +1,26 @@
+main {
+    background-color: #dddddd;
+    width: 400px;
+    border: 1px solid #000000;
+    margin-left: 20px;
+    padding: 10px;
+}
+main h1{
+    text-align: center;
+}
+
+main p{
+    font-size: 18px;
+}
+
+main p em{
+    font-style: italic;
+}
+
+main p q::before{
+    content: open-quote;
+}
+
+main p q::after{
+    content: close-quote;
+}
