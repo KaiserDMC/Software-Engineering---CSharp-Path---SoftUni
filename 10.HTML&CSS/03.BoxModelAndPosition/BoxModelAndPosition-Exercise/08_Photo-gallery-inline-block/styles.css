@@ -1,0 +1,26 @@
+body {
+    background-color: #eee;
+    padding: 5rem;
+}
+
+.gallery {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+li {
+    width: 18rem;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 0.4rem solid #000;
+    padding: 1rem;
+    vertical-align: middle;
+    margin: 0.5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
