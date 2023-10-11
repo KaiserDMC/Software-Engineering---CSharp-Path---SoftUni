@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header h1 {
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    text-align: start;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+img {
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    border: 4px solid black;
+    margin-right: 10px;
+}
+
+blockquote p:nth-child(2) {
+    text-align: right;
+}
+
+aside {
+    margin-left: 5em;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+h2 {
+    margin-top: 1em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 4em;
+}
+
+.container {
+    display: flex;
+}
+
+.container > blockquote {
+    font-family: Georgia, serif;
+    flex: 1;
+    border-left: 4px solid lightgray;
+    padding-left: 2em;
+    font-style: italic;
+}
+
+.container > p {
+    flex: 1;
+}
+
+.page header {
+    width: 100%;
+}
+
+.page main {
+    flex: 0 0 70%;
+}
+
+.page main :nth-child(2) {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.page main :nth-child(10) {
+    float: left;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}

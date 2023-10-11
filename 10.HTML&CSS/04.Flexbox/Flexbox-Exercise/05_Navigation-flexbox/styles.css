@@ -1,0 +1,29 @@
+body {
+    margin: 1rem;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+}
+
+header h1 {
+    margin: 10px;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 0 2em;
+    list-style: none;
+    margin: 0 1em 0 0;
+    justify-content: end;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}

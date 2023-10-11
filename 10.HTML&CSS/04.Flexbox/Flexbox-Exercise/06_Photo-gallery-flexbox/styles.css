@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 5vw;
+    background-color: #EEEEEE;
+}
+body, ul, li {
+    display: flex;
+}
+
+ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul li {
+    width: auto;
+    border: 10px solid black;
+    margin: 0.5rem;
+    box-shadow: 0 0 5px 5px grey;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: white;
+}
+
+.gallery img {
+    object-fit: contain;
+}

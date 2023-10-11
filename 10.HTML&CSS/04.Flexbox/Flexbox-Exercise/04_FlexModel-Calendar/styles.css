@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+div, section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+div {
+    max-width: 65vw;
+    height: 40vh;
+    text-align: center;
+}
+
+span {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.week {
+    line-height: 3;
+}
+
+.week > span:nth-child(1) {
+    width: 100%;
+}
+
+.week > span:nth-child(7) {
+    width: 100%;
+}
+
+.notes{
+    flex-direction: column;
+}
