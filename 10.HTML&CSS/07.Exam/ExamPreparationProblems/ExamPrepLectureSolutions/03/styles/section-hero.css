@@ -1,0 +1,39 @@
+.section-hero-banner {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.section-hero-banner a {
+    color: #fff;
+}
+
+.section-hero-banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 2em;
+    height: 38em;
+}
+
+.section-hero-banner h2 {
+    font-size: 3em;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+}
+
+.section-hero-banner .container p {
+    max-width: 54ch;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.section-hero-banner .container a {
+    display: block;
+    text-decoration: none;
+    background: #D01919;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+}
+

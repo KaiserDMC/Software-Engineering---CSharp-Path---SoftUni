@@ -1,0 +1,74 @@
+.section-columns {
+
+}
+
+.section-columns .container {
+    padding: 2em;
+}
+
+.section-columns .section-header {
+    text-align: center;
+}
+
+.section-columns h3 {
+    margin-bottom: 2em;
+}
+
+.section-columns h3 span {
+    display: block;
+    margin: 1em auto;
+    width: 5ch;
+    height: 2px;
+    background: #D01919;
+}
+
+.section-columns .section-content {
+    display: flex;
+    gap: 2em;
+}
+
+.section-columns .section-content article {
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 0 4em;
+}
+
+.section-features {
+    background: #fff;
+    padding-bottom: 2em;
+}
+
+.section-features .section-content {
+    padding: 0 6em;
+}
+
+.section-features img {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.section-features h4 {
+    color: #D01919;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.section-coaches {
+    padding-bottom: 2em;
+}
+
+.section-coaches h5 {
+    color: #D01919;
+}
+
+.section-coaches .media {
+    overflow: hidden;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+}
+
+.section-coaches p {
+    color: #A6A1A5;
+    padding: 0 1em;
+    margin-top: 1em;
+}
