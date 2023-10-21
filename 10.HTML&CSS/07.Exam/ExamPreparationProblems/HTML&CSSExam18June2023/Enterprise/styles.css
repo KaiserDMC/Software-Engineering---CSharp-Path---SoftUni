@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.2;
+    font-size: 16px;
+    background-color: #d9d9d9;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 6em 6em 4em;
+}
+
+article {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(168, 168, 168, 0.5) 5px 5px 5px 2px;
+}
+
+.landscape {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card {
+    margin: 2em 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding: 2em 2em 1.5em;
+}
+
+.content .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5f6163;
+    margin: 1em 0 0.5em 0;
+}
+
+.content .subtitle {
+    font-size: 1.8em;
+    font-weight: 300;
+    color: black;
+}
+
+.content p:nth-child(3) {
+    color: #737373;
+    margin-top: 0.5em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2.5em;
+    padding: 1em 0;
+    position: relative;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set the width to 100% to span the entire .footer */
+    height: 2px; /* Set the height and style as desired for your border */
+    background-color: black; /* Change the color to your desired border color */
+}
+
+.portrait {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card div p {
+    font-size: 1.2em;
+}
+
+p.author {
+    margin-left: 0.5em;
+}
+
+p.reading {
+    flex-grow: 1;
+    text-align: end;
+    color: #aaaab2;
+    font-size: 1em;
+}

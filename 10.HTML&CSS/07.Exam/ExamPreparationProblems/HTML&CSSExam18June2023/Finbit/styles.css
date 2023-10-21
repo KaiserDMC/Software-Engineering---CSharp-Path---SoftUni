@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/* Header */
+/* Navigation bar */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2rem;
+}
+
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header nav a {
+    justify-content: flex-end;
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    color: #000;
+    gap: 1rem;
+}
+
+header nav div a:nth-child(2) {
+    background-color: #ade2df;
+    color: #000;
+    border-radius: 0.3rem;
+}
+
+/* Hero section */
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #ade2df;
+}
+
+.Info .Info-data {
+    display: block;
+    text-align: center;
+}
+
+.Info .Info-data h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.Info .Info-data p {
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    color: #000;
+}
+
+.Info .Info-data a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    background-color: #000;
+    margin-right: 0.5rem;
+}
+
+/* Statistics bar */
+
+.Stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: inherit;
+    margin: auto;
+    padding: 8rem 2rem;
+    gap: 4rem;
+}
+
+.Stats .Stats-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Stats .Stats-data div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    border-right: 2px solid #dbdbdb;
+    padding: 4rem;
+}
+
+.Stats .Stats-data h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Stats .Stats-data p {
+    font-size: 1.2rem;
+    color: #000;
+    text-align: center;
+    max-width: 30ch;
+}
+
+/* Main Section */
+/* Main Section Picture Section */
+
+section article:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ade2df;
+    height: 690px;
+    width: inherit;
+    margin: auto;
+    padding: 4rem 2rem;
+    gap: 4rem;
+}
+
+section article .Picture-container {
+    border: 2px dashed #98b8b6;
+}
+
+section article .Contents h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 2rem;
+    margin-top: -12rem;
+    max-width: 20ch;
+}
+
+section article .Contents h3 {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+section article .Contents p {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 2.5rem;
+    max-width: 55ch;
+}
+
+section article .Contents a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+section article .Contents a::after {
+    content: "";
+    width: 100%; /* Initially set to 100% */
+    height: 1px;
+    background-color: #000;
+    position: absolute; /* Absolute positioning within the <a> element */
+    bottom: -0.5rem; /* Position it at the bottom of the <a> element */
+    left: 0; /* Start from the left side */
+    transition: width 0.3s;
+}
+
+/* Main Section Pricing */
+
+/* Pricing TOP */
+
+article .Price {
+    background-color: #f3f5fa;
+    padding-bottom: 4rem;
+}
+
+article .Price .Pricing-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: inherit;
+    margin: auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+article .Price .Pricing-top a {
+    background-color: #ade2df;
+    color: #000;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.9rem;
+    text-decoration: none;
+}
+
+article .Price .Pricing-top h2 {
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 2.5rem;
+}
+
+article .Price .Pricing-common {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Pricing LEFT */
+
+article .Price .Pricing-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 675px;
+    width: 55%;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    background-color: white;
+}
+
+.Pricing-left .Pricing-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    margin: auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+.Pricing-left .Pricing-one .Pricing-one-top p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+.Pricing-left .Pricing-one .Pricing-one-top p:nth-child(3) {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 1rem;
+}
+
+.Pricing-one > div:nth-child(2) {
+    position: relative;
+}
+
+.Pricing-one > div:nth-child(2)::before {
+    content: "";
+    width: 100%; /* Initially set to 100% */
+    height: 1px;
+    background-color: #98b8b6;
+    position: absolute; /* Absolute positioning within the <a> element */
+    top: -0.5rem; /* Position it at the bottom of the <a> element */
+    left: 0; /* Start from the left side */
+    transition: width 0.3s;
+}
+
+.Pricing-left .Pricing-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    margin: auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+.Pricing-left .Pricing-two .Pricing-two-top p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+.Pricing-two > div:nth-child(2) {
+    position: relative;
+}
+
+.Pricing-two > div:nth-child(2)::before {
+    content: "";
+    width: 100%; /* Initially set to 100% */
+    height: 1px;
+    background-color: #98b8b6;
+    position: absolute; /* Absolute positioning within the <a> element */
+    top: -0.5rem; /* Position it at the bottom of the <a> element */
+    left: 0; /* Start from the left side */
+    transition: width 0.3s;
+}
+
+.Pricing-two-top > div:nth-child(3) {
+    margin-top: 1rem;
+}
+
+.Pricing-two-top > div:nth-child(3) > p:nth-child(1), .Pricing-two-top > div:nth-child(3) > p:nth-child(2) {
+    display: inline-block;
+}
+
+.Pricing-left .Pricing-two .Pricing-two-top p:nth-child(3) {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 1rem;
+}
+
+.Pricing-three > div:nth-child(2) {
+    position: relative;
+}
+
+.Pricing-three > div:nth-child(2)::before {
+    content: "";
+    width: 100%; /* Initially set to 100% */
+    height: 1px;
+    background-color: #98b8b6;
+    position: absolute; /* Absolute positioning within the <a> element */
+    top: -0.5rem; /* Position it at the bottom of the <a> element */
+    left: 0; /* Start from the left side */
+    bottom: -0.5rem;
+    transition: width 0.3s;
+}
+
+.Pricing-left .Pricing-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    margin: auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    position: relative;
+}
+
+.Pricing-left .Pricing-three .Pricing-three-top p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+.Pricing-three-top > div:nth-child(3) {
+    margin-top: 1rem;
+}
+
+.Pricing-three-top > p:nth-child(3), .Pricing-three-top > p:nth-child(4) {
+    display: inline-block;
+}
+
+.Pricing-left .Pricing-three .Pricing-three-top p:nth-child(3) {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 1rem;
+}
+
+.Pricing-common .link {
+    text-decoration: none;
+    align-items: center;
+    position: sticky;
+    text-align: center;
+    bottom: 0;
+    margin-top: auto;
+    width: 80%;
+    color: #000;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #ade2df;
+    margin-right: 0.5rem;
+}
+
+.Pricing-one p,
+.Pricing-two p,
+.Pricing-three p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem; /* Adjust the spacing as needed */
+}
+
+/* Pricing RIGHT */
+
+article .Price .Pricing-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    background-color: #ade2df;
+    position: relative;
+}
+
+article .Price .Pricing-right div:first-of-type p:first-of-type {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.Pricing-right > div:nth-child(1) > p:nth-child(2) {
+    font-size: 2.2rem;
+    color: #000;
+}
+
+.Pricing-right > div:nth-child(2) {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Pricing-right .button {
+    position: sticky;
+    text-align: center;
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: #000;
+    margin-right: 0.5rem;
+}
+
+/* Main Section Download */
+
+.Download-Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #ade2df;
+}
+
+.Download-Info > h2:nth-child(1) {
+    font-size: 4rem;
+    max-width: 15ch;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.Download-Info > p:nth-child(2) {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    color: #000;
+}
+
+.Download-Info .Download a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    background-color: #000;
+    margin-right: 0.5rem;
+}
+
+.Pricing-right > div:nth-child(2) p {
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding: 2rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+footer ul li a span {
+    display: none;
+}
