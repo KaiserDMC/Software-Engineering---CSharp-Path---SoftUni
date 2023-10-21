@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/* Header */
+
+/* Navigation bar */
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1.5em;
+    padding: 1rem 1rem;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-left: 1.5rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5em;
+    padding: 0 1rem;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-left: 1.5rem;
+    padding: 1rem;
+}
+
+.button-signup {
+    background-color: #ade2df;
+    border-radius: 5px;
+}
+
+.header-first {
+    background-color: #ade2df;
+}
+
+.header-first-title {
+    margin-top: 4rem;
+    font-size: 2.1em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.header-first-content {
+    text-align: center;
+    font-size: 0.9em;
+    margin: 3rem 0;
+}
+
+.download-button {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.download-button a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.header-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.header-second-article {
+    border-right: 2px solid #dbdbdb;
+}
+
+.header-second-price {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.header-second-content {
+    max-width: 30ch;
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+/* Main */
+
+.main-first {
+    background-color: #ade2df;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-first .image {
+    border: 2px dotted grey;
+}
+
+.main-first .main-first-right {
+    max-width: 65ch;
+    padding: 4rem;
+}
+
+.main-first-right h2 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    margin: 3.5rem 0;
+    max-width: 55ch;
+}
+
+.main-first-right .darker {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: 1.3em;
+}
+
+.main-first-right a {
+    display: inline-block;
+    margin-top: 4rem;
+    color: black;
+    text-decoration: underline;
+}
+
+.main-second{
+    background-color: #f3f5fa;
+}
+.main-second-mid{
+    text-align: center;
+    padding: 4rem;
+}
+.main-second-mid p:nth-child(1){
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.4rem 0.7rem;
+    border-radius: 10px;
+    background-color: #ade2df;
+    margin-bottom: 3rem;
+}
+.main-second-mid p:nth-child(2){
+    font-size: 2.3em;
+    font-weight: 600;
+}
+.main-second-content{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4rem;
+}
+.main-second-articles{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex: 1.8;
+    border-left: 2px solid #dbdbdb;
+    border-top: 2px solid #dbdbdb;
+    border-bottom: 2px solid #dbdbdb;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.main-second-right{
+    background-color: #ade2df;
+    flex: 1.2;
+    border-right: 2px solid #dbdbdb;
+    border-top: 2px solid #dbdbdb;
+    border-bottom: 2px solid #dbdbdb;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.main-second-article{
+    padding: 2rem 2rem;
+}
+
+.main-second-article .plan{
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+}
+.main-second-article .info{
+    font-weight: 450;
+    margin-bottom: 2rem;
+    max-width: 45ch;
+}
+
+.main-second-article .price{
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+.main-second-article .month{
+    display: inline-block;
+}
+
+.main-second-article-top-part{
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.main-second-article .list{
+    margin-top: 2rem;
+}
+
+.main-second-article .list p{
+    margin-bottom: 1rem;
+}
+.main-second-article .get-button{
+    text-decoration: none;
+    color: black;
+    background-color: #ade2df;
+    border-radius: 10px;
+    display: inline-block;
+    width: 15rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+.main-second-right{
+    padding: 2rem 2rem;
+}
+
+.main-second-right .title{
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+}
+.main-second-right .title-info{
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    max-width: 40ch;
+}
+.main-second-right .list{
+    margin-top: 2rem;
+}
+
+.main-second-right .list p{
+    margin-bottom: 1rem;
+}
+.main-second-right .contact-button{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 40rem;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 17.6vh;
+}
+.main-last {
+    background-color: #ade2df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+
+.main-last .main-last-title{
+    font-size: 3.5em;
+    margin-bottom: 2rem;
+    max-width: 20ch;
+    text-align: center;
+}
+
+.main-last .main-last-content{
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    max-width: 43ch;
+    text-align: center;
+    margin-left: 8rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0 2rem;
+    font-size: 1.3em;
+}
+
+footer .referrals {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+footer .referrals li {
+    display: flex;
+    align-items: center;
+}
+
+footer .referrals li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer .referrals li i {
+    margin-right: 0.5rem;
+    font-size: 1.3em;
+}
