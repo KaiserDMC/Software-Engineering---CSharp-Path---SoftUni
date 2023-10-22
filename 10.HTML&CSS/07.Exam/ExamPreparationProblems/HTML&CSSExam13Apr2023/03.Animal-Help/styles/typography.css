@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.logo,
+.nav-links {
+ font-size: 1.8em;
+ font-weight: 600;
+}
+
+.header-title {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.header-text {
+    font-size: 1.05em;
+    line-height: 1.5em;
+}
+
+.header-button1,
+.header-button2 {
+ font-weight: 600;
+}

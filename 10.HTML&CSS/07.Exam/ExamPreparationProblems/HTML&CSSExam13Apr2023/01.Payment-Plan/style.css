@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/background.jpg);
+    background-size: cover; 
+    padding: 3.25em 0;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.7em;
+    padding-bottom: 1em;
+}
+
+.container {
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap:2em
+
+}
+
+.card {
+    background-color: #fff;
+    padding: 2.5em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card1,
+.card3 {
+    margin-top: 4em;
+    height: 76vh;
+}
+
+.card2 {
+    margin-top: 2em;
+    height: 82vh;
+}
+
+.card1>a,
+.card2>a {
+    margin-top: 2.5em;
+}
+
+.card1>a{
+    margin-top: 2.5em;
+}
+
+.price {
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+.dollar {
+    font-size: 1.5em;
+    font-weight: 300;
+
+    padding-bottom: 1.2em;
+}
+
+.billed {
+    padding-bottom: 2em;
+    font-weight: 300;
+    font-size: 0.95em;
+}
+
+ul {
+    list-style: none;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+li:nth-child(2) {
+    line-height: 0m;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    padding: 1em 2em;
+    font-size: 1.3em;
+
+    border-radius: 0.2em;
+}
+
+

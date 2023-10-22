@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.section-top-bar {
+    background-color: #fefefe;
+}
+
+.section-top-bar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-top-bar .logo {
+ padding: 1em 5em;
+}
+
+.section-top-bar .nav-links {
+    display: flex;
+    margin-right: 2em;
+}
+
+.section-top-bar .nav-links li,
+.section-top-bar .nav-links a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.section-top-bar .nav-links li {
+    padding: 1em 0.5em;
+}
+

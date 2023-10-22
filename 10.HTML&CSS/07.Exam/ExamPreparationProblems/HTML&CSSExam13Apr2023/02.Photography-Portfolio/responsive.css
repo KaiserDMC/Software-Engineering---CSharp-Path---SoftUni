@@ -1,0 +1,85 @@
+@media (max-width: 600px) {
+    .navigation-links-nav,
+    .button-secondary.button-md,
+    .home-text,
+    .home-image-container {
+        display: none;
+    }
+
+    .navigation-max-width {
+        padding-top: 1em;
+    }
+
+    .home-text01 {
+        margin: 0;
+        margin-bottom: 0.4em;
+    }
+
+    .button-secondary.button-lg {
+        margin-bottom: 1.5em;
+    }
+
+    .home-tab-selector-cards-container {
+        display:block;
+    }
+
+    .portofolio-card-first-name {
+        margin-bottom: 2em;
+    }
+
+    .portofolio-card-speaker-card img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-about.section-container {
+        padding: 2em 0;
+    }
+
+    .home-max-width1 {
+        flex-direction: column;
+    }
+
+    .home-process {
+        padding: 2em 0;
+    }
+
+    .home-process .home-step .home-text10{
+        margin: 0;
+        padding-right: 0.5em;
+    }
+
+    .section-container:last-of-type {
+        padding: 2em 0;
+    }
+    .home-top-part,
+    .home-links-container{
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .home-text13 {
+        padding-top: 2em;
+    }
+
+    .home-text13:first-child {
+        padding: 0;
+    }
+
+    .home-navigate-container {
+        margin-top: 2em;
+    }
+
+    .home-contact-container {
+        margin-top: 2em;
+    }
+
+    .home-subscribe-container {
+        margin-top: 2em;
+        width: 100%;
+    }
+
+    .button-primary.button {
+        padding: 1.5em 2em;
+    }
+}

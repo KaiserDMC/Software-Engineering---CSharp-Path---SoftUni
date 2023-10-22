@@ -1,0 +1,43 @@
+.section-hero .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #84DBFF;
+}
+
+.section-hero .container .hero-content {
+    margin: 11em;
+}
+
+.section-hero .container .img-hero {
+    height: 35em;
+}
+
+img {
+    width: 35em;
+    margin: 0 5em 0 0;
+}
+
+.buttons {
+    margin-top: 4em;
+}
+
+.section-hero .container .button {
+ text-decoration: none;
+}
+
+.section-hero .container .header-button1 {
+    color: black;
+    background-color: white;
+    padding: 1.3em 5em;
+    border: 1.8px solid black;
+    border-radius: 0.5em;
+}
+
+.section-hero .container .header-button2 {
+    color: white;
+    background-color: black;
+    padding: 1.3em 5em;
+    margin-left: 1.5em;
+    border: 1.8px solid black;
+    border-radius: 0.5em;
+}
