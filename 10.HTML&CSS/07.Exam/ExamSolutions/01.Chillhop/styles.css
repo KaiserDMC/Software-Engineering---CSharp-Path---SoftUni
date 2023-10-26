@@ -1,0 +1,86 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+.container {
+    background-color: #1881b6;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    outline: 4px solid black;
+    border-radius: 0.6em;
+    max-width: 900px;
+    align-items: center;
+}
+
+.contents {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1.5em 0;
+}
+
+.container h2 {
+    font-size: 2em;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+.container p {
+    text-indent: 2.5em;
+    font-size: 0.8em;
+    line-height: 2em;
+    margin-bottom: 1.5em;
+}
+
+.img-container {
+    margin: 2em;
+}
+
+.img-container img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.5em;
+    align-items: center;
+}
+
+.contents .button {
+    padding: 0.5em 0.8em;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.5em;
+    border: 1px solid black;
+}
+
+.contents .button.one {
+    color: white;
+    background-color: #b6416d;
+    cursor: pointer;
+}
+
+.contents .button.two {
+    color: black;
+    margin-right: 3em;
+    cursor: pointer;
+}
