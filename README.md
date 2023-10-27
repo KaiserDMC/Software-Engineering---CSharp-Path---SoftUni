@@ -21,17 +21,18 @@ Includes repos from the following courses:
   * HTML&CSS (September 2023)
   * JS Front-End (October 2023)
 
-| Index | Course Curriculum                                                                                       | Certificate
-|------:|:--------------------------------------------------------------------------------------------------------| :---
-|   01. | [C# Basics Curriculum](https://softuni.bg/courses/programming-basics)                                   | [C# Basics Certificate](https://softuni.bg/certificates/details/124163/4f111e75)
-|   02. | [C# Fundamentals Curriculum](https://softuni.bg/courses/programming-fundamentals-csharp-java-js-python) | [C# Fundamentals Certificate](https://softuni.bg/certificates/details/139285/2a887f18)
-|   03. | [C# Advanced Curriculum](https://softuni.bg/modules/58/csharp-advanced/1357)                            | [C# Advanced Certificate](https://softuni.bg/certificates/details/143932/ea987587)
-|   04. | [C# OOP Curriculum](https://softuni.bg/trainings/3843/csharp-oop-october-2022)                          | [C# OOP Certificate](https://softuni.bg/certificates/details/150719/53829fbc)
-|   05. | [MS SQL Curriculum](https://softuni.bg/trainings/3965/ms-sql-january-2023)                              | [MS SQL Certificate](https://softuni.bg/certificates/details/157832/0c96a1b9)
-|   06. | [EF-Core Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)			  | [EF-Core Certificate](https://softuni.bg/certificates/details/164861/ef7326ac)
-|   07. | [HTML & CSS Mini Course Curriculum](https://softuni.bg/trainings/2286/html-css-mini-course)			  | [Noncertifiable]()
-|   08. | [ASP.NET Fundamentals Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)| [ASP.NET Fundamentals Certificate](https://softuni.bg/certificates/details/175351/3dbfbae1)
-|   09. | [ASP.NET Advanced Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)	  | [ASP.NET Advanced Certificate](https://softuni.bg/certificates/details/182177/0f14abe7)
+| Index | Course Curriculum                                                                                        | Certificate
+|------:|:---------------------------------------------------------------------------------------------------------| :---
+|   01. | [C# Basics Curriculum](https://softuni.bg/courses/programming-basics)                                    | [C# Basics Certificate](https://softuni.bg/certificates/details/124163/4f111e75)
+|   02. | [C# Fundamentals Curriculum](https://softuni.bg/courses/programming-fundamentals-csharp-java-js-python)  | [C# Fundamentals Certificate](https://softuni.bg/certificates/details/139285/2a887f18)
+|   03. | [C# Advanced Curriculum](https://softuni.bg/modules/58/csharp-advanced/1357)                             | [C# Advanced Certificate](https://softuni.bg/certificates/details/143932/ea987587)
+|   04. | [C# OOP Curriculum](https://softuni.bg/trainings/3843/csharp-oop-october-2022)                           | [C# OOP Certificate](https://softuni.bg/certificates/details/150719/53829fbc)
+|   05. | [MS SQL Curriculum](https://softuni.bg/trainings/3965/ms-sql-january-2023)                               | [MS SQL Certificate](https://softuni.bg/certificates/details/157832/0c96a1b9)
+|   06. | [EF-Core Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)			           | [EF-Core Certificate](https://softuni.bg/certificates/details/164861/ef7326ac)
+|   07. | [HTML & CSS Mini Course Curriculum](https://softuni.bg/trainings/2286/html-css-mini-course)			           | [Noncertifiable]()
+|   08. | [ASP.NET Fundamentals Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023) | [ASP.NET Fundamentals Certificate](https://softuni.bg/certificates/details/175351/3dbfbae1)
+|   09. | [ASP.NET Advanced Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)	    | [ASP.NET Advanced Certificate](https://softuni.bg/certificates/details/182177/0f14abe7)
+|   10. | [HTML & CSS](https://softuni.bg/trainings/4239/html-and-css-september-2023)	                     | [HTML & CSS Certificate](https://softuni.bg/certificates/details/190832/9b2b2d39)
 
 ---
 
