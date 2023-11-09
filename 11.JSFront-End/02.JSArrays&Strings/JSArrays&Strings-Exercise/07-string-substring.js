@@ -1,4 +1,4 @@
-function StringSubstring(word, sentence) {
+function stringSubstring(word, sentence) {
     let found = false;
 
     sentence.split(" ").map((se) => {
@@ -13,5 +13,5 @@ function StringSubstring(word, sentence) {
     }
 }
 
-StringSubstring('javascript', 'JavaScript is the best programming language');
-StringSubstring('python', 'JavaScript is the best programming language');
+stringSubstring('javascript', 'JavaScript is the best programming language');
+stringSubstring('python', 'JavaScript is the best programming language');

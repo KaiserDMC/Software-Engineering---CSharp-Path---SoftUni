@@ -1,4 +1,4 @@
-function Occurrences(str, word) {
+function occurrences(str, word) {
     let counter = 0;
     const words = str.split(" ");
     
@@ -11,5 +11,5 @@ function Occurrences(str, word) {
     console.log(counter);
 }
 
-Occurrences('This is a word and it also is a sentence', 'is');
-Occurrences('softuni is great place for learning new programming languages', 'softuni');
+occurrences('This is a word and it also is a sentence', 'is');
+occurrences('softuni is great place for learning new programming languages', 'softuni');

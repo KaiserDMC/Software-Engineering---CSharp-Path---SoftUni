@@ -1,4 +1,4 @@
-function Reveal(words, sentence) {
+function reveal(words, sentence) {
     words = words.split(', ');
 
     for (const word of words) {
@@ -14,5 +14,5 @@ function Reveal(words, sentence) {
     console.log(sentence);
 }
 
-Reveal('great', 'softuni is ***** place for learning new programming languages');
-Reveal('great, learning', 'softuni is ***** place for ******** new programming languages');
+reveal('great', 'softuni is ***** place for learning new programming languages');
+reveal('great, learning', 'softuni is ***** place for ******** new programming languages');

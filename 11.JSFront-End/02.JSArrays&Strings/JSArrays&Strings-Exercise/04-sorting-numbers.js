@@ -1,4 +1,4 @@
-function SortingNumbers(elements) {
+function sortingNumbers(elements) {
     elements.sort((a, b) => a - b);
     const resultArray = [];
 
@@ -19,4 +19,4 @@ function SortingNumbers(elements) {
     return resultArray;
 }
 
-SortingNumbers([1, 65, 3, 52, 48, 63, 31, -3, 18, 56]);
+sortingNumbers([1, 65, 3, 52, 48, 63, 31, -3, 18, 56]);

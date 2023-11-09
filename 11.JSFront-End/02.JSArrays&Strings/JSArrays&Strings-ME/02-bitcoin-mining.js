@@ -1,4 +1,4 @@
-function Mining(inputs) {
+function mining(inputs) {
     let bitcoinPrice = 11949.16;
     let exchangeRatePerGram = 67.51;
     let totalMoney = 0;
@@ -33,6 +33,6 @@ function Mining(inputs) {
     console.log(`Left money: ${totalMoney.toFixed(2)} lv.`);
 }
 
-Mining([100, 200, 300]);
-Mining([50, 100]);
-Mining([3124.15, 504.212, 2511.124]);
+mining([100, 200, 300]);
+mining([50, 100]);
+mining([3124.15, 504.212, 2511.124]);

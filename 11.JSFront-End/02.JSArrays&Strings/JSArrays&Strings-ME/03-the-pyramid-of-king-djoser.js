@@ -1,4 +1,4 @@
-function PyramidKingDjoser(base, increment) {
+function pyramidKingDjoser(base, increment) {
     let stone = 0;
     let marble = 0;
     let lapis = 0;
@@ -30,7 +30,7 @@ function PyramidKingDjoser(base, increment) {
     console.log(`Final pyramid height: ${Math.floor(step * increment)}`);
 }
 
-PyramidKingDjoser(11, 1);
-PyramidKingDjoser(11, 0.75);
-PyramidKingDjoser(12, 1);
-PyramidKingDjoser(23, 0.5);
+pyramidKingDjoser(11, 1);
+pyramidKingDjoser(11, 0.75);
+pyramidKingDjoser(12, 1);
+pyramidKingDjoser(23, 0.5);

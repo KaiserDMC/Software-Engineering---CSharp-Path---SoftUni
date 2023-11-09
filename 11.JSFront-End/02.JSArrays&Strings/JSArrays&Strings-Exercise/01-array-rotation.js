@@ -1,4 +1,4 @@
-function Rotation(elements, rotations) {
+function rotation(elements, rotations) {
 
     for (let i = 0; i < rotations; i++) {
         elements.push(elements.shift());
@@ -7,6 +7,6 @@ function Rotation(elements, rotations) {
     console.log(elements.join(" "))
 }
 
-Rotation([51, 47, 32, 61, 21], 2);
-Rotation([32, 21, 61, 1], 4);
-Rotation([2, 4, 15, 31], 5);
+rotation([51, 47, 32, 61, 21], 2);
+rotation([32, 21, 61, 1], 4);
+rotation([2, 4, 15, 31], 5);

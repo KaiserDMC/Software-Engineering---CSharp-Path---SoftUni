@@ -1,4 +1,4 @@
-function Login(inputs) {
+function login(inputs) {
     let username = inputs.shift();
     let password = username.split("").reverse().join("");
     let incorrectCounter = 0;
@@ -19,6 +19,6 @@ function Login(inputs) {
     }
 }
 
-Login(['Acer', 'login', 'go', 'let me in', 'recA']);
-Login(['momo', 'omom']);
-Login(['sunny', 'rainy', 'cloudy', 'sunny', 'not sunny']);
+login(['Acer', 'login', 'go', 'let me in', 'recA']);
+login(['momo', 'omom']);
+login(['sunny', 'rainy', 'cloudy', 'sunny', 'not sunny']);
