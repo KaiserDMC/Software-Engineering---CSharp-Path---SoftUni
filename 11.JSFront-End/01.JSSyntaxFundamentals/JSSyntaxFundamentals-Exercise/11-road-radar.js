@@ -1,4 +1,4 @@
-function RoadRadar(speed, area){
+function roadRadar(speed, area){
     let speedLimit = 0;
     
     switch (area){
@@ -31,5 +31,5 @@ function RoadRadar(speed, area){
     }
 }
 
-RoadRadar(40, 'city'); // Driving 40 km/h in a 50 zone
-RoadRadar(21, 'residential'); // The speed is 1 km/h faster than the allowed speed of 20 - speeding
+roadRadar(40, 'city'); // Driving 40 km/h in a 50 zone
+roadRadar(21, 'residential'); // The speed is 1 km/h faster than the allowed speed of 20 - speeding

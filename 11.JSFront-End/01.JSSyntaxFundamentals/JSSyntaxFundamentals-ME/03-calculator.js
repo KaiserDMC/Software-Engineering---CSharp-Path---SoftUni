@@ -1,4 +1,4 @@
-function Calculator(number1, operator, number2) {
+function calculator(number1, operator, number2) {
     let result = 0;
 
     switch (operator) {
@@ -19,5 +19,5 @@ function Calculator(number1, operator, number2) {
     console.log(result.toFixed(2));
 }
 
-Calculator(5, '+', 10); // 15
-Calculator(25.5, '-', 3); // 22.5
+calculator(5, '+', 10); // 15
+calculator(25.5, '-', 3); // 22.5

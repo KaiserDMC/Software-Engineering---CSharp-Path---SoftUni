@@ -1,6 +1,6 @@
-function CharsToString(first, second, third) {
+function charsToString(first, second, third) {
     let result = first + second + third;
     console.log(result);
 }
 
-CharsToString('a', 'b', 'c'); // abc
+charsToString('a', 'b', 'c'); // abc

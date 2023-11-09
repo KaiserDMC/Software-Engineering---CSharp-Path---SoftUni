@@ -1,4 +1,4 @@
-function MathOperations(number1, number2, operator) {
+function mathOperations(number1, number2, operator) {
     switch (operator) {
         case '+':
             console.log(number1 + number2);
@@ -21,4 +21,4 @@ function MathOperations(number1, number2, operator) {
     }
 }
 
-MathOperations(5, 6, '+');
+mathOperations(5, 6, '+');

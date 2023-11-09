@@ -1,4 +1,4 @@
-function GladiatorExpenses(lostFights, helmetPrice, swordPrice, shieldPrice, armorPrice) {
+function gladiatorExpenses(lostFights, helmetPrice, swordPrice, shieldPrice, armorPrice) {
     let expenses = 0;
     let shieldBrakes = 0;
 
@@ -25,5 +25,5 @@ function GladiatorExpenses(lostFights, helmetPrice, swordPrice, shieldPrice, arm
     console.log(`Gladiator expenses: ${expenses.toFixed(2)} aureus`);
 }
 
-GladiatorExpenses(7, 2, 3, 4, 5); // 16.00 aureus
-GladiatorExpenses(23, 12.50, 21.50, 40, 200); // 608.00 aureus
+gladiatorExpenses(7, 2, 3, 4, 5); // 16.00 aureus
+gladiatorExpenses(23, 12.50, 21.50, 40, 200); // 608.00 aureus

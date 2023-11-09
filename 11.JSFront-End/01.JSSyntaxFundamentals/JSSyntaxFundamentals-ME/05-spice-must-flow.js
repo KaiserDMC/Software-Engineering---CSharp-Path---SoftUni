@@ -1,4 +1,4 @@
-function SpiceMustFlow(startingYield){
+function spiceMustFlow(startingYield){
     let totalAmount = 0;
     let days = 0;
     
@@ -16,5 +16,5 @@ function SpiceMustFlow(startingYield){
     console.log(totalAmount);
 }
 
-SpiceMustFlow(111); // 2, 134
-SpiceMustFlow(450); // 36, 8938
+spiceMustFlow(111); // 2, 134
+spiceMustFlow(450); // 36, 8938

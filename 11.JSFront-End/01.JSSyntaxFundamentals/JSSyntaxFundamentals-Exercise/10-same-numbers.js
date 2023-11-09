@@ -1,4 +1,4 @@
-function SameNumbers(number) {
+function sameNumbers(number) {
     let numberAsString = number.toString();
     let sum = 0;
     let isSame = true;
@@ -18,4 +18,4 @@ function SameNumbers(number) {
     console.log(sum);
 }
 
-SameNumbers(2222222); // true, 14
+sameNumbers(2222222); // true, 14

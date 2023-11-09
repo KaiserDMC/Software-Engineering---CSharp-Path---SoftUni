@@ -1,4 +1,4 @@
-function CookingByNumbers(number, ...operations) {
+function cookingByNumbers(number, ...operations) {
     let result = number;
 
     for (let i = 0; i < operations.length; i++) {
@@ -23,5 +23,5 @@ function CookingByNumbers(number, ...operations) {
     }
 }
 
-CookingByNumbers('32', 'chop', 'chop', 'chop', 'chop', 'chop'); // 16 8 4 2 1
-CookingByNumbers('9', 'dice', 'spice', 'chop', 'bake', 'fillet'); // 3 4 2 6 4.8
+cookingByNumbers('32', 'chop', 'chop', 'chop', 'chop', 'chop'); // 16 8 4 2 1
+cookingByNumbers('9', 'dice', 'spice', 'chop', 'bake', 'fillet'); // 3 4 2 6 4.8

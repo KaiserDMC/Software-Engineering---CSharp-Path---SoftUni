@@ -1,5 +1,5 @@
-function ReversedChars(first, second, third) {
+function reversedChars(first, second, third) {
     console.log(`${third} ${second} ${first}`);
 }
 
-ReversedChars('A', 'B', 'C'); // C B A
+reversedChars('A', 'B', 'C'); // C B A

@@ -1,4 +1,4 @@
-function Vacation(numberOfPeople, typeOfVacation, day) {
+function vacation(numberOfPeople, typeOfVacation, day) {
     let totalPrice;
     let singlePrice = 0;
 
@@ -45,5 +45,5 @@ function Vacation(numberOfPeople, typeOfVacation, day) {
     console.log(`Total price: ${totalPrice.toFixed(2)}`);
 }
 
-Vacation(30, "Students", "Sunday"); // Total price: 266.73
-Vacation(40, "Regular", "Saturday"); // Total price: 800.00
+vacation(30, "Students", "Sunday"); // Total price: 266.73
+vacation(40, "Regular", "Saturday"); // Total price: 800.00

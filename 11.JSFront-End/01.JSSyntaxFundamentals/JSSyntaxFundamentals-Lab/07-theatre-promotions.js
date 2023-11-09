@@ -1,4 +1,4 @@
-function TheatrePromotions(day, age) {
+function theatrePromotions(day, age) {
     let price = 0;
     if (age >= 0 && age <= 18) {
         switch (day) {
