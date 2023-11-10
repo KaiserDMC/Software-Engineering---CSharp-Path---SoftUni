@@ -34,7 +34,7 @@ Includes repos from the following courses:
 |   08. | [ASP.NET Fundamentals Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023) | [ASP.NET Fundamentals Certificate](https://softuni.bg/certificates/details/175351/3dbfbae1) |
 |   09. | [ASP.NET Advanced Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)	    | [ASP.NET Advanced Certificate](https://softuni.bg/certificates/details/182177/0f14abe7)     | [Sky Tracker App](https://github.com/KaiserDMC/Sky-Tracker-App) 
 |   10. | [HTML & CSS](https://softuni.bg/trainings/4239/html-and-css-september-2023)	                             | [HTML & CSS Certificate](https://softuni.bg/certificates/details/190832/9b2b2d39)           |
-
+|   11. | [JS Front-End](https://softuni.bg/trainings/4240/js-front-end-october-2023)	                             | [JS Front-End Certificate]()           |
 ---
 
 Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "
