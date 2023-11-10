@@ -37,8 +37,7 @@ Includes repos from the following courses:
 |   11. | [JS Front-End](https://softuni.bg/trainings/4240/js-front-end-october-2023)	                             | [JS Front-End Certificate]()           |
 ---
 
-Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for  
-  "Web Developer" certification):
+Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "Web Developer" certification):
 
 * Windows System Administration (March 2023)
 * Linux System Administration (June 2023)
