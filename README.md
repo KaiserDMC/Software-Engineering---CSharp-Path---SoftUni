@@ -15,7 +15,7 @@ Includes repos from the following courses:
     * MS SQL (January 2023)
     * Entity Framework Core (February 2023)
 * CSharp - Web
-    * HTML&CSS - Mini Course (April 2023)
+    * HTML&CSS - Mini Course (April 2023) - no credits
     * ASP.NET - Fundamentals (May 2023)
     * ASP.NET - Advanced (June 2023)
 * JavaScript - Front-End
