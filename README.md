@@ -37,7 +37,7 @@ Includes repos from the following courses:
 |   11. | [JS Front-End](https://softuni.bg/trainings/4240/js-front-end-october-2023)	                             | [JS Front-End Certificate]()           |
 ---
 
-Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "Web Developer" certification):
+Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "C# Web Developer" certification):
 
 * Windows System Administration (March 2023)
 * Linux System Administration (June 2023)
@@ -58,5 +58,5 @@ Includes repos from the following Open courses (these courses are taken in order
 
 | Index | Open Courses Curriculum																				                                                                         | Additional Certification (min 160 credits)                                     
 |------:|:--------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------
-|   16. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)         | [WSA Certificate](https://softuni.bg/certificates/details/171863/406d88db) 
-|   17. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)              | [LSA Certificate](https://softuni.bg/certificates/details/178921/491ce0aa)
+|   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)         | [Containers and Cloud]()  
+|   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)              | [Software Engineering and DevOps]()  
