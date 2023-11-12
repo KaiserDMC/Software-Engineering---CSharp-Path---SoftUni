@@ -1,4 +1,4 @@
-# Software Engineering - CSharp Web Developer Career Path @ SoftUni 2022-2023
+# Software Engineering - CSharp Full-Stack Developer Career Path @ SoftUni 2022-2024
 
 <p align="centre">
   <img src="https://cdn.discordapp.com/attachments/979101848361377914/1022244283606110228/Softuni_logo_trasparent.png" alt="Banner SoftUni"/>
@@ -41,8 +41,22 @@ Includes repos from the following Open courses (these courses are taken in order
 
 * Windows System Administration (March 2023)
 * Linux System Administration (June 2023)
+* Algorithms Fundamentals with C# (Nov 2023)
+* Data Structures Fundamentals with C# (Jan 2024)
 
-| Index | Open Courses Curriculum																				                                                                 | Additional Certification (140 credits)                                     
-|------:|:------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------
-|   12. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023) | [WSA Certificate](https://softuni.bg/certificates/details/171863/406d88db) 
-|   13. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)      | [LSA Certificate](https://softuni.bg/certificates/details/178921/491ce0aa) 
+| Index | Open Courses Curriculum																				                                                                                       | Additional Certification (min 140 credits)                                     
+|------:|:----------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------
+|   12. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)                       | [WSA Certificate](https://softuni.bg/certificates/details/171863/406d88db) 
+|   13. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)                            | [LSA Certificate](https://softuni.bg/certificates/details/178921/491ce0aa) 
+|   14. | [Algorithms Fundamentals (C#)](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)                   | [Algorithms Fundamentals (C#)]() 
+|   15. | [Data Structures Fundamentals (C#)](https://softuni.bg/trainings/4266/data-structures-fundamentals-with-csharp-september-2023) | [Data Structures Fundamentals (C#)]() 
+
+Includes repos from the following Open courses (these courses are taken in order to reach the required 160 credits for "C# Full-Stack Developer" certification):
+
+* Containers and Cloud (2024)
+* Software Engineering and DevOps (2024)
+
+| Index | Open Courses Curriculum																				                                                                         | Additional Certification (min 160 credits)                                     
+|------:|:--------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------
+|   16. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)         | [WSA Certificate](https://softuni.bg/certificates/details/171863/406d88db) 
+|   17. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)              | [LSA Certificate](https://softuni.bg/certificates/details/178921/491ce0aa)
