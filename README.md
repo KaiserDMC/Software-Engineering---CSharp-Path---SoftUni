@@ -23,7 +23,7 @@ Includes repos from the following courses:
     * JS Front-End (October 2023)
 
 | Index | Course Curriculum                                                                                        | Certificate                                                                                 | Final Project                                                    | Credits          
-|------:|:---------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|:----------------------------------------------------------------:|:----------------------------:
+|:------:|:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|:---------------------------------------------------------------:|:----------------------------:
 |   01. | [C# Basics Curriculum](https://softuni.bg/courses/programming-basics)                                    | [Programming Basics](https://softuni.bg/certificates/details/124163/4f111e75)               |                                                                  | 3
 |   02. | [C# Fundamentals Curriculum](https://softuni.bg/courses/programming-fundamentals-csharp-java-js-python)  | [Programming Fundamentals](https://softuni.bg/certificates/details/139285/2a887f18)         |                                                                  | 12
 |   03. | [C# Advanced Curriculum](https://softuni.bg/modules/58/csharp-advanced/1357)                             | [C# Advanced](https://softuni.bg/certificates/details/143932/ea987587)                      |                                                                  | 12
@@ -45,7 +45,7 @@ Includes repos from the following Open courses (these courses are taken in order
 * Data Structures Fundamentals with C# (Jan 2024)
 
 | Index | Open Courses Curriculum																				                                                                                       | Additional Certification (min 140 credits)              | Credits                           
-|------:|:----------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------:
+|:------:|:---------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------:
 |   12. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)                       | [WSA](https://softuni.bg/certificates/details/171863/406d88db)             | 6
 |   13. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)                            | [LSA](https://softuni.bg/certificates/details/178921/491ce0aa)             | 6
 |   14. | [Algorithms Fundamentals (C#)](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)                   | [Algorithms Fundamentals (C#)]()                                           |
@@ -58,6 +58,6 @@ Includes repos from the following Open courses (these courses are taken in order
 * Software Engineering and DevOps (2024)
 
 | Index | Open Courses Curriculum																				                                                                         | Additional Certification (min 160 credits)              | Credits                     
-|------:|:--------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------:
+|:------:|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------:
 |   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                         | [Containers and Cloud]()                                                   |
 |   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)  | [Software Engineering and DevOps]()                                        |
