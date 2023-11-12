@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveArraySum", "RecursiveArraySum\RecursiveArraySum.csproj", "{DBFA77D7-23EC-4DA8-8F03-A88D41E0CFCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveDrawing", "RecursiveDrawing\RecursiveDrawing.csproj", "{06028BCE-B253-4164-9BC5-CA3A4D8DFCF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratingVectors", "GeneratingVectors\GeneratingVectors.csproj", "{A7B3CE1C-88CE-4955-A2A5-F5C2E1D7A1C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{3DA37C6F-90B9-4E6F-AC8C-5F4D07DD952B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFibonacci", "RecursiveFibonacci\RecursiveFibonacci.csproj", "{908490A5-63B2-4D9D-BBA1-43943F0C286F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathsInLabyrinth", "PathsInLabyrinth\PathsInLabyrinth.csproj", "{A52DC31B-725D-4B2C-A8D2-CA0662F90CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightQueensPuzzle", "EightQueensPuzzle\EightQueensPuzzle.csproj", "{DA2049C4-6D4C-439C-9A2D-D9E61F1AA3BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFA77D7-23EC-4DA8-8F03-A88D41E0CFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFA77D7-23EC-4DA8-8F03-A88D41E0CFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFA77D7-23EC-4DA8-8F03-A88D41E0CFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFA77D7-23EC-4DA8-8F03-A88D41E0CFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06028BCE-B253-4164-9BC5-CA3A4D8DFCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06028BCE-B253-4164-9BC5-CA3A4D8DFCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06028BCE-B253-4164-9BC5-CA3A4D8DFCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06028BCE-B253-4164-9BC5-CA3A4D8DFCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B3CE1C-88CE-4955-A2A5-F5C2E1D7A1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B3CE1C-88CE-4955-A2A5-F5C2E1D7A1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B3CE1C-88CE-4955-A2A5-F5C2E1D7A1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B3CE1C-88CE-4955-A2A5-F5C2E1D7A1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA37C6F-90B9-4E6F-AC8C-5F4D07DD952B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA37C6F-90B9-4E6F-AC8C-5F4D07DD952B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA37C6F-90B9-4E6F-AC8C-5F4D07DD952B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA37C6F-90B9-4E6F-AC8C-5F4D07DD952B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908490A5-63B2-4D9D-BBA1-43943F0C286F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908490A5-63B2-4D9D-BBA1-43943F0C286F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908490A5-63B2-4D9D-BBA1-43943F0C286F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908490A5-63B2-4D9D-BBA1-43943F0C286F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52DC31B-725D-4B2C-A8D2-CA0662F90CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52DC31B-725D-4B2C-A8D2-CA0662F90CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52DC31B-725D-4B2C-A8D2-CA0662F90CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52DC31B-725D-4B2C-A8D2-CA0662F90CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2049C4-6D4C-439C-9A2D-D9E61F1AA3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2049C4-6D4C-439C-9A2D-D9E61F1AA3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2049C4-6D4C-439C-9A2D-D9E61F1AA3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2049C4-6D4C-439C-9A2D-D9E61F1AA3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
