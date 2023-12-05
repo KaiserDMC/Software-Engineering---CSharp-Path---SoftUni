@@ -1,0 +1,4 @@
+// Using Postman
+
+// Retrieve All information about Bulgaria
+GET https://restcountries.com/v2/name/Bulgaria
