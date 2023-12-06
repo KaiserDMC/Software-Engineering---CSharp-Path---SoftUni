@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedComponents", "ConnectedComponents\ConnectedComponents.csproj", "{F3523A8A-6879-4C48-A598-0F5D01B32EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopologicalSorting", "TopologicalSorting\TopologicalSorting.csproj", "{245A1A26-3DF6-4363-AEFE-00D31194C745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopologicalSorting-DFS", "TopologicalSorting-DFS\TopologicalSorting-DFS.csproj", "{BB887F4E-0AF2-4BCE-9AB0-3F9BB5FAA6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPath", "ShortestPath\ShortestPath.csproj", "{A8A666A6-D848-48A4-8314-53D66297E082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3523A8A-6879-4C48-A598-0F5D01B32EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3523A8A-6879-4C48-A598-0F5D01B32EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3523A8A-6879-4C48-A598-0F5D01B32EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3523A8A-6879-4C48-A598-0F5D01B32EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245A1A26-3DF6-4363-AEFE-00D31194C745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245A1A26-3DF6-4363-AEFE-00D31194C745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245A1A26-3DF6-4363-AEFE-00D31194C745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245A1A26-3DF6-4363-AEFE-00D31194C745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB887F4E-0AF2-4BCE-9AB0-3F9BB5FAA6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB887F4E-0AF2-4BCE-9AB0-3F9BB5FAA6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB887F4E-0AF2-4BCE-9AB0-3F9BB5FAA6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB887F4E-0AF2-4BCE-9AB0-3F9BB5FAA6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A666A6-D848-48A4-8314-53D66297E082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A666A6-D848-48A4-8314-53D66297E082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A666A6-D848-48A4-8314-53D66297E082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A666A6-D848-48A4-8314-53D66297E082}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
