@@ -1,0 +1,22 @@
+{
+  "07f260f4-466c-4607-9a33-f7273b24f1b4": {
+      "angler": "Paulo Admorim",
+      "weight": 636,
+      "species": "Atlantic Blue Marlin",
+      "location": "Vitoria, Brazil",
+      "bait": "trolled pink",
+      "captureTime": 80,
+      "_createdOn": 1614760714812,
+      "_id": "07f260f4-466c-4607-9a33-f7273b24f1b4"
+  },
+  "bdabf5e9-23be-40a1-9f14-9117b6702a9d": {
+      "angler": "John Does",
+      "weight": 554,
+      "species": "Atlantic Blue Marlin",
+      "location": "Buenos Aires, Argentina",
+      "bait": "trolled pink",
+      "captureTime": 120,
+      "_createdOn": 1614760782277,
+      "_id": "bdabf5e9-23be-40a1-9f14-9117b6702a9d"
+  }
+}
