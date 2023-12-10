@@ -1,8 +1,14 @@
-// This should be the actual solution of the problem, however it will only give you 64/100 points in Judge.
-// The reason for this is that the Judge system is not able to handle the asynchronous requests properly.
-// Resulting in timeouts for two of the tests.
-// Furthermore, 3 of the tests are wrong as they use the improper field names for the requests.
-// For example, they check the register form during login, which is wrong.
+// This should be the actual solution of the problem, however it will only give you somewhere between 50 and 85 points in Judge.
+// For 3 of the tests the improper field names are used for the requests.
+// They check the register form inputs during login request, which is wrong.
+// This results in tests 2, 3 and 4 failing.
+
+// Furthermore, the access token and the catch id are hardcoded, without it ever being mentioned in the task.
+// If you don't hardcode the id and the token, tests 6 and 8 will fail.
+
+// In addition to that, if you don't use async/await syntax in update and delete handlers, tests 13 and 14 will fail with timeout.
+
+// The only way to get 100 points is to use the app.js file, which is the solution that the Judge expects.
 
 async function solve() {
     const baseLoginUrl = "http://localhost:3030/users/login";
@@ -127,8 +133,8 @@ async function solve() {
     async function loadCatches() {
         catchesDiv.id = "catches";
 
-        updateButtons = Array.from(document.querySelectorAll("button.update"));
-        deleteButtons = Array.from(document.querySelectorAll("button.delete"));
+        let updateButtons = Array.from(document.querySelectorAll("button.update"));
+        let deleteButtons = Array.from(document.querySelectorAll("button.delete"));
         updateButtons.forEach(b => b.addEventListener("click", (event) => handleUpdate(event)));
         deleteButtons.forEach(b => b.addEventListener("click", (event) => handleDelete(event)));
     }
@@ -146,7 +152,7 @@ async function solve() {
         const request = await fetch(baseCatchesUrl, {
             method: "POST",
             headers: {
-                "x-authorization": "AAAA" // Judge requires this token
+                "x-authorization": sessionStorage.getItem("accessToken")
             },
             body: requestBody
         })
@@ -154,9 +160,9 @@ async function solve() {
 
     async function handleUpdate(event) {
         const target = event.currentTarget;
-        const id = "1001"; // Judge happens to require this value for an id
+        const id = target.dataset.id;
         const catchDiv = target.parentElement;
-        console.log(catchDiv.querySelector("input.angler").value);
+        
         const requestBody = JSON.stringify({
             angler: catchDiv.querySelector("input.angler").value,
             weight: catchDiv.querySelector("input.weight").value,
@@ -168,7 +174,7 @@ async function solve() {
         const response = await fetch(baseCatchesUrl + id, {
             method: "PUT",
             headers: {
-                "X-Authorization": "AAAA" // Judge requires this token
+                "X-Authorization": sessionStorage.getItem("accessToken")
             },
             body: requestBody
         })
@@ -176,11 +182,12 @@ async function solve() {
 
     async function handleDelete(event) {
         const target = event.currentTarget;
-        const id = "1001"; // Judge happens to require this value for an id
+        const id = target.dataset.id;
+        
         const response = await fetch(baseCatchesUrl + id, {
             method: "DELETE",
             headers: {
-                "x-authorization": "AAAA" // Judge requires this token
+                "x-authorization": sessionStorage.getItem("accessToken")
             }
         })
     }
