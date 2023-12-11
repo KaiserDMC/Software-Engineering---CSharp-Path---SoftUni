@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Schedule</title>
+    <link rel="stylesheet" href="./style/css/style.css">
+</head>
+
+<body>
+
+    <h1>Vacation Schedule</h1>
+    <main>
+        <section id="main-container">
+            <div id="form">
+                <h1>Add Vacation</h1>
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="num-days">Number of Days:</label>
+                    <input type="number" id="num-days" name="num-days">
+
+                    <label for="from-date">From Date:</label>
+                    <input type="date" id="from-date" name="from-date">
+
+                    <button id="add-vacation">Add Vacation</button>
+                    <button id="edit-vacation" disabled>Edit Vacation</button>
+                </form>
+            </div>
+        </section>
+
+        <div id="wrapper">
+
+            <section id="confirmed-vacantions">
+                <h2>Confirmed Vacations:</h2>
+                <button id="load-vacations">Load Vacations</button>
+                <div id="list">
+                    <div class="container">
+                        <h2>Carren Davis</h2>
+                        <h3>2023-06-09</h3>
+                        <h3>5</h3>
+                        <button class="change-btn">Change</button>
+                        <button class="done-btn">Done</button>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
