@@ -1,98 +1,102 @@
-//window.addEventListener("load", solve);
+window.addEventListener("load", solve);
 
 function solve() {
-    const studentInput = document.getElementById("student");
-    const universityInput = document.getElementById("university");
-    const scoreInput = document.getElementById("score");
+    let studentInput = document.getElementById("student");
+    let universityInput = document.getElementById("university");
+    let scoreInput = document.getElementById("score");
     const nextBtn = document.getElementById("next-btn");
     const previewList = document.getElementById("preview-list");
+    let formElement = document.querySelector("form");
 
-    nextBtn.addEventListener("click", () => {
-        if (studentInput.value !== "" || universityInput.value !== "" || scoreInput.value !== "") {
-            nextBtn.disabled = true;
-            inputStudentData();
-        }
-    });
+    nextBtn.addEventListener("click", inputStudentData);
 
     function inputStudentData() {
-        const listItem = document.createElement("li");
-        listItem.classList.add("application");
-        const article = document.createElement("article");
-        article.style.display = "flex";
-        const h4 = document.createElement("h4");
-        h4.textContent = studentInput.value;
-        const p = document.createElement("p");
-        p.textContent = `University: ${universityInput.value}`;
-        const pp = document.createElement("p");
-        pp.textContent = `Score: ${scoreInput.value}`;
+        if (
+            studentInput.value == "" ||
+            universityInput.value == "" ||
+            scoreInput.value == ""
+        ) {
+            return;
+        }
 
-        const editBtn = document.createElement("button");
-        editBtn.classList.add("action-btn", "edit");
-        editBtn.textContent = "Edit";
-        const applyBtn = document.createElement("button");
-        applyBtn.classList.add("action-btn", "apply");
-        applyBtn.textContent = "Apply";
+        let taskLiElement = document.createElement("li");
+        taskLiElement.classList.add("application");
 
-        article.appendChild(h4);
-        article.appendChild(p);
-        article.appendChild(pp);
+        let taskArticleElement = document.createElement("article");
 
-        listItem.appendChild(article);
-        listItem.appendChild(editBtn);
-        listItem.appendChild(applyBtn);
+        let titleHeadingElement = document.createElement("h4");
+        titleHeadingElement.textContent = studentInput.value;
+        let taskTitle = studentInput.value;
+        let categoryPElement = document.createElement("p");
+        categoryPElement.textContent = `University: ${universityInput.value}`;
+        let taskCategory = universityInput.value;
 
-        studentInput.value = "";
-        universityInput.value = "";
-        scoreInput.value = "";
+        let contentPElement = document.createElement("p");
+        contentPElement.textContent = `Score: ${scoreInput.value}`;
+        let taskContent = scoreInput.value;
 
-        previewList.appendChild(listItem);
+        taskArticleElement.appendChild(titleHeadingElement);
+        taskArticleElement.appendChild(categoryPElement);
+        taskArticleElement.appendChild(contentPElement);
 
+        let editBtn = document.createElement("button");
+        editBtn.classList.add("action-btn");
+        editBtn.classList.add("edit");
+        editBtn.textContent = "edit";
         editBtn.addEventListener("click", editStudentData);
-        applyBtn.addEventListener("click", applyForScholarship);
-    }
 
-    function editStudentData() {
-        const article = this.parentElement.querySelector("article");
+        let postBtn = document.createElement("button");
+        postBtn.classList.add("action-btn");
+        postBtn.classList.add("apply");
+        postBtn.textContent = "apply";
+        postBtn.addEventListener("click", applyForScholarship);
 
-        const h4 = article.querySelector("h4");
-        const p1 = article.querySelector("p:nth-child(2)");
-        const p2 = article.querySelector("p:nth-child(3)");
+        taskLiElement.appendChild(taskArticleElement);
+        taskLiElement.appendChild(editBtn);
+        taskLiElement.appendChild(postBtn);
 
-        studentInput.value = h4.textContent;
-        universityInput.value = p1.textContent.substring(12);
-        scoreInput.value = p2.textContent.substring(7);
+        previewList.appendChild(taskLiElement);
+        formElement.reset();
+        nextBtn.disabled = true;
 
-        nextBtn.disabled = false;
-        article.parentElement.remove();
-    }
+        function editStudentData() {
+            nextBtn.disabled = false;
 
-    function applyForScholarship() {
-        const articlePreview = this.parentElement.querySelector("article");
+            studentInput.value = taskTitle;
+            universityInput.value = taskCategory;
+            scoreInput.value = taskContent;
 
-        const studentName = articlePreview.querySelector("h4");
-        const universityName = articlePreview.querySelector("p:nth-child(2)");
-        const studentScore = articlePreview.querySelector("p:nth-child(3)");
+            previewList.removeChild(taskLiElement);
+        }
 
-        const list = document.createElement("li");
-        list.classList.add("application");
-        const art = document.createElement("article");
-        art.style.display = "flex";
-        const h4 = document.createElement("h4");
-        h4.textContent = studentName.textContent;
-        const p = document.createElement("p");
-        p.textContent = `${universityName.textContent}`;
-        const pp = document.createElement("p");
-        pp.textContent = `${studentScore.textContent}`;
+        function applyForScholarship() {
+            const articlePreview = this.parentElement.querySelector("article");
+            const universityName = articlePreview.querySelector("p:nth-child(2)");
+            const studentScore = articlePreview.querySelector("p:nth-child(3)");
 
-        art.appendChild(h4);
-        art.appendChild(p);
-        art.appendChild(pp);
+            const [e, a] = this.parentElement.querySelectorAll("button");
+            e.remove();
+            a.remove();
+            articlePreview.parentElement.remove();
 
-        list.appendChild(art);
-        document.getElementById("candidates-list").appendChild(list);
+            const list = document.createElement("li");
+            list.classList.add("application");
+            const art = document.createElement("article");
+            const h4 = document.createElement("h4");
+            h4.textContent = taskTitle;
+            const p = document.createElement("p");
+            p.textContent = `${universityName.textContent}`;
+            const pp = document.createElement("p");
+            pp.textContent = `${studentScore.textContent}`;
 
-        nextBtn.disabled = false;
+            art.appendChild(h4);
+            art.appendChild(p);
+            art.appendChild(pp);
 
-        articlePreview.parentElement.remove();
+            list.appendChild(art);
+            document.getElementById("candidates-list").appendChild(list);
+
+            nextBtn.disabled = false;
+        }
     }
 }
