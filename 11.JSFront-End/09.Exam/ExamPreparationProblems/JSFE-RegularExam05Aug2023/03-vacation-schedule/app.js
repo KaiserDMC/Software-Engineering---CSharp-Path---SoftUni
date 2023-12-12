@@ -112,7 +112,6 @@ function solve() {
                 const response = await fetch(url, {
                     method: 'PUT',
                     headers: {'Content-Type': 'application/json'},
-                    credentials: 'include',
                     body: JSON.stringify({name: nameAdd.value, date: dateAdd.value, days: daysAdd.value})
                 });
 
@@ -140,9 +139,8 @@ function solve() {
             await fetch(`http://localhost:3030/jsonstore/tasks/${id}`, {
                 method: 'DELETE',
                 headers: { 'Content-Type': 'application/json' },
-                credentials: 'include',
-            });
-            await loadVacations();
+            })
+            .then(loadVacations);
         } catch (error) {
             console.error('Error deleting vacation:', error);
             throw error;
