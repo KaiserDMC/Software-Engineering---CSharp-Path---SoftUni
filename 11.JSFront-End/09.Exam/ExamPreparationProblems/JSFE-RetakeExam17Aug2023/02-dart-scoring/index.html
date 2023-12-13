@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <title>Dart Scoring</title>
+</head>
+
+<body>
+<main id="main">
+    <div id="dart-container">
+
+        <div id="form-container" class="container">
+
+            <form class="scoring-content">
+                <h1>Dart Scoring</h1>
+
+                <input type="text" placeholder="Player Name" id="player"/>
+
+                <input type="number" placeholder="Score" id="score"/>
+
+                <input type="number" placeholder="Round" id="round">
+
+                <button type="button" id="add-btn">Add &#10165;</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="score-container">
+
+        <div class="container">
+
+            <div class="dart title-dart ">
+                <h2>Make Sure It's Spot-On!</h2>
+                <ul id="sure-list"></ul>
+            </div>
+
+        </div>
+        <div id="players-container">
+            <div class="container">
+                <div class="dart title-dart board">
+                    <h2>Scoreboard</h2>
+                    <ul id="scoreboard-list"></ul>
+                    <button class="btn clear">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="./app.js"></script>
+</body>
+
+</html>

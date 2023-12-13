@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Tracker</title>
+    <link rel="stylesheet" href="./style/css/style.css">
+</head>
+
+<body>
+
+    <h1>Weather Tracker</h1>
+    <main>
+        <section id="main-container">
+            <div id="form">
+                <h1>Weather Today</h1>
+                <form action="#">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location">
+
+                    <label for="temperature">Temperature:</label>
+                    <input type="number" id="temperature" name="temperature">
+
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">                  
+                </form>
+                <div id="btn-container">
+                    <button id="add-weather">Add Weather</button>
+                    <button id="edit-weather" disabled>Edit Weather</button>
+                </div>
+
+            </div>
+        </section>
+
+        <div id="wrapper">
+
+            <section id="history">
+                <h2>History:</h2>
+                <button id="load-history">Load History</button>
+                <div id="list">
+                    <div class="container">
+                        <h2>Sofia</h2>
+                        <h3>2023-08-01</h3>
+                        <h3 id="celsius">35</h3>
+                        <div id="buttons-container">  
+                            <button class="change-btn">Change</button>
+                            <button class="delete-btn">Delete</button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
