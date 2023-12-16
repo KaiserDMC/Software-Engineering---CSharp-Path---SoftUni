@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Calorie Counter</title>
+    <link rel="stylesheet" href="./style/css/style.css" />
+  </head>
+
+  <body>
+    <h1>Daily Calorie Counter</h1>
+    <main>
+      <section id="form-container">
+        <div id="form">
+          <h1>Add Meal</h1>
+          <form>
+            <label for="food">Food:</label>
+            <input type="text" id="food" name="food" />
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" />
+
+            <label for="calories">Calories:</label>
+            <input type="text" id="calories" name="calories" />
+          </form>
+          <div id="form-buttons">
+            <button id="add-meal">Add Meal</button>
+            <button id="edit-meal" disabled>Edit Meal</button>
+          </div>
+        </div>
+      </section>
+
+      <div id="wrapper">
+        <section id="meals">
+          <button id="load-meals">Load Meals</button>
+          <h2>Today Meals:</h2>
+          <div id="list">
+            <div class="meal">
+              <h2>Eggs</h2>
+              <h3>8:30</h3>
+              <h3>220</h3>
+              <div id="meal-buttons">
+                <button class="change-meal">Change</button>
+                <button class="delete-meal">Delete</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

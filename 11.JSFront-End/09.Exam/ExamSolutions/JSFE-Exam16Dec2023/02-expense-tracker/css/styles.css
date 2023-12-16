@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+body {
+  background: linear-gradient(#e6e6e6, #bbbbbb);
+  background-position: 0% 70%;
+  background-image: url("../images/pexels-skitterphoto-9660\ \(1\)\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  padding: 10px 50px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 2px 2px black;
+  background-image: url(../images/money-png-7.png);
+  background-color: #0000009f;
+  background-position: center;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #413f3f;
+  text-align: center;
+  margin: 0;
+}
+h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #4e4c4c;
+  margin: 0;
+  padding: 50px;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 1px;
+  color: #4e4c4c;
+  font-size: large;
+}
+
+p {
+  text-decoration: none;
+  color: #000000;
+  margin: 7px 7px 7px 0px;
+}
+
+
+input {
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: #d8d8d7;
+}
+
+span{
+  font-size: 60px;
+  color: #464646;
+  font-weight: 500;
+  
+}
+
+.dart {
+  background-color: #0000005d;
+
+}
+
+#add-btn {
+  display: inline-block;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #cec5ac;
+  color: #000000;
+  border: 1px solid black;
+  text-align: center;
+  outline: none;
+  width: 100px;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+#add-btn:hover{
+  background: #12961d;
+  color: #ffffff;
+}
+
+#add-btn:disabled {
+  background-color: rgb(250, 0, 0);
+  color: white;
+}
+
+
+.btn {
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #030303;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10%;
+  height: 34px;
+  width: 66px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn:hover{
+  background: #ffffff;
+  color: #000000;
+}
+
+#main {
+display: flex;
+align-items:center;
+justify-content:space-around;
+margin-top: -100px;
+
+}
+
+#wallet-container {
+ margin-top: 50px;
+
+}
+
+#form-container{
+margin-left: -40px;
+background-image: url(../images/wallet-png-25148.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 500px;
+height: 468px;
+display: flex;
+align-items:end;
+justify-content: center;
+scale: 0.9;
+
+}
+
+.expense-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+#expense,
+#date,
+#amount {
+  width: 220px;
+  height: 27px;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+label{
+  font-size: 18px;
+  color: #000000;
+  font-weight: 700;
+}
+
+
+#score-container {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+
+.expense-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.expense-item article {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+width: 100%;
+gap: 20px;
+margin-bottom:50px ;
+}
+
+#preview-list li article h4, #preview-list li article p {
+font-size: 20px;
+color: #ffffff;
+border-bottom: 1px dotted white;
+width: 100%;
+text-align: center;
+}
+
+.expense-item article{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#right-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 140px;
+}
+
+#scoreboard-list{
+  position: relative;
+}
+#preview, #expenses {
+  background-color: #0000009f;
+  width: 23vw;
+  height: 60vh;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#preview h2, #expenses h2{
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+ul{
+  padding: 5px 18px 0px;
+}
+
+#expenses-list li article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 1px solid white;
+}
+
+#expenses-list li article h4, #expenses-list li article p  {
+  border: none;
+  font-size: 14px;
+  color: white;
+}
+.delete {
+  position: absolute;
+    bottom: 0;
+    left: 40%;
+    transform: translateX(-40%);
+    margin-bottom: 10px;
+}
+#expenses {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#preview {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  #main {
+    flex-direction: column; 
+    text-align: center;     
+    margin-top: 0;          
+  }
+}

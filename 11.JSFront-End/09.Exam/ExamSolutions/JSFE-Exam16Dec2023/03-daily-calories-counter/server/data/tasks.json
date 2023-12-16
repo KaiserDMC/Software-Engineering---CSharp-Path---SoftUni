@@ -1,0 +1,20 @@
+{
+  "07f260f4-466c-4607-9a33-f7273b24f1b4": {
+      "food": "Eggs",
+      "calories": "220",
+      "time": "08:30",
+      "_id": "07f260f4-466c-4607-9a33-f7273b24f1b4"
+  },
+  "bdabf5e9-23be-40a1-9f14-9117b6702a9d": {
+    "food": "Banana",
+    "calories": "180",
+    "time": "12:45",
+      "_id": "bdabf5e9-23be-40a1-9f14-9117b6702a9d"
+  },
+  "7b3143e1-d6df-4e67-bd7e-5f8b03f2fd3f": {
+    "food": "Pizza",
+    "calories": "900",
+    "time": "16:30",
+      "_id": "7b3143e1-d6df-4e67-bd7e-5f8b03f2fd3f"
+  }
+}

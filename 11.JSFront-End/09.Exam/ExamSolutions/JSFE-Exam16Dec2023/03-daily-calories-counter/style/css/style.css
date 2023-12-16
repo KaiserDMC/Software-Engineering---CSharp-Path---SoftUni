@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#e6e6e6, #bbbbbb);
+  background-position: 0% 90%;
+  background-image: url("../img/pexels-andres-ayrton-6551090.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Nova Mono', monospace;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 229px;
+  margin-top: 20px;
+}
+
+body > h1 {
+  color: #ffffff;
+  text-shadow: #030303 5px 5px;
+  margin: 0;
+  font-size: 54px;
+  font-family: 'Nova Mono', monospace;
+}
+
+#form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 60vh;
+  border-radius: 10px;
+  box-shadow: 10px 14px 28px rgb(0, 0, 0), 10px 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: rgba(255, 255, 255, 0.692);
+  background-position: center;
+  margin-top: -60px;
+}
+
+#form {
+  width: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#form > h1 {
+  padding: 4px;
+  margin-top: -0.3em;
+  color: rgb(0, 0, 0);
+}
+
+label {
+  margin-top: 4px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+#form-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#form #add-meal,
+#edit-meal {
+  background: rgb(156, 150, 235);
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 12pt;
+  margin-top: 10px;
+  box-shadow: 5px 4px 8px rgb(0, 0, 0), 10px 10px 10px rgba(0, 0, 0, 0.22);
+  font-family: 'Nova Mono', monospace;
+  font-weight: 800;
+}
+
+#form #edit-meal:disabled {
+  background-color: #e93a3a;
+  cursor: not-allowed;
+}
+
+#form #add-meal:disabled {
+    background-color: #e93a3a;
+    cursor: not-allowed;
+}
+
+#form #add-meal:hover {
+  background: green;
+  box-shadow: 0 0 0 3px #4183d7;
+  color: #ffffff;
+}
+
+#form input {
+  width: 130px;
+}
+
+.meal .change-meal,
+.meal .delete-meal {
+  display: inline-block;
+  background: rgb(156, 150, 235);
+  padding: 6.5px;
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 14px;
+  margin: 10px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  box-shadow: 5px 4px 8px rgb(0, 0, 0), 10px 10px 10px rgba(0, 0, 0, 0.22);
+  font-family: 'Nova Mono', monospace;
+  font-weight: 800;
+}
+
+button {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/vecteezy_white-cloud-clipart-design-illustration_9302650_805.png");
+}
+
+.change-meal:hover,
+.delete-meal:hover {
+    background: green;
+    box-shadow: 0 0 0 3px #4183d7;
+    color: #ffffff;
+}
+
+#load-meals {
+    background: rgb(156, 150, 235);
+  padding: 6.5px;
+  width: 240px;
+  border: none;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 1em;
+  box-shadow: 5px 4px 8px rgb(0, 0, 0), 10px 10px 10px rgba(0, 0, 0, 0.22);
+  font-family: 'Nova Mono', monospace;
+  font-weight: 800;
+}
+
+#load-meals:hover {
+    background: green;
+    box-shadow: 0 0 0 3px #000000;
+    color: #ffffff;
+}
+
+.change-meal:disabled,
+.delete-meal:disabled {
+  background: linear-gradient(135deg, #bdbdbd 0%, #cfcfae 100%);
+}
+
+.change-meal:disabled:hover,
+.delete-meal:disabled:hover {
+  box-shadow: none;
+  color: #fcfcfc;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+h2 {
+  padding: 5px;
+  margin-top: 0.5em;
+  color: rgb(3, 12, 131);
+  font-size: 23px;
+  background-color: rgba(255, 255, 255, 0.692);
+  border-radius: 10px;
+}
+
+#meals {
+  height: 400px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 2em;
+}
+
+#meals > h2,
+#finished-course > h2 {
+  font-size: 20px;
+}
+
+.meal {
+  height: 180px;
+  width: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../img/plate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  scale: 0.8;
+  margin-top: -50px;
+}
+
+#wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.meal {
+  text-align: center;
+}
+
+.meal > h2 {
+  color: rgb(73, 157, 252);
+  font-size: 28px;
+  text-align: center;
+  padding-left: 2px;
+  padding: 3.5px;
+  font-weight: 700;
+  margin-bottom: -0.7em;
+  margin-top: 0.25em;
+  background-color: rgba(255, 255, 255, 0.692);
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.meal > h3 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-align: left;
+  padding-left: 2px;
+  padding: 5px;
+  font-weight: 700;
+  margin-bottom: -1.68em;
+  margin-left: 10px;
+}
+
+.meal > h4 {
+  color: hsl(0, 0%, 0%);
+  font-size: 12px;
+  text-align: left;
+  padding: 5px;
+  font-weight: 600;
+  margin-bottom: -0.1em;
+}
