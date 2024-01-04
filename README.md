@@ -29,27 +29,27 @@ Includes repos from the following courses:
 |   03. | [C# Advanced Curriculum](https://softuni.bg/modules/58/csharp-advanced/1357)                             | [C# Advanced](https://softuni.bg/certificates/details/143932/ea987587)                      |                                                                  | 12
 |   04. | [C# OOP Curriculum](https://softuni.bg/trainings/3843/csharp-oop-october-2022)                           | [C# OOP](https://softuni.bg/certificates/details/150719/53829fbc)                           |                                                                  | 15
 |   05. | [MS SQL Curriculum](https://softuni.bg/trainings/3965/ms-sql-january-2023)                               | [MS SQL](https://softuni.bg/certificates/details/157832/0c96a1b9)                           |                                                                  | 9
-|   06. | [EF-Core Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)			         | [Entity Framework Core](https://softuni.bg/certificates/details/164861/ef7326ac)      |                                                                  | 15
-|   07. | [HTML & CSS Mini Course Curriculum](https://softuni.bg/trainings/2286/html-css-mini-course)			         | Noncertifiable                                                                        |                                                                  |
+|   06. | [EF-Core Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)			   | [Entity Framework Core](https://softuni.bg/certificates/details/164861/ef7326ac)      		 |                                                                  | 15
+|   07. | [HTML & CSS Mini Course Curriculum](https://softuni.bg/trainings/2286/html-css-mini-course)			   | Noncertifiable                                                                        		 |                                                                  |
 |   08. | [ASP.NET Fundamentals Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023) | [ASP.NET Fundamentals](https://softuni.bg/certificates/details/175351/3dbfbae1)             |                                                                  | 15
 |   09. | [ASP.NET Advanced Curriculum](https://softuni.bg/trainings/3966/entity-framework-core-february-2023)	   | [ASP.NET Advanced](https://softuni.bg/certificates/details/182177/0f14abe7)                 | [Sky Tracker App](https://github.com/KaiserDMC/Sky-Tracker-App)  | 15
-|   10. | [HTML & CSS Curriculum](https://softuni.bg/trainings/4239/html-and-css-september-2023)	                 | [HTML & CSS](https://softuni.bg/certificates/details/190832/9b2b2d39)                     |                                                                  | 12
-|   11. | [JS Front-End Curriculum](https://softuni.bg/trainings/4240/js-front-end-october-2023)	                 | Pending                                                                          		 |                                                                  | 15
+|   10. | [HTML & CSS Curriculum](https://softuni.bg/trainings/4239/html-and-css-september-2023)	               | [HTML & CSS](https://softuni.bg/certificates/details/190832/9b2b2d39)                     	 |                                                                  | 12
+|   11. | [JS Front-End Curriculum](https://softuni.bg/trainings/4240/js-front-end-october-2023)	               | [JS Front-End](https://softuni.bg/certificates/details/199189/8cf6100e)                     |                                                                  | 15
 ---
 
 Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "C# Web Developer" certification):
 
 * Windows System Administration (March 2023)
 * Linux System Administration (June 2023)
-* Algorithms Fundamentals with C# (Nov 2023)
-* Data Structures Fundamentals with C# (Jan 2024)
+* Algorithms Fundamentals with C# (Nov 2023) - Noncertifiable (no credits)
+* Data Structures Fundamentals with C# (Jan 2024) - Noncertifiable (no credits)
 
 | Index | Open Courses Curriculum																				                            | Additional Certification (min 140 credits)              					 | Credits                           
 |:------:|:---------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------:
 |   12. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)                       | [WSA](https://softuni.bg/certificates/details/171863/406d88db)             | 6
 |   13. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)                            | [LSA](https://softuni.bg/certificates/details/178921/491ce0aa)             | 6
-|   14. | [Algorithms Fundamentals (C#)](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)                   | Pending                                        							 |
-|   15. | [Data Structures Fundamentals (C#)](https://softuni.bg/trainings/4266/data-structures-fundamentals-with-csharp-september-2023)    | Pending                                    								 |
+|   14. | [Algorithms Fundamentals (C#)](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)                   | Noncertifiable                                        					 |
+|   15. | [Data Structures Fundamentals (C#)](https://softuni.bg/trainings/4266/data-structures-fundamentals-with-csharp-september-2023)    | Noncertifiable                                    						 |
 ---
 
 Includes repos from the following Open courses (these courses are taken in order to reach the required 160 credits for "C# Full-Stack Developer" certification):
@@ -59,5 +59,5 @@ Includes repos from the following Open courses (these courses are taken in order
 
 | Index | Open Courses Curriculum																				              | Additional Certification (min 160 credits)               | Credits                     
 |:------:|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------|:----------------------------:
-|   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                         | Pending                                                  |
-|   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)  | Pending                                       			 |
+|   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                         | Pending                                                  | 12
+|   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)  | Pending                                       			 | 12
