@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Newsletter</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Newsletter</h1>
+        <p>Stay updated with the latest news and updates!</p>
+    </header>
+
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest news delivered to your inbox.</p>
+        <form action="#" method="post">
+            <label>
+                <input type="email" name="email" placeholder="Your email address" required>
+            </label>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SoftUni Newsletter Example App. All rights reserved.</p>
+    </footer>
+</body>
+</html>

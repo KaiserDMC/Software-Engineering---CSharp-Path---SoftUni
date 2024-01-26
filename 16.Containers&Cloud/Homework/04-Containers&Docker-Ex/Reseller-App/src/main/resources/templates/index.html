@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/commons::head"></head>
+<body>
+<header th:replace="fragments/commons::nav"></header>
+<main>
+    <div class="container bg-blur rounded mt-5 ">
+        <h1>Welcome to Reseller App</h1>
+        <hr class="my-3 bg-white w-50"/>
+
+        <p class="h4">
+            ResellerApp is the newest online marketplace dedicated to buying and selling new or used items.
+            At any given time, the site has a wide variety of listings ranging from hand tools, clothes, books
+            to accessories, pro audio gear, bikes, smartphones, and more.</p>
+        <hr class="my-3 bg-white w-75"/>
+
+        <h3>
+            <a class="text-primary" href="/users/login">Login</a>
+            if you have an account or
+            <a class="text-primary" href="/users/register">Register</a>
+            now and check our deals.
+        </h3>
+    </div>
+</main>
+<footer th:replace="fragments/commons::footer"></footer>
+</body>
+</html>

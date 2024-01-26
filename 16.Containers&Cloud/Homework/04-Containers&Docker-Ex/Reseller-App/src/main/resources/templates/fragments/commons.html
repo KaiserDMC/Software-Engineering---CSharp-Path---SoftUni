@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Reseller App</title>
+    <link rel="stylesheet" href="/css/reset-css.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-nav rounded">
+        <a class="nav-link text-primary active h5 text-stroke" href="/">Reseller App</a>
+        <a th:if="${@loggedUser.isLogged()}" class="nav-link text-primary active h5 text-stroke" href="/offers/add-offer">Add Offer</a>
+
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav row">
+                <li th:if="${!@loggedUser.isLogged()}" class="nav-item col-md-4">
+                    <a class="nav-link text-primary active h5 text-stroke" href="/users/login">Login</a>
+                </li>
+
+                <li th:if="${!@loggedUser.isLogged()}" class="nav-item col-md-4">
+                    <a class="nav-link text-primary active h5 text-stroke" href="/users/register">Register</a>
+                </li>
+
+                <li th:if="${@loggedUser.isLogged()}" class="nav-item col-md-4">
+                    <a class="nav-link text-primary active h5 text-stroke" href="/users/logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<footer class="footer bg-transparent  py-2">
+    <div class="container-fluid text-center">
+        <div class="footer-background h5 text-primary text-stroke fixed-bottom">
+            &copy; Spring team 2023. All rights reserved.
+        </div>
+    </div>
+</footer>
+</body>
+</html>

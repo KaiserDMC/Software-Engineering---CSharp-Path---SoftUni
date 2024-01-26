@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/commons::head"></head>
+<body>
+<header th:replace="fragments/commons::nav"></header>
+<main>
+    <div class="container bg-blur rounded mt-1 mb-4">
+        <div class="row mt-1 mb-2">
+            <div class="col-6 mt-1 mb-1">
+
+                <div id="1red">
+                    <h3 class="mySticky bg-gray text-dark  mb-0 mt-2">My Offers</h3>
+                    <h6 class="mySticky bg-gray text-dark  mb-0 mt-0"
+                        th:text="|Username: ${currentUserInfo.username}|"></h6>
+                    <div class="bg-dark rounded m-auto" style="height: 31vh; overflow: auto">
+                        <table class="table table-striped table-dark">
+                            <tr th:each="offer : ${userOffers}">
+                                <td class="bg-info" scope="row" style="width: 5%">
+                                    <img class="mr-2 " src="/img/etiquette.png" alt="Etiquette" width="35px"
+                                         height="35px">
+                                </td>
+                                <td style="width: 5%" class="bg-info"
+                                    th:text="${offer.getCondition().getConditionName().getValue().toString()}"></td>
+                                <td class="bg-primary" th:text="|${offer.getPrice()} €|" style="width: 15%"></td>
+                                <td th:text="${offer.description}"></td>
+                                <td style="width: 15%"><a class="btn-danger btn"
+                                                          th:href="@{offers/remove/{id}(id=*{offer.id})}">Remove</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="2red">
+                    <h3 class="mySticky bg-gray text-dark  mb-0 mt-2">Bought Items</h3>
+                    <div class="bg-dark rounded m-auto" style="height: 31vh; overflow: auto">
+                        <table class="table table-striped table-dark">
+                            <tr th:each="item : ${currentUserInfo.getBoughtItems()}">
+                                <td class="bg-info" scope="row" style="width: 5%">
+                                    <img class="mr-2 " src="/img/etiquette.png" alt="Etiquette" width="35px"
+                                         height="35px">
+                                </td>
+                                <td style="width: 5%" class="bg-info"
+                                    th:text="${item.description}"></td>
+                                <td class="bg-primary" th:text="|${item.price} €|" style="width: 15%"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 mt-1 mb-1">
+                <h3 class="mySticky bg-gray text-dark  mb-0 mt-2">All Other Offers</h3>
+                <h6 class="mySticky bg-gray text-dark  mb-0 mt-0"
+                    th:text="|${totalOffers} Offers|"></h6>
+                <div class="bg-dark rounded m-auto" style="height: 67vh; overflow: auto">
+                    <th:block th:each="offerOther : ${otherUserOffers}">
+                        <th:block th:each="offer : ${offerOther.getOffers()}">
+                        <br>
+                        <ul class="list-group list-group-horizontal text-dark">
+                            <li class="list-group-item">
+                                <table>
+                                    <tr>
+                                        <td style="width: 35%">
+                                            <a th:text="|${offerOther.getUsername()} sells:|"></a>
+                                        </td>
+                                        <td>
+                                            <a th:text="${offer.description}"></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li class="list-group-item bg-gray">
+                                <table>
+                                    <tr>
+                                        <td style="width: 40%"
+                                            th:text="|Condition: ${offer.condition}|"></td>
+                                        <td class="text-primary" style="width: 40%"
+                                            th:text="|Price: ${offer.price} €|"></td>
+                                        <td><a class="ml-3 text-danger"
+                                               th:href="@{/offers/buy-offer/{id}(id=*{offer.id})}"><img
+                                                src="/img/buy.png" height="35px"></a></td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                        </th:block>
+                    </th:block>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer th:replace="fragments/commons::footer"></footer>
+</body>
+</html>

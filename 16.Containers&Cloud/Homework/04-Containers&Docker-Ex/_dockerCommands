@@ -1,0 +1,70 @@
+// 01. Lightstreamer Container
+
+docker run -d --name ls-server -p 80:8080 lightstreamer:latest
+
+// 02. Ghost Container
+
+docker run -d --name ghost-container -p 3001:2368 -e NODE_ENV=development ghost:latest
+
+// 03. Apache HTTP Server Container
+
+docker run -d -v ${PWD}:/usr/local/apache2/htdocs/ --name my-apache-app -p 8080:80 httpd:latest
+
+// 04. SQL Server Container
+
+docker volume create sqldata
+
+docker run -d -v sqldata:/var/opt/mssql -e ACCEPT_EULA=Y -e MSSQL_SA_PASSWORD=yourStrongPassword12# -p 1433:1433 mcr.microsoft.com/mssql/server
+
+// 05. MariaDB Client and Server in a Network
+
+docker network create maria_network
+
+docker run --detach --network maria_network --name mariadb_server --env MARIADB_USER=example-user --env MARIADB_PASSWORD=my_cool_secret --env MARIADB_ROOT_PASSWORD=my-secret-pw  mariadb:latest
+docker run -it --network maria_network mariadb mariadb -hmariadb_server -uexample-user -p
+
+// 06. TaskBoard App: Building a Custom Image
+
+// Make sure you are inside the root TaskBoardApp folder
+docker build . -f ./TaskBoard.WebApp/Dockerfile -t kaiserdmc/taskboard_app
+
+// 07. Tracker App
+
+// Make sure you are inside the root Tracker-App folder
+docker build . -t kaiserdmc/tracker_app
+docker run -d --name tracker_app -p 80:80 kaiserdmc/tracker_app
+
+// 08. TaskBoard App: Connect Containers in a Network
+
+docker network create taskboard_network
+docker run -d --name sqlserver --network taskboard_network -e ACCEPT_EULA=Y -e MSSQL_SA_PASSWORD=yourStrongPassword12# -p 1433:1433 -v sqldata:/var/opt/mssql mcr.microsoft.com/mssql/server
+// Make sure you are inside the root TaskBoardApp folder
+docker build . -f ./TaskBoard.WebApp/Dockerfile -t kaiserdmc/taskboard_app
+docker run --name web_app --network taskboard_network -p 5000:80 kaiserdmc/taskboard_app
+
+// 09. TODO App
+
+docker network create react-express
+docker network create express-mongo
+// Make sure you are inside the root TODO-App folder for both backend and frontend
+docker build . -t backend_image
+docker build . -t frontend_image
+
+docker run -d --name backend backend_image
+docker network connect react-express backend
+docker network connect express-mongo backend
+
+docker run -d --name frontend --network react-express -p 3000:3000 frontend_image
+docker run -d -v ./data:/data/db --name mongo --network express-mongo mongo:latest
+
+// 10. TaskBoard App: Orchestrating Containers with Docker Compose
+
+// Make sure you are inside the root TaskBoardApp folder, containing the "docker-compose.yaml" file
+docker compose build
+docker compose up
+
+docker compose down --rmi all --volumes
+
+// 11. Blue Vs Green App
+
+TODO
