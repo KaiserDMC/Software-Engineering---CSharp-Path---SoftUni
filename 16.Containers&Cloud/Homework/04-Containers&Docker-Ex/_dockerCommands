@@ -77,3 +77,8 @@ TODO
 docker build . -t resellerapp
 docker-compose up -d
 docker-compose down --volumes
+
+// 13. Fruitipedia App
+
+// Make sure you are inside the root Reseller-App folder, containing the "Docker" and "docker-compose.yaml" files
+docker-compose up --build
