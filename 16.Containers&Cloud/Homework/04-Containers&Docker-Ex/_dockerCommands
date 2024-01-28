@@ -68,3 +68,12 @@ docker compose down --rmi all --volumes
 // 11. Blue Vs Green App
 
 TODO
+
+// 12. Reseller App (Java)
+
+// Requires MVN installed
+// Make sure you are inside the root Reseller-App folder, containing the "Docker" file
+
+docker build . -t resellerapp
+docker-compose up -d
+docker-compose down --volumes
