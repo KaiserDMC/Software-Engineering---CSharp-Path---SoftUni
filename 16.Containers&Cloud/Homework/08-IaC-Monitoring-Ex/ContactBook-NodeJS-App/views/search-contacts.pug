@@ -1,0 +1,24 @@
+extends layout.pug
+
+block head
+  - var pageTitle = 'Search Contacts'
+
+block content
+  if keyword
+    h1 Contacts Matching Keyword "#{keyword}"
+    if contacts.length == 0
+      div#searchResult No contacts found.
+      br
+    else
+      div#searchResult #{contacts.length} contacts found.
+      br
+      include render-contacts
+      br
+
+  form(method='GET')
+    table.contact-entry.form
+      tr.fname
+        th Keyword
+        td
+          input#keyword(type='text', name='keyword', value=`${keyword}`)
+    button#search(type='submit') Search
