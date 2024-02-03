@@ -67,7 +67,27 @@ docker compose down --rmi all --volumes
 
 // 11. Blue Vs Green App
 
-TODO
+docker pull postgres
+docker pull redis
+docker network create backend
+docker network create frontend
+docker volume create db
+docker volume create vote
+docker volume create result
+
+// Inside of "result" folder
+docker build -t result .
+
+// Inside of "vote" folder -> make sure Dockerfile is present and correct
+docker build -t vote .
+
+// Inside of "worker" folder -> make sure Dockerfile is present and correct
+docker build -t worker .
+
+// Create docker-compose.yaml file -> can use https://www.composerize.com to make a "compose" from "docker run"
+docker-compose build
+docker-compose up -d
+docker-compose down --volumes
 
 // 12. Reseller App (Java)
 

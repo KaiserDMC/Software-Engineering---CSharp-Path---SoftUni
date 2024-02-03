@@ -1,0 +1,47 @@
+version: "3.8"
+services:
+  vote:
+    networks:
+      - frontend
+      - backend
+    ports:
+      - 5000:80
+    volumes:
+      - vote:/app
+    image: vote
+  result:
+    networks:
+      - frontend
+      - backend
+    ports:
+      - 5001:80
+    volumes:
+      - result:/app
+    image: result
+  worker:
+    container_name: worker
+    networks:
+      - backend
+    image: worker
+  redis:
+    container_name: redis
+    networks:
+      - backend
+    image: redis
+  db:
+    networks:
+      - backend
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+    volumes:
+      - db:/var/lib/postgresql/data
+    image: postgres
+
+networks:
+  frontend:
+  backend:
+volumes:
+  vote:
+  result:
+  db:
