@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "contact-book"
+
+    static_configs:
+      - targets: ["localhost:8080"]

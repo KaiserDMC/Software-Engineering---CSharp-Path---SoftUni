@@ -1,0 +1,20 @@
+div.contacts-grid
+    each contact in contacts
+      a(href=`/contacts/${contact.id}`)
+        table(class='contact-entry' id=`${'contact' + contact.id}`)
+          tr.fname
+            th First Name
+            td #{contact.firstName} 
+          tr.lname
+            th Last Name
+            td #{contact.lastName} 
+          tr.email
+            th Email
+            td.email #{contact.email} 
+          tr.phone
+            th Phone
+            td.phone #{contact.phone} 
+          tr.comments
+            th Comments
+            td.comments 
+              div.comments #{contact.comments} 
