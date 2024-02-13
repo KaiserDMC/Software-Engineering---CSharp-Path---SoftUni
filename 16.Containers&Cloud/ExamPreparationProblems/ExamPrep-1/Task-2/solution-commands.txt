@@ -1,0 +1,13 @@
+// Inside of GitHub
+Create new repository
+Upload App files
+
+// Inside of Folder (cmd)
+terraform init
+terraform fmt
+terraform validate
+
+az login
+
+terraform plan -var-file=values.tfvars
+terraform apply -var-file=values.tfvars

@@ -1,0 +1,24 @@
+// Inside of Azure
+Create Web App + Database - follow instructions with proper names
+Stack -> NodeJS LTS
+Engine -> Cosmos DB for MongoDB
+Hosting plan -> Basic
+
+// Inside of GitHub
+Create new repository
+Upload App files
+
+// Inside Azure
+"Name" App Service -> Configuration
+-> Copy the value of the connectionString (MONGODB_URI)
+-> Create new Application Setting -> "DATABASE_URL" (based on the name inside of .env.sample) with the copied connectionString
+-> Create new Application Setting -> "DATABASE_NAME" (based on the name generated during the WebApp + Database creation)
+-> Save
+"Name" App Service -> Deployment Center
+-> Source GitHub
+-> Basic Authentication
+-> Follow instructions
+-> Save
+
+// Results
+Provide screenshots and text files as instructed by the assignment

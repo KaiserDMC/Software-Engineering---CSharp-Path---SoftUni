@@ -1,0 +1,45 @@
+extends layout
+
+block content
+
+  form(action='./addBook' method='POST' class='form-registration')
+    div(class='row my-3')
+        div(class='col-md-2 align-bottom')
+          label(for="bookName" class='fs-5') New book
+        div(class='col-md-8')
+          input(class="form-control form-control-sm" type="text" name='bookName', placeholder="Enter new book here" )
+          input(class="form-control form-control-sm" type="text" name='author', placeholder="Enter book author here" )
+        div(class='col-md-2 text-end')
+          button(class='btn btn-success btn-sm' type='submit') Add task
+
+
+  h5(class='my-2') Books to read
+
+  div(class='row mb-3 border-bottom border-3')
+    div(class='col-md-6 fw-bold') Book
+    div(class='col-md-2 fw-bold') Author
+    div(class='col-md-4 fw-bold') Action
+
+  each book in currentBooks
+    div(class='row mb-2')
+      div(class='col-sm-6') #{book.bookName}
+      div(class='col-sm-2') #{book.Author}
+      div(class='col-sm-2')
+        form(action='./readBook' method='POST' class='form-registration')
+          input(type='hidden' name='_id' value=`${book._id}`)
+          button(class='btn btn-primary btn-sm mx-1' type='submit') Complete
+      div(class='col-sm-2')
+        form(action='./deleteBook' method='POST' class='form-registration')
+          input(type='hidden' name='_id' value=`${book._id}`)
+          button(class='btn btn-danger btn-sm mx-1') Delete
+
+  h5(class='my-2') Completed books
+  div(class='row mb-3 border-bottom border-3')
+    div(class='col-sm-8 fw-bold') Book
+    div(class='col-sm-2 fw-bold') Author
+    div(class='col-sm-2 fw-bold') Read
+  each book in completedBooks
+    div(class='row mb-3')
+      div(class='col-sm-8') #{book.taskName}
+      div(class='col-sm-2') #{task.author}
+      div(class='col-sm-2') #{task.readDate}
