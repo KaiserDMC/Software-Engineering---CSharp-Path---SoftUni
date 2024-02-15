@@ -1,0 +1,36 @@
+version: "3"
+services:
+  mongo:
+    container_name: mongodb
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=max
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+    volumes:
+      - data:/data/db
+    networks:
+      - goals
+    image: mongo
+  backend:
+    ports:
+      - 80:80
+    volumes:
+      - logs:/logs
+      - node_modules:/node_modules
+    networks:
+      - goals
+    image: username/goals-backend
+  frontend:
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend/src:/src
+    networks:
+      - goals
+    image: username/goals-frontend
+
+networks:
+    goals:
+volumes:
+    data:
+    logs:
+    node_modules:

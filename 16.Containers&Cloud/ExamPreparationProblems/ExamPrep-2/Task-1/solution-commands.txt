@@ -1,0 +1,38 @@
+// After creating Dockerfile for backend
+docker build -t goals-backend . -> to check the file and create and image
+
+// After creating Dockerfile for frontend
+docker build -t goals-frontend . -> to check the file and create and image
+
+// Get MongoDB image
+docker pull mongo
+
+// Create Docker network to connect the images
+docker network create goals
+
+// Create Docker volumes
+docker volume create data
+docker volume create logs
+docker volume create node_modules
+
+// Check if the MongoDB image will work locally due to the use of envirnoment variables
+docker run -d --name mongodb --network goals -e MONGO_INITDB_ROOT_USERNAME=max -e MONGO_INITDB_ROOT_PASSWORD=secret -v data:/data/db mongo
+
+// Check if the Backend image will work locally
+docker run -d --name backend --network goals -p 80:80 -v logs:/logs -v node_modules:/node_modules goals-backend
+
+// Check if the Frontend image will work locally
+docker run -d --name frontend --network goals -p 3000:3000 -v ./frontend/src:/src goals-frontend
+
+// Upload images to DockerHub
+docker login
+docker tag goals-backend username/goals-backend
+docker tag goals-backend username/goals-frontend
+docker push username/goals-backend
+docker push username/goals-frontend
+
+// After creating docker-compose.yml file
+docker compose build
+docker compose up -d
+
+// Provide screenshots as requested
