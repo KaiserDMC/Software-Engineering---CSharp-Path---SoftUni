@@ -1,0 +1,39 @@
+﻿@model URLAddressViewModel
+
+@{
+    ViewBag.Title = "Delete URL Address";
+}
+
+<div class="text-center">
+    <h1 class="display-4" id="headerText">Delete Short URL</h1>
+    <div >
+        <form asp-action="Delete">
+            <table class="urls" style="max-width:1000px">
+                <thead>
+                    <tr>
+                        <th>Original URL</th>
+                        <th>Short URL</th>
+                        <th>Date Created</th>
+                        <th>Visits</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label asp-for="OriginalUrl" href="@Model.OriginalUrl" target="_blank">@Model.OriginalUrl</label>
+                        </td>
+                        <td>
+                            <label asp-for="ShortUrl" class="shorturl" method="get" asp-controller="URLAddress" asp-action="RedirectTo" asp-route-path="@Model.ShortUrl">@Model.ShortUrl</label>
+                        </td>
+                        <td><label asp-for="DateCreated">@Model.DateCreated.ToString("yyyy/MM/dd HH:mm:ss")</label></td>
+                        <td><label asp-for="Visits">@Model.Visits</label></td>
+                        <td>
+                            <button id="deleteBtn" type="submit">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>

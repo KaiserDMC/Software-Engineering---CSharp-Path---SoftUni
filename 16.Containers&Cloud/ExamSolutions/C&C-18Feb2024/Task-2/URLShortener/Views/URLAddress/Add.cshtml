@@ -1,0 +1,13 @@
+﻿@model URLAddressFormModel
+
+@{
+    ViewBag.Title = "Add URL Address";
+}
+
+<h1 class="display-4" id="headerText">Add Short URL</h1>
+
+<partial name="_URLAddressFormPartial" model="@Model" />
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

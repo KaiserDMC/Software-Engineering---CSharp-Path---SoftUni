@@ -1,0 +1,31 @@
+﻿@model URLAddressFormModel
+
+<form method="POST">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label class="url" for="url" asp-for="URL">URL: </label>
+                    </td>
+                    <td>
+                        <input id="url" type="text" asp-for="URL">
+                        <span asp-validation-for="URL" class="small text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="code" for="code" asp-for="ShortCode">Short Code: </label>
+                    </td>
+                    <td>
+                        <input id="code" type="text" asp-for="ShortCode">
+                        <span asp-validation-for="ShortCode" class="small text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <button id="button" type="submit">Submit</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</form>

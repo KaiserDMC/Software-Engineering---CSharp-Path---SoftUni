@@ -1,0 +1,172 @@
+
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 97%;
+    margin: 8px;
+}
+
+/*@media (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+}
+
+header, footer {
+    background: rgb(212, 233, 164);
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.text-center {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    margin-left: 10px;
+}
+
+    main form input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    main form button {
+        outline: none;
+        padding: 4px 10px;
+        font-size: 1em;
+        color: #111;
+        background: #b5e0b2;
+        border: 2px solid #62b762;
+        border-radius: 4px;
+    }
+
+        main form button:hover {
+            background: #c2e8bf;
+        }
+
+#headerText {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 23px;
+}
+
+.ulIndex {
+    text-align: left;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 70%;
+    height: 70%;
+}
+
+#ulContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.infoContainer {
+    display: flex;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f5fff5;
+    text-align: left;
+    padding: 10px;
+    overflow: scroll;
+}
+
+    table th, table td {
+        border: 2px solid #ddd;
+        font-size: 20px;
+    }
+
+    table th {
+        padding: 12px 8px;
+        text-align: left;
+        background-color: rgb(107, 182, 109);
+        color: white;
+    }
+
+    table td {
+        padding: 8px;
+        word-break: break-all;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #dff0de;
+    }
+
+    table tr:hover {
+        background-color: rgb(198, 207, 180);
+    }
+
+form table {
+    width: 100%;
+    max-width: 600px;
+}
+
+    form table td:first-child {
+        width: 10%;
+        white-space: nowrap;
+    }
+
+#btn {
+    color: #111;
+    background: #b5e0b2;
+    border: 2px solid #62b762;
+}
+    #btn:hover {
+        background: #c2e8bf;
+    }
+
+.paginationContainer {
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+.pagination {
+    background: #b5e0b2;
+    border: 1px solid #62b762;
+    border-radius: 4px;
+    text-align: center;
+    color: forestgreen;
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.scrollit {
+    overflow-y: scroll;
+    height: 350px;
+}
+
+footer {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.err {
+    background: red;
+    color: white;
+    margin: 20px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 3px;
+}

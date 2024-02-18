@@ -1,0 +1,12 @@
+.product-item {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid darkgreen;
+  color: white;
+  background-color: darkgreen;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}

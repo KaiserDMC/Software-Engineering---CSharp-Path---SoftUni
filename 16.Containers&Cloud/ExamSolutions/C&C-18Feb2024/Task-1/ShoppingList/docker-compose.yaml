@@ -1,0 +1,38 @@
+version: "3"
+services:
+  mongo:
+    container_name: mongodb
+    networks:
+      - shopping-list
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=max
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+    volumes:
+      - data:/data/db
+    image: mongo
+  shopping-list-backend:
+    container_name: backend
+    networks:
+      - shopping-list
+    ports:
+      - 80:80
+    volumes:
+      - logs:/logs
+      - node_modules:/node_modules
+    image: kaiserdmc/shopping-list-backend
+  shopping-list-frontend:
+    container_name: frontend
+    networks:
+      - shopping-list
+    ports:
+      - 3001:3000
+    volumes:
+      - .\frontend\src:/src
+    image: kaiserdmc/shopping-list-frontend
+
+networks:
+  shopping-list:
+volumes:
+  data:
+  logs:
+  node_modules:

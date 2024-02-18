@@ -1,0 +1,114 @@
+﻿@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h3 id="headerText">URL Shortener</h3>
+    <div class="infoContainer">
+        <div class="container" id="ulContainer">
+            <ul class="ulIndex">
+                <li>
+                    Short URLs: <b>@Model.TotalShortURLsCount</b>
+                </li>
+                <li>
+                    URL visitors: <b>@Model.TotalURLVisitorsCount</b>
+                </li>
+            </ul>
+        </div>
+        @if (this.User.Identity.IsAuthenticated)
+        {
+            <div class="container" id="ulContainer">
+                <ul class="ulIndex">
+                    <li>
+                        My URLs: <b>@Model.MyShortURLsCount</b>
+                    </li>
+                    <li>
+                        My visitors: <b>@Model.MyTotalURLVisitorsCount</b>
+                    </li>
+                </ul>
+            </div>
+        }
+    </div>
+
+    <div class="text-center">
+        @if (!this.User.Identity.IsAuthenticated)
+        {
+            <h3 id="headerText">Latest Created URLs</h3>
+        }
+        else
+        {
+            <h3 id="headerText">My URLs</h3>
+        }
+        @if (!Model.URLAddresses.Any())
+        {
+            <h3 class="text-center">You don't have any short URLs yet!</h3>
+        }
+        else
+        {
+            <table class="urls">
+                <thead>
+                    <tr>
+                        <th>Original URL</th>
+                        <th>Short URL</th>
+                        <th>Date Created</th>
+                        <th>Visits</th>
+                        @if (this.User.Identity.IsAuthenticated)
+                        {
+                            <th>Actions</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var url in Model.URLAddresses)
+                    {
+                        <tr id="@url.OriginalUrl">
+                            <td>
+                                <a href="@url.OriginalUrl" target="_blank">@url.OriginalUrl</a>
+                            </td>
+                            <td>
+                                <a class="shorturl" method="get" asp-controller="URLAddress" asp-action="RedirectTo" asp-route-path="@url.ShortUrl">@url.ShortUrl</a>
+                            </td>
+                            <td>@url.DateCreated.ToString("yyyy/MM/dd HH:mm:ss")</td>
+                            <td>@url.Visits</td>
+                            @if (this.User.Identity.IsAuthenticated)
+                            {
+                                <td>
+                                    <a asp-controller="URLAddress" asp-action="Edit" asp-route-id="@url.Id" class="btn btn-secondary mb-2" id="editBtn">Edit</a>
+                                    <a asp-controller="URLAddress" asp-action="Delete" asp-route-id="@url.Id" class="btn btn-secondary mb-2" id="deleteBtn">Delete</a>
+                                </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        @if (Model.MyShortURLsCount > 3)
+        {
+            <div class="paginationContainer">
+                @if (this.User.Identity.IsAuthenticated)
+                {
+                    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+                    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+
+                    <span class="pagination">
+                        <a asp-action="Index"
+                   asp-route-pageNumber="@(Model.PageIndex - 1)"
+                   class="btn btn-default @prevDisabled" id="btn">
+                            Previous
+                        </a>
+                    </span>
+
+                    <span class="pagination">
+                        <a asp-action="Index"
+                   asp-route-pageNumber="@(Model.PageIndex + 1)"
+                   class="btn btn-default @nextDisabled" id="btn">
+                            Next
+                        </a>
+                    </span>
+                }
+            </div>
+        }
+    </div>
+</div>

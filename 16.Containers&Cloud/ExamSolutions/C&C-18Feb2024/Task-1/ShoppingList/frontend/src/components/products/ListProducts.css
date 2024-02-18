@@ -1,0 +1,13 @@
+#list-products {
+  text-align: center;
+}
+
+#list-products h2 {
+  color: #414040;
+}
+
+#list-products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
