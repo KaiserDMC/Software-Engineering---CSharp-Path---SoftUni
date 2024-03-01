@@ -1,0 +1,9 @@
+extends layout.pug
+
+block head
+  - var pageTitle = 'View Contacts'
+
+block content
+  if contacts.length == 0
+    p Contact book is empty.
+  include render-contacts

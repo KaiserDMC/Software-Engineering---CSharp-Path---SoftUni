@@ -1,0 +1,224 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+  grid-template-columns: 110px auto;  
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 500px) {
+  body {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "aside aside"
+      "main main"
+      "footer footer";
+  }
+}
+
+header.top {
+  grid-area: header;
+  display: grid;
+  grid-template-areas: "logo header-text";
+  grid-template-columns: 60px auto; 
+  background: rgb(181, 216, 255);
+  padding: 10px 5px;
+  border-radius: 3px;
+}
+
+header.top a {
+  grid-area: logo;
+  align-self: center;
+  text-align: center;
+  font-size: 2.0em;
+  filter: drop-shadow(0px 0px 2px #555);
+  text-decoration: none;
+}
+
+header.top a:hover {
+  filter: drop-shadow(0px 0px 3px #fff);
+}
+
+header.top h1 {
+  grid-area: header-text;
+  margin: 0px;
+  align-self: center;
+  font-size: 1.5em;
+}
+
+aside {
+  grid-area: aside;
+  background: rgb(181, 216, 255);
+  border-radius: 3px;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+}
+
+aside ul a {
+  display: block;
+  padding: 5px;
+  color: rgb(86, 40, 129);
+  text-decoration: none;
+}
+
+aside ul a:hover {
+  background: rgb(96, 123, 153);
+  color: white;
+  border-radius: 3px;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  background: rgb(181, 216, 255);
+  padding: 8px;
+  border-radius: 3px; 
+}
+
+section.home-page {
+  background: rgb(171, 208, 243);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+div.home-page-icons a {
+  color: rgb(86, 40, 129);
+  background: rgb(171, 208, 243);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(125, 170, 238);
+  margin: 10px 10px 0px 0px; 
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  vertical-align:middle;
+}
+
+div.home-page-icons a span.icon {
+  display: block;
+  font-size: 3em;
+}
+
+div.home-page-icons a:hover {
+  background: rgb(96, 123, 153);
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #dae9f3;
+}
+
+table tr:hover {
+  background-color: rgb(173, 204, 240);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(84, 144, 212);
+  color: white;
+}
+
+div.contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 1200px) {
+  div.contacts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  div.contacts-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
+
+div.contacts-grid a {
+  text-decoration: none;
+}
+
+table.contact-entry th {
+  width: 120px;
+}
+
+table.contact-entry td {
+  width: 100%;
+}
+
+table.contact-entry td div.comments {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+td.comments {
+  white-space: pre-wrap;
+}
+
+form table {
+  max-width: 800px;
+  margin: 0px auto 10px auto;
+}
+
+form table input {
+  width: 100%;
+}
+
+form table textarea {
+  width: 100%;
+}
+
+form button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  outline: none;
+  background: #9bcef0;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 800px;
+  font-size: 1.2em;
+}
+
+.err {
+  background: red;
+  color: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 3px; 
+  width: 75%
+}

@@ -1,0 +1,32 @@
+html
+  head
+    block head
+    - var appName = 'Contact Book'
+    title #{pageTitle} &ndash; #{appName}
+    link(rel='stylesheet', href='/styles.css')
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
+  body
+    header.top
+      a(href='/')
+        span &#x1F4D8;
+      h1 #{pageTitle}
+	  
+    aside
+      ul
+        li
+          a(href='/') Home
+        li
+          a(href='/contacts') Contacts
+        li 
+          a(href='/contacts/create') Create
+        li 
+          a(href='/contacts/search') Search
+
+    main
+      if errMsg
+        div(class='err') Error: #{errMsg}
+      block content
+    
+    footer
+      div © 2021 - #{appName}

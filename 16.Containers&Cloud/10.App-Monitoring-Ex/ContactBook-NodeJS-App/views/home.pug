@@ -1,0 +1,20 @@
+extends layout.pug
+
+block head
+  - var pageTitle = 'Welcome'
+
+block content
+  section.home-page Contacts: <b>#{contacts.length}</b>
+  div.home-page-icons
+    a(href='/contacts') 
+      span.icon &#x1D315;
+      span View contacts
+    a(href='/contacts/create')
+      span.icon &#10010;
+      span Create new contact
+    a(href='/contacts/search')
+      span.icon &#8981;
+      span Search contacts
+    a(href='/api')
+      span.icon &#9874;
+      span RESTful API

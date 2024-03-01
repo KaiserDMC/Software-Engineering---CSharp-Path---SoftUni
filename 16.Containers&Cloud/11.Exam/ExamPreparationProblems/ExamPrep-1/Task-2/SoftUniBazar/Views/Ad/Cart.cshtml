@@ -1,0 +1,37 @@
+﻿@model IEnumerable<AdViewModel>
+
+@{
+    ViewBag.Title = "My Cart";
+}
+
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<div class="text-center row">
+    @foreach (var a in Model)
+    {
+        <div class="card col-4" style="width: 20rem; ">
+            <div class="card-body">
+                <h5 class="card-title mt-1">@a.Name</h5>
+                <img class="card-img-top" src=@a.ImageUrl alt="Ad Image">
+                <p class="mb-0"><span class="fw-bold">Added on: </span>@a.CreatedOn</p>
+                <p class="mb-0"><span class="fw-bold">Category: </span>@a.Category</p>
+                <p class="mb-0"><span class="fw-bold">Description: </span>@a.Description</p>
+                <p class="mb-0"><span class="fw-bold">Price: </span>@a.Price BGN</p>
+                <p class="mb-0"><span class="fw-bold">Seller: </span>@a.Owner</p>
+            </div>
+
+            @if (User.Identity.Name != a.Owner)
+            {
+                <form class="input-group-sm " asp-controller="Ad" asp-action="RemoveFromCart" asp-route-id="@a.Id">
+                    <input type="submit" value="Remove from Cart" class="fs-6 btn btn-warning mb-3 w-100 p-3 fw-bold" />
+                </form>
+            }
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,29 @@
+extends layout.pug
+
+block head
+  - var pageTitle = 'Contact Details'
+
+
+block content
+  table(class='contact-entry' id=`${'contact' + contact.id}`)
+    tr.contactid
+      th ID
+      td #{contact.id} 
+    tr.fname
+      th First Name
+      td #{contact.firstName} 
+    tr.lname
+      th Last Name
+      td #{contact.lastName} 
+    tr.email
+      th Email
+      td.email #{contact.email} 
+    tr.phone
+      th Phone
+      td.phone #{contact.phone} 
+    tr.comments
+      th Comments
+      td.comments #{contact.comments}
+    tr.dateCreated
+      th Date Created
+      td.dateCreated #{contact.dateCreated}      

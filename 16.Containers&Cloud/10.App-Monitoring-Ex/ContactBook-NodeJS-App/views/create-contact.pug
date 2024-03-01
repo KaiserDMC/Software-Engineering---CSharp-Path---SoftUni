@@ -1,0 +1,30 @@
+extends layout.pug
+
+block head
+  - var pageTitle = 'Create Contact'
+
+block content
+  form(method='POST')
+    table.contact-entry.form
+      tr.fname
+        th First Name
+        td
+          input#firstName(type='text', name='firstName', value=`${firstName}`)
+      tr.lname
+        th Last Name
+        td
+          input#lastName(type='text', name='lastName', value=`${lastName}`)
+      tr.email
+        th Email
+        td
+          input#email(type='text', name='email', value=`${email}`)
+      tr.phone
+        th Phone
+          td
+            input#phone(type='text', name='phone', value=`${phone}`)
+      tr.comments
+        th Comments
+        td
+          textarea#comments(name='comments', rows='5')
+            | #{comments}
+    button#create(type='submit') Create
