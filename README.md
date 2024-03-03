@@ -15,7 +15,7 @@ Includes repos from the following courses:
     * MS SQL (January 2023)
     * Entity Framework Core (February 2023)
 * CSharp - Web
-    * HTML&CSS - Mini Course (April 2023) - Noncertifiable (no credits)
+    * HTML&CSS - Mini Course (April 2023) - Noncertifiable -> Introduction (no credits)
     * ASP.NET - Fundamentals (May 2023)
     * ASP.NET - Advanced (June 2023)
 * JavaScript - Front-End
@@ -41,8 +41,8 @@ Includes repos from the following Open courses (these courses are taken in order
 
 * Windows System Administration (March 2023)
 * Linux System Administration (June 2023)
-* Algorithms Fundamentals with C# (Nov 2023) - Noncertifiable (no credits)
-* Data Structures Fundamentals with C# (Jan 2024) - Noncertifiable (no credits)
+* Algorithms Fundamentals with C# (Nov 2023) - Noncertifiable -> Discontinued (no credits)
+* Data Structures Fundamentals with C# (Jan 2024) - Noncertifiable -> Discontinued (no credits)
 
 | Index | Open Courses Curriculum																				                            | Additional Certification (min 140 credits)              					 | Credits                           
 |:------:|:---------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------:
@@ -57,7 +57,7 @@ Includes repos from the following Open courses (these courses are taken in order
 * Containers and Cloud (2024)
 * Software Engineering and DevOps (2024)
 
-| Index | Open Courses Curriculum																				              | Additional Certification (min 160 credits)               | Credits                     
-|:------:|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------|:----------------------------:
-|   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                         | Pending                                                  | 12
-|   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)  | Pending                                       			 | 12
+| Index | Open Courses Curriculum																				              | Additional Certification (min 160 credits)               			| Credits                     
+|:------:|:-------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|:----------------------------:
+|   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                         | [C&C](https://softuni.bg/Certificates/Details/206950/95577b3d)      | 12
+|   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)  | Pending                                       			 			| 12
