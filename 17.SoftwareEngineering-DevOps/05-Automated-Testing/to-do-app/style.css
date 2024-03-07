@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #234465;
+    color: white;
+    font-size: 18px; /* Increase font size */
+}
+
+h1 {
+    color: #FFC107;
+    font-size: 2em; /* Increase header font size */
+}
+
+input, select, button {
+    font-size: 1.2em; /* Increase input field and button font size */
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#task-input {
+    width: 70%; /* Increase input field width */
+}
+
+button {
+    background-color: #FFC107; /* Button color */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s; /* Smooth transition for button hover effect */
+    border-radius: 12px; /* Rounded corners for buttons */
+}
+
+button:hover {
+    background-color: white;
+    color: #234465;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#task-list .task {
+    background-color: #2f5778;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#task-list .task button {
+    margin-left: 10px;
+}
+
+.task.completed {
+    text-decoration: line-through;
+}
+
+
+
+
