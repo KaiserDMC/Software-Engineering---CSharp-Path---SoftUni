@@ -1,0 +1,26 @@
+name: Run and Test Application
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: "npm"
+      - name: Install Node Modules
+        run: npm install
+      - name: Start Application Server
+        run: npm start & #The ampersant is mandatory
+      - name: Run Tests
+        run: npm test

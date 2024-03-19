@@ -1,0 +1,43 @@
+name: Node.js CI/CD with Render
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x] # Will run on multiple versions of Node
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - name: Install Node Modules
+        run: npm install
+      - name: Start Application Server
+        run: npm start & # The ampersant is mandatory
+      - name: Run Tests
+        run: npm test
+
+  # Heavily modified deploy job to fit render.com
+  deploy:
+    name: Deploy on Render
+    needs: [build] # Our build must pass in order to run the deploy job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to production
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id: ${{ secrets.SERVICE_ID }} # Render Web App Deploy Hook
+          api-key: ${{ secrets.RENDER_TOKEN }} # Render API Token
