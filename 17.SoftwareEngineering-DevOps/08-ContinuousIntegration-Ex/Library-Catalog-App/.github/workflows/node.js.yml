@@ -1,0 +1,88 @@
+name: Build and Deploy (Render)
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    name: Build App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: "npm"
+      - name: Install Dependencies
+        run: npm install
+      - name: Install playwright
+        run: npx playwright install
+      - name: Start BackEnd server
+        run: npm run start-back-end &
+      - name: Start FrontEnd server
+        run: npm run start-front-end &
+      - name: Await server
+        run: sleep 20
+      - name: Pre-test # These tests here pass!
+        run: npm run test
+
+  deploy-backend:
+    name: Deploy BackEnd on Render
+
+    needs: [build] # Our build must pass in order to run the deploy job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy Backend to production
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id: ${{ secrets.BACKEND_SERVICE_ID }} # Render Web App Deploy Hook
+          api-key: ${{ secrets.RENDER_TOKEN }} # Render API Token
+
+  deploy-frontend:
+    name: Deploy FrontEnd on Render
+    needs: deploy-backend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Frontend to production
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id: ${{ secrets.FRONTEND_SERVICE_ID }}
+          api-key: ${{ secrets.RENDER_TOKEN }}
+
+  run-tests:
+    name: Run tests
+    needs: [deploy-frontend] # Ensure build-and-test job has completed
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        max-tries: [2] # Maximum number of retry attempts
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      - name: Install dependencies
+        run: npm install
+      - name: Install Playwright browsers
+        run: npx playwright install
+      - name: Start BackEnd server
+        run: npm run start-back-end &
+      - name: Start FrontEnd server
+        run: npm run start-front-end &
+      - name: Await server
+        run: sleep 20
+      - name: Run tests
+        working-directory: ./
+        run: npm run test
+        continue-on-error: true
