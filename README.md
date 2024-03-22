@@ -61,9 +61,11 @@ Includes repos from the following Open courses (these courses are taken in order
 |:------:|:-------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|:----------------------------:
 |   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                         | [C&C](https://softuni.bg/Certificates/Details/206950/95577b3d)      | 12
 |   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)  | Pending                                       			 			| 12
+---
 
 ### Diploma C# Web Developer
 
-[![Diploma Preview](Diploma_for_C#_Web_Developer.jpeg)](https://softuni.bg/certificates/details/208293/f5f2c1a9)
-
-Click on the image above to view the full diploma.
+<a href="https://softuni.bg/certificates/details/208293/f5f2c1a9" target="_blank">
+  <img width="50%" height="50%" src="Diploma-Web-Dev.jpeg" alt="diploma-web-dev"/> 
+</a>
+<p>Click on the image above to view the full diploma.</p>
