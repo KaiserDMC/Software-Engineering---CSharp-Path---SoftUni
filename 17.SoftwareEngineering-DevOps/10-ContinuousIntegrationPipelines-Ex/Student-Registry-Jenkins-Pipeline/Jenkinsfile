@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+    
+    environment {
+        NODE_VERSION = '20.11.1' // Currently installed on PC
+    }
+    
+    stages {
+        stage('Checkout GitHub Repo') {
+            steps {
+                git branch: "main",
+                    url: "https://github.com/KaiserDMC/Student-Registry-JenkinsPipeline-DevOps.git"
+            }
+        }
+        
+        stage('Set up Node.js') {
+           steps {
+                // Check node and npm versions
+                bat 'node --version'
+                bat 'npm --version'
+            }
+        }
+        
+        stage('Install dependencies') {
+            steps {
+                bat 'npm install'
+            }
+        }
+        
+        stage('Start application') {
+            steps {
+                bat 'start npm start'
+            }
+        }
+        
+        stage('Run tests') {
+            steps {
+                bat 'npm test'
+            }
+        }
+    }
+}
