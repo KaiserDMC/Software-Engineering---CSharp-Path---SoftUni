@@ -5,3 +5,4 @@ function calcRectangleArea(width, height) {
 }
 calcRectangleArea(5, 7); // 35
 calcRectangleArea(6, 8); // 48
+//# sourceMappingURL=01-calculateRectangleArea.js.map

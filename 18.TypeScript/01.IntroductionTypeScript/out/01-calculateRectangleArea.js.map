@@ -1,0 +1,1 @@
+{"version":3,"file":"01-calculateRectangleArea.js","sourceRoot":"","sources":["../01-calculateRectangleArea.ts"],"names":[],"mappings":";AAAA,SAAS,iBAAiB,CAAC,KAAa,EAAE,MAAc;IACpD,OAAO,CAAC,GAAG,CAAC,KAAK,GAAG,MAAM,CAAC,CAAC;IAC5B,OAAO,KAAK,GAAG,MAAM,CAAC;AAC1B,CAAC;AAED,iBAAiB,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,KAAK;AAC9B,iBAAiB,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,KAAK"}
