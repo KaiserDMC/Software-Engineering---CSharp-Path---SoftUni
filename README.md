@@ -4,7 +4,7 @@
   <img src="Softuni_logo_trasparent.png" alt="Banner SoftUni"/>
 </p>
 
-Includes repos from the following courses:
+## Mandatory (Path) course repositories:
 
 * CSharp - Basics (January 2022)
 * CSharp - Fundamentals (May 2022)
@@ -37,12 +37,15 @@ Includes repos from the following courses:
 |   11. | [JS Front-End Curriculum](https://softuni.bg/trainings/4240/js-front-end-october-2023)	               | [JS Front-End](https://softuni.bg/certificates/details/199189/8cf6100e)                     |                                                                  | 15
 ---
 
-Includes repos from the following Open courses (these courses are taken in order to reach the required 140 credits for "C# Web Developer" certification):
+## Open course repositories (these courses are taken in order to reach the required 140 credits for "C# Web Developer" certification and the required 160 credits for "C# Full-Stack Developer" certification):
 
 * Windows System Administration (March 2023)
 * Linux System Administration (June 2023)
-* Algorithms Fundamentals with C# (Nov 2023) - Noncertifiable -> Discontinued (no credits)
-* Data Structures Fundamentals with C# (Jan 2024) - Noncertifiable -> Discontinued (no credits)
+* Algorithms Fundamentals with C# (November 2023) - Noncertifiable -> Discontinued by SoftUni (no credits)
+* Data Structures Fundamentals with C# (January 2024) - Noncertifiable -> Discontinued by SoftUni (no credits)
+* Containers and Cloud (January 2024)
+* Software Engineering and DevOps (February 2024)
+* TypeScript (April 2024)
 
 | Index | Open Courses Curriculum																				                            | Additional Certification (min 140 credits)              					 | Credits                           
 |:------:|:---------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------:
@@ -50,17 +53,9 @@ Includes repos from the following Open courses (these courses are taken in order
 |   13. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)                            | [LSA](https://softuni.bg/certificates/details/178921/491ce0aa)             | 6
 |   14. | [Algorithms Fundamentals (C#)](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)                   | Noncertifiable                                        					 |
 |   15. | [Data Structures Fundamentals (C#)](https://softuni.bg/trainings/4266/data-structures-fundamentals-with-csharp-september-2023)    | Noncertifiable                                    						 |
----
-
-Includes repos from the following Open courses (these courses are taken in order to reach the required 160 credits for "C# Full-Stack Developer" certification):
-
-* Containers and Cloud (2024)
-* Software Engineering and DevOps (2024)
-
-| Index | Open Courses Curriculum																				              | Additional Certification (min 160 credits)               			| Credits                     
-|:------:|:-------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|:----------------------------:
-|   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                         | [C&C](https://softuni.bg/Certificates/Details/206950/95577b3d)      | 12
-|   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)  | Pending                                       			 			| 12
+|   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                                       | [C&C](https://softuni.bg/Certificates/Details/206950/95577b3d)             | 12
+|   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)                | Pending                                       			 			     | 12
+|   18. | [TypeScript](https://softuni.bg/trainings/4550/typescript-april-2024)                                                             | Pending                                       			 			     | 9
 ---
 
 ### Diploma C# Web Developer
