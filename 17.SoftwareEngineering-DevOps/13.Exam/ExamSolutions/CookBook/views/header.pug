@@ -1,0 +1,15 @@
+html
+  head
+    title=title
+  body
+    header(style='background:#EEE; padding:10px')
+      a(href='/') Home
+      span  | 
+      a(href='/Cookbook') View Cookbook
+      span  | 
+      a(href='/Add-Product') Add Products
+      span  | 
+      a(href='/About') About
+
+    if errMsg
+      div(style='background:red;color:white; margin:20px 10px 10px 10px;padding:10px') #{errMsg}

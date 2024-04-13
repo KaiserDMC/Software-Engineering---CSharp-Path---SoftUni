@@ -1,0 +1,13 @@
+include header.pug
+
+h1 Add New Grade
+form(method='POST' action='/add-grade')
+  div
+    label(for='subject') Subject: 
+    input#subject(type='text', name='subject')
+  div
+    label(for='value') Value: 
+    input#value(type='text', name='value')
+  button(type='submit') Add
+
+include footer

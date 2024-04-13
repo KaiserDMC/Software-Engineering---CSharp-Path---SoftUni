@@ -1,0 +1,58 @@
+name: Start and Test Shopping List App
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build-and-unit-test:
+    name: Build and Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: "npm"
+      - name: Install App Dependencies
+        run: npm install
+      - name: Start Application Server
+        run: npm run start &
+      - name: Run Unit Tests
+        run: npm run test:unit
+      - name: Display SoftUni username
+        run: echo krifod
+
+  run-ui-test:
+    name: Run UI Tests
+    needs: build-and-unit-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: "npm"
+      - name: Install App Dependencies
+        run: npm install
+      - name: Install Playwright
+        run: npx playwright install
+      - name: Start Application Server
+        run: npm run start &
+      - name: Run UI Tests
+        run: npm run test:ui
+
+  deploy:
+    name: Deploy on Render
+    needs: [run-ui-test]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to production
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id: ${{ secrets.SERVICE_ID }} # Render Web App Deploy Hook
+          api-key: ${{ secrets.RENDER_TOKEN }} # Render API Token

@@ -1,0 +1,8 @@
+include header.pug
+
+h1 Cookbook
+ul
+  each p in cookbook
+    li #{p.name} - #{p.quantity}
+
+include footer.pug

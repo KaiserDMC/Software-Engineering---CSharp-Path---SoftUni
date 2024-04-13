@@ -1,0 +1,13 @@
+include header.pug
+
+h1 Add New Product
+form(method='POST' action='/add-product')
+  div
+    label(for='name') Name: 
+    input#name(type='text', name='name')
+  div
+    label(for='price') Price: 
+    input#price(type='text', name='price')
+  button(type='submit') Add
+
+include footer
