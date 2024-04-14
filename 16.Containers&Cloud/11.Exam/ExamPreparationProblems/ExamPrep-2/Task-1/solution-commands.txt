@@ -1,8 +1,8 @@
 // After creating Dockerfile for backend
-docker build -t goals-backend . -> to check the file and create and image
+docker build -t goals-backend . -> to check the file and create an image
 
 // After creating Dockerfile for frontend
-docker build -t goals-frontend . -> to check the file and create and image
+docker build -t goals-frontend . -> to check the file and create an image
 
 // Get MongoDB image
 docker pull mongo
