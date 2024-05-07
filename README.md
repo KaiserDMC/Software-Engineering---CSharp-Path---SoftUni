@@ -54,8 +54,8 @@
 |   14. | [Algorithms Fundamentals (C#)](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)                   | Noncertifiable                                        					 |
 |   15. | [Data Structures Fundamentals (C#)](https://softuni.bg/trainings/4266/data-structures-fundamentals-with-csharp-september-2023)    | Noncertifiable                                    						 |
 |   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                                       | [C&C](https://softuni.bg/Certificates/Details/206950/95577b3d)             | 12
-|   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)                | Pending                                       			 			     | 12
-|   18. | [TypeScript](https://softuni.bg/trainings/4550/typescript-april-2024)                                                             | Pending                                       			 			     | 9
+|   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)                | [SE&DO](https://softuni.bg/certificates/details/213319/c908d83e)           | 12
+|   18. | [TypeScript](https://softuni.bg/trainings/4550/typescript-april-2024)                                                             | [TS](https://softuni.bg/certificates/details/215496/0f8f6481)              | 9
 ---
 
 ### Diploma C# Web Developer
