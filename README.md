@@ -1,7 +1,7 @@
 # Software Engineering - CSharp Full-Stack Developer Career Path @ SoftUni 2022-2024
 
 <p align="centre">
-  <img src="Softuni_logo_trasparent.png" alt="Banner SoftUni"/>
+  <img src="/img/Softuni_logo_trasparent.png" alt="Banner SoftUni"/>
 </p>
 
 ## Mandatory (Path) course repositories:
@@ -51,16 +51,20 @@
 |:------:|:---------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------:
 |   12. | [Windows System Administration](https://softuni.bg/trainings/4082/windows-system-administration-march-2023)                       | [WSA](https://softuni.bg/certificates/details/171863/406d88db)             | 6
 |   13. | [Linux System Administration](https://softuni.bg/trainings/4083/linux-system-administration-june-2023)                            | [LSA](https://softuni.bg/certificates/details/178921/491ce0aa)             | 6
-|   14. | [Algorithms Fundamentals (C#)](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)                   | Noncertifiable                                        					 |
-|   15. | [Data Structures Fundamentals (C#)](https://softuni.bg/trainings/4266/data-structures-fundamentals-with-csharp-september-2023)    | Noncertifiable                                    						 |
+|   14. | [Algorithms Fundamentals (C#)](https://softuni.bg/trainings/4175/algorithms-fundamentals-with-c-sharp-may-2023)                   | Noncertifiable                                        					           |
+|   15. | [Data Structures Fundamentals (C#)](https://softuni.bg/trainings/4266/data-structures-fundamentals-with-csharp-september-2023)    | Noncertifiable                                    						             |
 |   16. | [Containers and Cloud](https://softuni.bg/trainings/4359/containers-and-cloud-january-2024)                                       | [C&C](https://softuni.bg/Certificates/Details/206950/95577b3d)             | 12
 |   17. | [Software Engineering and DevOps](https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024)                | [SE&DO](https://softuni.bg/certificates/details/213319/c908d83e)           | 12
 |   18. | [TypeScript](https://softuni.bg/trainings/4550/typescript-april-2024)                                                             | [TS](https://softuni.bg/certificates/details/215496/0f8f6481)              | 9
 ---
 
-### Diploma C# Web Developer
+### Diplomas
 
 <a href="https://softuni.bg/certificates/details/208293/f5f2c1a9" target="_blank">
-  <img width="50%" height="50%" src="Diploma-Web-Dev.jpeg" alt="diploma-web-dev"/> 
+  <img width="50%" height="50%" src="/img/Diploma-Web-Dev.jpeg" alt="diploma-web-dev"/> 
+</a>
+
+<a href="https://softuni.bg/certificates/details/215986/76559b1e" target="_blank">
+  <img width="50%" height="50%" src="/img/Diploma_for_C_Full-Stack_Developer.png" alt="diploma-full-stack-dev"/> 
 </a>
 <p>Click on the image above to view the full diploma.</p>
